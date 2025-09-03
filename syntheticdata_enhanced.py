@@ -1,4 +1,4 @@
-import json
+import json as json_module
 import csv
 import random
 import sqlite3
@@ -6,11 +6,13 @@ from datetime import datetime, timedelta
 from faker import Faker
 import uuid
 from collections import defaultdict, Counter
-import time
-from enum import Enum
-from dataclasses import dataclass, asdict
 from typing import List, Dict, Optional, Set
+from dataclasses import dataclass, asdict
 import math
+import time
+
+print("JSON module imported:", json_module)
+print("JSON module type:", type(json_module))
 
 # Initialize Faker with multiple providers
 fake = Faker('en_US')
@@ -186,7 +188,13 @@ class Person:
     email: str
     emergency_contact: Dict
     criminal_history: List[Dict]
-    warrants: List[Dict]
+    warrants: str
+    agency: str  # Make sure this field exists
+    updated_date: str
+    updated_time: str
+    is_transient: bool
+    drivers_license_number: str
+    drivers_license_state: str
     created_date: str
     created_by_agency: str
 
@@ -423,6 +431,38 @@ class CADIncident:
     backup_officers: List[str]
     related_persons: List[Dict]  # Links to persons involved
     related_incidents: List[str]  # Links to other incident types
+    created_date: str
+    created_by_agency: str
+
+@dataclass
+class Case:
+    case_id: str
+    case_number: str
+    incident_number: str
+    agency: str
+    cad_incident_start_datetime: str
+    cad_incident_end_datetime: str
+    reported_date: str
+    reported_time: str
+    original_report_entered_date: str
+    original_report_entered_time: str
+    offense_start_datetime: str
+    offense_end_datetime: str
+    case_assigned_date: str
+    case_assigned_time: str
+    address: str
+    beat: str
+    reporting_district: str
+    case_type: str
+    assigned_unit: str
+    assigned_officer: str
+    case_status: str
+    is_case_approved: bool
+    offense_summary: str
+    nibrs_offense: str
+    nibrs_code: str
+    nibrs_group_name: str
+    nibrs_crime_against: str
     created_date: str
     created_by_agency: str
 
@@ -938,6 +978,22 @@ class EnhancedDataGenerator:
         street_name = random.choice(street_names)
         address = f"{street_number} {street_name}"
         
+        # Generate enhanced contacts and legal status
+        emergency_contact = self.generate_emergency_contact(ethnicity)
+        criminal_legal_status = self.generate_criminal_legal_status()
+        
+        # Generate drivers license info
+        drivers_license_number = f"{random.choice(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'])}{random.randint(100000000, 999999999)}"
+        drivers_license_state = random.choice(['WA', 'OR', 'CA', 'ID', 'MT', 'NV', 'UT', 'AZ'])
+        
+        # Determine if person is transient (15% chance)
+        is_transient = random.random() < 0.15
+        
+        # Generate current timestamp for updates
+        current_datetime = datetime.now()
+        updated_date = current_datetime.strftime('%Y-%m-%d')
+        updated_time = current_datetime.strftime('%H:%M:%S')
+        
         return Person(
             person_id=f"P-{datetime.now().year}-{random.randint(100000, 999999)}",
             ssn=ssn,
@@ -956,11 +1012,17 @@ class EnhancedDataGenerator:
             zip_code=fake.zipcode_in_state('WA'),
             phone=phone,
             email=email,
-            emergency_contact=self.generate_emergency_contact(ethnicity),
+            emergency_contact=emergency_contact,
             criminal_history=[],
             warrants=[],
             created_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            created_by_agency=agency
+            created_by_agency=agency,
+            updated_date=updated_date,
+            updated_time=updated_time,
+            is_transient=is_transient,
+            drivers_license_number=drivers_license_number,
+            drivers_license_state=drivers_license_state,
+            agency=agency,
         )
         
     def generate_vehicle(self, owner_id=None, agency='KCSO'):
@@ -1398,12 +1460,12 @@ class EnhancedDataGenerator:
         for entity_type, data in data_to_save.items():
             filename = f"{entity_type}.json"
             with open(filename, 'w', encoding='utf-8') as f:  # Add UTF-8 encoding
-                json.dump(data, f, indent=2, ensure_ascii=False)  # Set ensure_ascii=False
+                json_module.dump(data, f, indent=2, ensure_ascii=False)  # Set ensure_ascii=False
             print(f"Saved {len(data)} {entity_type} to {filename}")
         
         # Save combined data
         with open('all_sample_data.json', 'w', encoding='utf-8') as f:  # Add UTF-8 encoding
-            json.dump(data_to_save, f, indent=2, ensure_ascii=False)  # Set ensure_ascii=False
+            json_module.dump(data_to_save, f, indent=2, ensure_ascii=False)  # Set ensure_ascii=False
         print("Saved combined data to all_sample_data.json")
         
         print("JSON export completed!")
@@ -1557,6 +1619,88 @@ class EnhancedDataGenerator:
                 print(f"  • {inc_type}: {count:,}")
         
         print(f"\n" + "="*80)
+
+    def generate_criminal_legal_status(self):
+        """Generate realistic criminal and legal status"""
+        # Probation status
+        probation_status = random.choice(['NONE', 'ACTIVE', 'INACTIVE', 'TERMINATED'])
+        if probation_status == 'ACTIVE':
+            probation_officer = f"Officer {fake.last_name()}"
+            probation_end_date = fake.date_between(start_date='now', end_date='+2y').strftime('%Y-%m-%d')
+        else:
+            probation_officer = None
+            probation_end_date = None
+        
+        # Parole status
+        parole_status = random.choice(['NONE', 'ACTIVE', 'INACTIVE', 'TERMINATED'])
+        if parole_status == 'ACTIVE':
+            parole_officer = f"Officer {fake.last_name()}"
+            parole_end_date = fake.date_between(start_date='now', end_date='+3y').strftime('%Y-%m-%d')
+        else:
+            parole_officer = None
+            parole_end_date = None
+        
+        # Restraining orders
+        restraining_orders = []
+        if random.random() < 0.15:  # 15% chance of having restraining orders
+            num_orders = random.randint(1, 2)
+            for _ in range(num_orders):
+                restraining_orders.append({
+                    'order_id': f"RO-{random.randint(100000, 999999)}",
+                    'protected_party': f"{fake.first_name()} {fake.last_name()}",
+                    'restricted_party': f"{fake.first_name()} {fake.last_name()}",
+                    'order_date': fake.date_between(start_date='-1y', end_date='now').strftime('%Y-%m-%d'),
+                    'expiration_date': fake.date_between(start_date='now', end_date='+2y').strftime('%Y-%m-%d'),
+                    'restrictions': random.choice(['NO_CONTACT', 'NO_APPROACH', 'NO_COMMUNICATION']),
+                    'status': random.choice(['ACTIVE', 'EXPIRED', 'VIOLATED'])
+                })
+        
+        # Gang affiliations
+        gang_affiliations = []
+        if random.random() < 0.08:  # 8% chance of gang affiliation
+            gangs = ['Crips', 'Bloods', 'MS-13', '18th Street', 'Sureños', 'Norteños']
+            num_gangs = random.randint(1, 2)
+            for _ in range(num_gangs):
+                gang_affiliations.append({
+                    'gang_name': random.choice(gangs),
+                    'affiliation_type': random.choice(['MEMBER', 'ASSOCIATE', 'FORMER_MEMBER']),
+                    'start_date': fake.date_between(start_date='-5y', end_date='now').strftime('%Y-%m-%d'),
+                    'end_date': None if random.random() < 0.7 else fake.date_between(start_date='now', end_date='+1y').strftime('%Y-%m-%d')
+                })
+        
+        # Court cases
+        court_cases = []
+        if random.random() < 0.25:  # 25% chance of active court cases
+            num_cases = random.randint(1, 3)
+            for _ in range(num_cases):
+                court_cases.append({
+                    'case_number': f"CR-{random.randint(100000, 999999)}",
+                    'court': random.choice(['King County Superior Court', 'Seattle Municipal Court', 'Bellevue Municipal Court']),
+                    'case_type': random.choice(['CRIMINAL', 'TRAFFIC', 'DOMESTIC_VIOLENCE']),
+                    'filing_date': fake.date_between(start_date='-1y', end_date='now').strftime('%Y-%m-%d'),
+                    'next_hearing': fake.date_between(start_date='now', end_date='+3m').strftime('%Y-%m-%d'),
+                    'status': random.choice(['PENDING', 'SCHEDULED', 'CONTINUED', 'DISPOSED'])
+                })
+        
+        # Bail status
+        bail_status = random.choice(['NONE', 'OUT_ON_BAIL', 'HELD_WITHOUT_BAIL', 'NO_BAIL'])
+        bail_amount = None
+        if bail_status == 'OUT_ON_BAIL':
+            bail_amount = random.randint(1000, 50000)
+        
+        return {
+            'probation_status': probation_status,
+            'probation_officer': probation_officer,
+            'probation_end_date': probation_end_date,
+            'parole_status': parole_status,
+            'parole_officer': parole_officer,
+            'parole_end_date': parole_end_date,
+            'restraining_orders': restraining_orders,
+            'gang_affiliations': gang_affiliations,
+            'court_cases': court_cases,
+            'bail_status': bail_status,
+            'bail_amount': bail_amount
+        }
 
 def main():
     """Main execution function"""
