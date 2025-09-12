@@ -85,7 +85,7 @@ CONFIG = {
     'include_king_county_unincorporated': True,
 }
 
-# Curated Corrections Facilities for King County/Bellevue region
+# Curated Corrections Facilities for King County region
 CORRECTIONS_FACILITY_CATALOG = [
     {
         'facility_id': 'FAC-KCCF',
@@ -275,18 +275,6 @@ SEATTLE_NEIGHBORHOODS = {
     'SOUTH_PARK': {'population': 10000, 'crime_rate': 'MEDIUM', 'fire_stations': [11]},
 }
 
-# Bellevue districts and neighborhoods
-BELLEVUE_DISTRICTS = {
-    'DOWNTOWN_BELLEVUE': {'population': 25000, 'crime_rate': 'MEDIUM', 'fire_stations': [1, 2]},
-    'CROSSROADS': {'population': 20000, 'crime_rate': 'LOW', 'fire_stations': [3]},
-    'LAKE_HILLS': {'population': 15000, 'crime_rate': 'LOW', 'fire_stations': [4]},
-    'WILBURTON': {'population': 12000, 'crime_rate': 'LOW', 'fire_stations': [5]},
-    'EASTGATE': {'population': 10000, 'crime_rate': 'LOW', 'fire_stations': [6]},
-    'NEWPORT': {'population': 18000, 'crime_rate': 'LOW', 'fire_stations': [7]},
-    'SOMERSET': {'population': 8000, 'crime_rate': 'LOW', 'fire_stations': [8]},
-    'ENATAI': {'population': 6000, 'crime_rate': 'LOW', 'fire_stations': [9]},
-    'BRIDLE_TRAILS': {'population': 5000, 'crime_rate': 'LOW', 'fire_stations': [10]},
-}
 
 # Enhanced incident types with Seattle/King County specific patterns
 ENHANCED_INCIDENT_TYPES = {
@@ -342,12 +330,6 @@ SEATTLE_HOSPITALS = {
     'SEATTLE_CHILDRENS_HOSPITAL': {'type': 'PEDIATRIC', 'location': 'LAURELHURST', 'capacity': 407},
 }
 
-# Bellevue hospitals
-BELLEVUE_HOSPITALS = {
-    'OVERLAKE_MEDICAL_CENTER': {'type': 'TRAUMA_2', 'location': 'DOWNTOWN_BELLEVUE', 'capacity': 349},
-    'EVERGREEN_HEALTH_MEDICAL_CENTER': {'type': 'ACUTE_CARE', 'location': 'KIRKLAND', 'capacity': 318},
-    'SWEDISH_ISSAQUAH': {'type': 'ACUTE_CARE', 'location': 'ISSAQUAH', 'capacity': 175},
-}
 
 # Enhanced data structures
 @dataclass
@@ -4191,7 +4173,7 @@ class EnhancedDataGenerator:
             },
             'PARKING': {
                 'violations': [
-                    # Parking violations (realistic King County/Bellevue amounts)
+                    # Parking violations (realistic King County amounts)
                     ("RCW 46.61.570 - Meter expired", 50.0),
                     ("RCW 46.61.570 - No parking zone", 75.0),
                     ("RCW 46.61.570 - Time limit exceeded", 50.0),
@@ -4673,8 +4655,7 @@ class EnhancedDataGenerator:
         threat_to_life = bcs_code in ['01', '02', '03', '04', '08'] or random.random() < 0.1
         
         # Generate unique case number with agency prefix
-        agency_prefix = "KC" if agency == "KCSO" else "BLV"
-        case_number = f"{agency_prefix}-24-{random.randint(10000, 99999)}"
+        case_number = f"KC-24-{random.randint(10000, 99999)}"
         
         case = Case(
             case_id=f"CASE-{uuid.uuid4()}",
@@ -4887,7 +4868,6 @@ class EnhancedDataGenerator:
 # put near top-level
 CITY_ZIPS = {
     'Seattle': ['98101','98102','98103','98104','98105','98106','98107','98108','98109','98112','98115','98116','98117','98118','98119','98121','98122','98125','98126','98133','98134','98136','98144','98146','98154','98164','98177','98178','98195'],
-    'Bellevue': ['98004','98005','98006','98007','98008'],
     'Redmond': ['98052','98053'],
     'Kirkland': ['98033','98034'],
     'Sammamish': ['98074','98075'],
@@ -4907,7 +4887,7 @@ CITY_ZIPS = {
 def main():
     """Main execution function"""
     print("Enhanced Multi-Agency Complex Synthetic Data Generator")
-    print("Generating comprehensive data for Seattle, King County, Bellevue, and EMS scenarios")
+    print("Generating comprehensive data for King County Sheriff's Office (KCSO) jurisdiction")
     print(f"Configuration: {CONFIG}")
     
     generator = EnhancedDataGenerator()
