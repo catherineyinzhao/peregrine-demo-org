@@ -81,7 +81,7 @@ CONFIG = {
     'realistic_response_times': True,
     'inter_agency_mutual_aid': True,
     'include_seattle_neighborhoods': True,
-    'include_bellevue_districts': True,
+    'include_bellevue_districts': False,
     'include_king_county_unincorporated': True,
 }
 
@@ -141,6 +141,114 @@ CORRECTIONS_FACILITY_CATALOG = [
     },
 ]
 
+# BCS (Bureau of Criminal Statistics) Code Mapping - Complete Set
+BCS_CODES = {
+    # Part I Offenses (Index Crimes)
+    '01': 'Criminal Homicide',
+    '02': 'Forcible Rape',
+    '03': 'Robbery',
+    '04': 'Aggravated Assault',
+    '05': 'Burglary',
+    '06': 'Larceny-Theft',
+    '07': 'Motor Vehicle Theft',
+    '08': 'Arson',
+    
+    # Part II Offenses (Non-Index Crimes)
+    '09': 'Simple Assault',
+    '10': 'Forgery and Counterfeiting',
+    '11': 'Fraud',
+    '12': 'Embezzlement',
+    '13': 'Stolen Property; Buying, Receiving, Possessing',
+    '14': 'Vandalism',
+    '15': 'Weapons; Carrying, Possessing, etc.',
+    '16': 'Prostitution and Commercialized Vice',
+    '17': 'Sex Offenses (except forcible rape and prostitution)',
+    '18': 'Drug Abuse Violations',
+    '19': 'Gambling',
+    '20': 'Offenses Against Family and Children',
+    '21': 'Driving Under the Influence',
+    '22': 'Liquor Laws',
+    '23': 'Drunkenness',
+    '24': 'Disorderly Conduct',
+    '25': 'Vagrancy',
+    '26': 'All Other Offenses',
+    '27': 'Suspicion',
+    '28': 'Curfew and Loitering Law Violations',
+    '29': 'Runaway',
+    
+    # Additional BCS Codes (30-99)
+    '30': 'Bad Checks',
+    '31': 'Bribery',
+    '32': 'Extortion',
+    '33': 'Kidnapping/Abduction',
+    '34': 'Negligent Manslaughter',
+    '35': 'Non-Negligent Manslaughter',
+    '36': 'Rape by Force',
+    '37': 'Statutory Rape',
+    '38': 'Assault with Deadly Weapon',
+    '39': 'Assault with Intent to Kill',
+    '40': 'Assault with Intent to Rape',
+    '41': 'Assault with Intent to Rob',
+    '42': 'Assault with Intent to Commit Other Felony',
+    '43': 'Assault on Police Officer',
+    '44': 'Assault on Firefighter',
+    '45': 'Assault on Emergency Medical Personnel',
+    '46': 'Assault on School Employee',
+    '47': 'Assault on Transit Employee',
+    '48': 'Assault on Other Public Employee',
+    '49': 'Assault on Family Member',
+    '50': 'Assault on Child',
+    '51': 'Assault on Elderly',
+    '52': 'Assault on Disabled Person',
+    '53': 'Assault with Firearm',
+    '54': 'Assault with Knife/Cutting Instrument',
+    '55': 'Assault with Other Dangerous Weapon',
+    '56': 'Assault with Hands/Fists/Feet',
+    '57': 'Assault with Other Object',
+    '58': 'Assault - Other/Unknown Weapon',
+    '59': 'Burglary - Forcible Entry',
+    '60': 'Burglary - Unlawful Entry (No Force)',
+    '61': 'Burglary - Attempted Forcible Entry',
+    '62': 'Burglary - Residential',
+    '63': 'Burglary - Non-Residential',
+    '64': 'Burglary - Attempted',
+    '65': 'Larceny - From Motor Vehicle',
+    '66': 'Larceny - Motor Vehicle Parts/Accessories',
+    '67': 'Larceny - Bicycles',
+    '68': 'Larceny - From Building',
+    '69': 'Larceny - From Coin-Operated Machine',
+    '70': 'Larceny - Pocket Picking',
+    '71': 'Larceny - Purse Snatching',
+    '72': 'Larceny - Shoplifting',
+    '73': 'Larceny - From Motor Vehicle',
+    '74': 'Larceny - Motor Vehicle Parts/Accessories',
+    '75': 'Larceny - All Other',
+    '76': 'Motor Vehicle Theft - Auto',
+    '77': 'Motor Vehicle Theft - Truck/Bus',
+    '78': 'Motor Vehicle Theft - Other Vehicle',
+    '79': 'Motor Vehicle Theft - Attempted',
+    '80': 'Arson - Structure',
+    '81': 'Arson - Mobile Property',
+    '82': 'Arson - Other Property',
+    '83': 'Arson - Attempted',
+    '84': 'Drug/Narcotic Violations - Sale/Manufacturing',
+    '85': 'Drug/Narcotic Violations - Possession',
+    '86': 'Drug/Narcotic Violations - Other',
+    '87': 'Weapons Violations - Carrying/Possessing',
+    '88': 'Weapons Violations - Sale/Manufacturing',
+    '89': 'Weapons Violations - Other',
+    '90': 'Prostitution - Assisting/Promoting',
+    '91': 'Prostitution - Purchasing Prostitution',
+    '92': 'Prostitution - Other',
+    '93': 'Sex Offenses - Forcible',
+    '94': 'Sex Offenses - Non-Forcible',
+    '95': 'Sex Offenses - Other',
+    '96': 'Gambling - Bookmaking',
+    '97': 'Gambling - Numbers/Lottery',
+    '98': 'Gambling - Other',
+    '99': 'All Other Offenses'
+}
+
 # Enhanced Seattle/King County geography with realistic neighborhoods
 SEATTLE_NEIGHBORHOODS = {
     'DOWNTOWN': {'population': 85000, 'crime_rate': 'HIGH', 'fire_stations': [2, 5, 10]},
@@ -183,20 +291,20 @@ BELLEVUE_DISTRICTS = {
 # Enhanced incident types with Seattle/King County specific patterns
 ENHANCED_INCIDENT_TYPES = {
     # Law Enforcement
-    'TRAFFIC_VIOLATION': {'weight': 35, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'citation_likely': 0.8},
-    'DOMESTIC_VIOLENCE': {'weight': 15, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'arrest_likely': 0.6},
-    'THEFT': {'weight': 20, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'report_only': 0.7},
-    'ASSAULT': {'weight': 10, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'arrest_likely': 0.5},
-    'DUI': {'weight': 8, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'arrest_likely': 0.95},
-    'DRUG_POSSESSION': {'weight': 12, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'arrest_likely': 0.4},
-    'BURGLARY': {'weight': 5, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'report_investigation': 0.9},
-    'ROBBERY': {'weight': 3, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'arrest_likely': 0.3},
+    'TRAFFIC_VIOLATION': {'weight': 35, 'agencies': ['KCSO'], 'citation_likely': 0.8},
+    'DOMESTIC_VIOLENCE': {'weight': 15, 'agencies': ['KCSO'], 'arrest_likely': 0.6},
+    'THEFT': {'weight': 20, 'agencies': ['KCSO'], 'report_only': 0.7},
+    'ASSAULT': {'weight': 10, 'agencies': ['KCSO'], 'arrest_likely': 0.5},
+    'DUI': {'weight': 8, 'agencies': ['KCSO'], 'arrest_likely': 0.95},
+    'DRUG_POSSESSION': {'weight': 12, 'agencies': ['KCSO'], 'arrest_likely': 0.4},
+    'BURGLARY': {'weight': 5, 'agencies': ['KCSO'], 'report_investigation': 0.9},
+    'ROBBERY': {'weight': 3, 'agencies': ['KCSO'], 'arrest_likely': 0.3},
     'HOMELESS_ENCAMPMENT': {'weight': 8, 'agencies': ['KCSO'], 'citation_likely': 0.2},
-    'MENTAL_HEALTH_CRISIS': {'weight': 10, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'crisis_team': 0.4},
-    'OVERDOSE': {'weight': 6, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'medical_response': 1.0},
+    'MENTAL_HEALTH_CRISIS': {'weight': 10, 'agencies': ['KCSO'], 'crisis_team': 0.4},
+    'OVERDOSE': {'weight': 6, 'agencies': ['KCSO'], 'medical_response': 1.0},
     'GANG_ACTIVITY': {'weight': 4, 'agencies': ['KCSO'], 'investigation': 1.0},
-    'HATE_CRIME': {'weight': 2, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'investigation': 1.0},
-    'SEXUAL_ASSAULT': {'weight': 3, 'agencies': ['KCSO', 'BELLEVUE_PD'], 'special_investigation': 1.0},
+    'HATE_CRIME': {'weight': 2, 'agencies': ['KCSO'], 'investigation': 1.0},
+    'SEXUAL_ASSAULT': {'weight': 3, 'agencies': ['KCSO'], 'special_investigation': 1.0},
     'HUMAN_TRAFFICKING': {'weight': 1, 'agencies': ['KCSO'], 'special_investigation': 1.0},
     
     # Fire/EMS
@@ -307,12 +415,11 @@ class Vehicle:
     color: str
     body_type: str
     owner_person_id: str
-    registration_expiry: str
+    registration_expiration: str
     insurance_status: str
     stolen_status: str
     created_date: str
     created_by_agency: str
-    registration_expiration: str
     stolen_flag_dt: Optional[str]
     lienholder: Optional[str]
 
@@ -339,6 +446,7 @@ class PoliceIncident:
     witness_id: str
     evidence_collected: List[str]
     case_status: str
+    caller_person_id: Optional[str]
     created_date: str
     created_by_agency: str
 
@@ -593,6 +701,7 @@ class FireIncident:
     casualties: List[Dict]
     fatalities: int
     injuries: int
+    caller_person_id: Optional[str]
     created_date: str
 
 @dataclass
@@ -735,75 +844,9 @@ class EMSIncident:
     transport_mode: str
     created_date: str
 
-@dataclass
-class CADIncident:
-    cad_id: str
-    incident_number: str
-    call_type: str
-    priority: str
-    status: str
-    call_datetime: str
-    dispatch_datetime: str
-    en_route_datetime: str
-    on_scene_datetime: str
-    clear_datetime: str
-    location: str
-    latitude: float
-    longitude: float
-    district: str
-    beat: str
-    reporting_party: str
-    reporting_party_phone: str
-    incident_description: str
-    units_assigned: List[str]
-    primary_officer: str
-    backup_officers: List[str]
-    related_persons: List[Dict]  # Links to persons involved
-    related_incidents: List[str]  # Links to other incident types
-    created_date: str
-    created_by_agency: str
-    weather: str                 # CLEAR, RAIN, SNOW, FOG
-    premise_type: str            # RESIDENTIAL, COMMERCIAL, PUBLIC, VEHICLE
-    cross_streets: str
-    landmark: str
-    location_quality: str        # GPS, CALLER, UNIT_REPORTED
-    response_delays: List[Dict]  # [{stage,seconds}]
+# REMOVED: Duplicate CADIncident dataclass definition - using the one at line 1067
 
-@dataclass
-class Case:
-    case_id: str
-    case_number: str
-    incident_number: str
-    agency: str
-    cad_incident_start_datetime: str
-    cad_incident_end_datetime: str
-    reported_date: str
-    reported_time: str
-    original_report_entered_date: str
-    original_report_entered_time: str
-    offense_start_datetime: str
-    offense_end_datetime: str
-    case_assigned_date: str
-    case_assigned_time: str
-    address: str
-    beat: str
-    reporting_district: str
-    case_type: str
-    assigned_unit: str
-    assigned_officer: str
-    case_status: str
-    is_case_approved: bool
-    offense_summary: str
-    nibrs_offense: str
-    nibrs_code: str
-    nibrs_group_name: str
-    nibrs_crime_against: str
-    created_date: str
-    created_by_agency: str
-    clearance_code: Optional[str]        # CLEARED_BY_ARREST, EXCEPTIONAL_CLEARANCE, UNFOUNDED
-    clearance_dt: Optional[str]
-    solvability_factors: List[str]       # ['WITNESS_COOP','EVIDENCE','VIDEO']
-    followups: List[Dict]                # [{task, due_dt, status}]
+# REMOVED: Duplicate Case dataclass definition - using the one at line 1036
 
 @dataclass
 class Officer:
@@ -868,13 +911,41 @@ class CallForService:
 class Citation:
     citation_id: str
     citation_number: str
+    source: str  # e.g., "Mark43 RMS"
+    agency: str
+    citation_type: str  # e.g., "TRAFFIC", "PARKING", "CRIMINAL"
+    is_commercial_driver: bool
+    violation_summary: str  # e.g., "VC 21650 - drive wrong"
+    citation_datetime: str
+    date_entered: str
+    address: str
+    beat: str
+    reporting_district: str
+    officer: str  # officer name
+    person_cited_name: str  # full name
+    first_name: str
+    middle_name: Optional[str]
+    last_name: str
+    date_of_birth: str
+    sex: str
+    race: str
+    drivers_license_number: str
+    dl_state: str
+    residential_address: str
+    license_plate_number: str
+    vehicle_year: int
+    vehicle_color: str
+    vehicle_make: str
+    vehicle_model: str
+    approximate_speed: Optional[int]
+    speed_limit: Optional[int]
+    is_confidential: bool
+    # Legacy fields for backward compatibility
     person_id: str
     vehicle_id: Optional[str]
     officer_id: str
     cad_incident_id: Optional[str]
     police_incident_id: Optional[str]
-    citation_datetime: str
-    address: str
     city: str
     state: str
     zip_code: str
@@ -890,7 +961,6 @@ class Citation:
     created_date: str
     created_by_agency: str
     speed: Optional[int]
-    speed_limit: Optional[int]
     radar_device_id: Optional[str]
     payment_status: str                  # UNPAID, PARTIAL, PAID
     balance_due: float
@@ -899,45 +969,58 @@ class Citation:
 class Case:
     case_id: str
     case_number: str
-    incident_number: Optional[str]
     agency: str
-    cad_incident_start_datetime: str
-    cad_incident_end_datetime: str
-    reported_date: str
-    reported_time: str
-    original_report_entered_date: str
-    original_report_entered_time: str
-    offense_start_datetime: str
-    offense_end_datetime: str
-    case_assigned_date: str
-    case_assigned_time: str
-    address: str
-    city: str
-    state: str
-    zip_code: str
-    beat: str
-    reporting_district: str
-    case_type: str
-    assigned_unit: str
-    assigned_officer_id: Optional[str]
     case_status: str
-    is_case_approved: bool
-    offense_summary: str
-    nibrs_offense: str
+    reported_date_time: str
+    start_date_time: str
+    end_date_time: str
+    offense_start_date_time: str
+    zip: str
+    offense_code: str
     nibrs_code: str
-    nibrs_group_name: str
-    nibrs_crime_against: str
-    suspects: List[str]              # person_ids
-    victims: List[str]               # person_ids
-    witnesses: List[str]             # person_ids
-    linked_arrest_ids: List[str]
-    linked_property_ids: List[str]
-    linked_citation_ids: List[str]
-    related_cad_id: Optional[str]
-    related_police_incident_id: Optional[str]
+    approved_by: str  # Real officer name
+    approved_date_time: str
+    is_reviewed: bool
+    reviewed_date_time: Optional[str]
+    jacket_id: str  # Person entity that is a suspect
+    is_restricted: bool
+    bcs_code: str
+    bcs_description: str  # Corresponds to BCS code
+    synopsis: str  # Brief description of the incident
+    closed_date: Optional[str]
+    arrest_date_time: Optional[str]
+    threat_to_life_indicator: bool
     created_date: str
-    created_by_agency: str
-    updated_date: str
+    # CAD incident linking fields
+    cad_incident_id: Optional[str]  # Source CAD incident
+    cad_incident_type: Optional[str]  # Original CAD incident type
+    cad_incident_description: Optional[str]  # Original CAD incident description
+
+@dataclass
+class CADIncident:
+    cad_id: str
+    agency: str
+    cad_source_link: str
+    call_date_time: str
+    incident_number: str
+    address: str
+    apartment_number: Optional[str]
+    reporting_district: str
+    beat: str
+    incident_type_code: str
+    incident_type_description: str
+    incident_priority: str
+    incident_status: str
+    cad_safety_flag: bool
+    reporting_party_name: Optional[str]
+    reporting_party_phone: Optional[str]
+    is_self_initiated: bool
+    call_entry_date_time: str
+    created_date: str
+    # Person linking fields
+    person_id: Optional[str]  # Primary person involved in the incident
+    person_name: Optional[str]  # Person's full name
+    person_phone: Optional[str]  # Person's phone number
 
 @dataclass
 class Offense:
@@ -964,10 +1047,24 @@ class Offense:
 @dataclass
 class FieldInterview:
     fi_id: str
+    source: str  # e.g., "Mark43 RMS", "Spillman"
+    agency: str
+    fi_number: str  # Field Interview number
+    case_number: Optional[str]
+    incident_number: Optional[str]
+    contact_reason: str  # e.g., "415 LOITERERS"
+    contact_type: str  # e.g., "pedestrian stop"
+    fi_datetime: str
+    fi_location: str  # location description
+    beat: str
+    reporting_district: str
+    full_name: str  # person's full name
+    officer: str  # officer name
+    is_confidential: bool
+    # Legacy fields for backward compatibility
     person_id: str
     officer_id: str
-    vehicle_id: Optional[str]  # NEW
-    fi_datetime: str
+    vehicle_id: Optional[str]
     reason: str
     outcome: str
     notes: str
@@ -999,6 +1096,7 @@ class EnhancedDataGenerator:
         self.citations = []
         self.field_interviews = []
         self.cases = []
+        self.cad_incidents = []
         self.offenses = []
         # Fast lookup for persons by id
         self.person_index = {}
@@ -1020,6 +1118,10 @@ class EnhancedDataGenerator:
         # Cross-reference tracking
         self.person_incident_history = defaultdict(list)
         self.vehicle_owner_map = {}
+        
+        # Officer pool for consistency
+        self.officer_pool = {}
+        self.badge_to_officer = {}
         self.address_resident_map = defaultdict(list)
                 
     def generate_arrest(self, cad_incident, person):
@@ -1031,11 +1133,16 @@ class EnhancedDataGenerator:
         arrest_type = random.choice(arrest_types)
         arrest_method = random.choice(arrest_methods)
         
-        # Generate arrest timing (should be after CAD incident call time)
+        # Generate arrest timing
         fmt = '%Y-%m-%d %H:%M:%S'
-        base = cad_incident.call_datetime
-        base_dt = datetime.strptime(base, fmt) if isinstance(base, str) else base
-        arrest_dt = base_dt + timedelta(minutes=15)
+        if cad_incident is not None:
+            # If linked to CAD incident, arrest should be after call time
+            base = cad_incident.call_date_time
+            base_dt = datetime.strptime(base, fmt) if isinstance(base, str) else base
+            arrest_dt = base_dt + timedelta(minutes=15)
+        else:
+            # If no CAD incident, generate random recent time
+            arrest_dt = fake.date_time_between(start_date='-30d', end_date='now')
         arrest_datetime = arrest_dt.strftime(fmt)
         
         # Generate booking time (1-3 hours after arrest)
@@ -1043,13 +1150,19 @@ class EnhancedDataGenerator:
         booking_datetime = arrest_dt + booking_delay
         
         # Generate arrest location (near CAD incident location)
-        arrest_lat = cad_incident.latitude + random.uniform(-0.01, 0.01)
-        arrest_lon = cad_incident.longitude + random.uniform(-0.01, 0.01)
+        # Use default coordinates since the CADIncident doesn't have lat/lon
+        arrest_lat = 47.6062 + random.uniform(-0.01, 0.01)  # Seattle area
+        arrest_lon = -122.3321 + random.uniform(-0.01, 0.01)
         
         # Generate realistic arrest location description
         location_types = ['Street', 'Residence', 'Business', 'Parking Lot', 'Vehicle', 'Public Place']
         location_type = random.choice(location_types)
-        arrest_location = f"{location_type} near {cad_incident.location}"
+        if cad_incident is not None:
+            arrest_location = f"{location_type} near {cad_incident.address}"
+        else:
+            # Generate a realistic address if no CAD incident
+            address, city, state, zip_code = self._generate_king_county_address()
+            arrest_location = f"{location_type} near {address}"
         
         # Generate charges based on arrest type
         charges = self.generate_arrest_charges(arrest_type)
@@ -1069,12 +1182,15 @@ class EnhancedDataGenerator:
         transport_methods = ['PATROL_CAR', 'AMBULANCE', 'WALKING', 'CITIZEN_TRANSPORT']
         transport_method = random.choice(transport_methods)
         
-        destinations = ['King County Jail', 'Bellevue City Jail', 'Seattle City Jail', 'Harborview Medical Center']
+        destinations = ['King County Jail', 'Seattle City Jail', 'Harborview Medical Center']
         destination = random.choice(destinations)
         
         # Generate officers
-        arresting_officer = cad_incident.primary_officer
-        backup_officers = cad_incident.backup_officers if cad_incident.backup_officers else []
+        # Use consistent officer from pool
+        agency = 'KCSO'  # Default agency for arrests
+        primary_officer = self.get_or_create_officer(agency)
+        arresting_officer = f"{primary_officer.first_name} {primary_officer.last_name} ({primary_officer.badge_number})"
+        backup_officers = [f"{self.get_or_create_officer(agency).first_name} {self.get_or_create_officer(agency).last_name} ({self.get_or_create_officer(agency).badge_number})" for _ in range(random.randint(0, 2))]
         
         # Generate evidence and witness information
         evidence_types = ['PHOTOGRAPHS', 'VIDEO_RECORDING', 'PHYSICAL_EVIDENCE', 'BODY_CAMERA', 'DASH_CAMERA']
@@ -1083,10 +1199,12 @@ class EnhancedDataGenerator:
         evidence_property_ids = []
         if evidence_collected:
             for ev in evidence_collected:
+                incident_id = cad_incident.cad_id if cad_incident is not None else f"AR-{uuid.uuid4()}"
+                agency = getattr(cad_incident, 'created_by_agency', 'KCSO') if cad_incident is not None else 'KCSO'
                 prop = self.generate_property(
-                    incident_id=cad_incident.incident_id,
+                    incident_id=incident_id,
                     person_id=person.person_id,
-                    agency=getattr(cad_incident, 'created_by_agency', 'KCSO'),
+                    agency=agency,
                     property_type='EVIDENCE',
                     description_override=f"{ev} collected as evidence."
                 )
@@ -1110,7 +1228,7 @@ class EnhancedDataGenerator:
         
         return Arrest(
             arrest_id=f"AR-{datetime.now().year}-{random.randint(100000, 999999)}",
-            cad_incident_id=cad_incident.cad_id,
+            cad_incident_id=cad_incident.cad_id if cad_incident is not None else None,
             person_id=person.person_id,
             arrest_datetime=arrest_datetime,
             arrest_location=arrest_location,
@@ -1136,9 +1254,9 @@ class EnhancedDataGenerator:
             evidence_collected=evidence_collected,
             evidence_property_ids=evidence_property_ids,
             witness_statements=witness_statements,
-            agency=random.choice(['KCSO', 'BELLEVUE_PD']),
+            agency='KCSO',
             created_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            created_by_agency=random.choice(['KCSO', 'BELLEVUE_PD']),
+            created_by_agency='KCSO',
             pc_narrative=pc_narrative,
             intoxication_bac=intoxication_bac,
             restraint_details=restraint_details,
@@ -1265,7 +1383,7 @@ class EnhancedDataGenerator:
             'type': associate_type,
             'relationship': self.generate_associate_relationship(associate_type),
             'address': associate_address,
-            'city': random.choice(['Seattle', 'Bellevue', 'Redmond', 'Kirkland', 'Sammamish', 'Issaquah', 'Mercer Island']),
+            'city': random.choice(['Seattle', 'Redmond', 'Kirkland', 'Sammamish', 'Issaquah', 'Mercer Island']),
             'state': 'WA',
             'phone': associate_phone,
             'ethnicity': associate_ethnicity,
@@ -1304,8 +1422,8 @@ class EnhancedDataGenerator:
             'person_id': person_id,
             'status': suspect_status,
             'arrest_date': arrest_date,
-            'charges': self.generate_charges(),
-            'bail_amount': random.randint(1000, 50000) if suspect_status == 'ARRESTED' else None,
+            'charges': (charges := self.generate_charges()),
+            'bail_amount': self.calculate_bail_amount([charges]) if suspect_status == 'ARRESTED' else None,
             'created_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         }
     
@@ -1327,9 +1445,9 @@ class EnhancedDataGenerator:
             'booking_datetime': booking_datetime.strftime('%Y-%m-%d %H:%M:%S'),
             'arresting_officer': f"Officer {fake.last_name()}",
             'arrest_location': self.generate_arrest_location(),
-            'charges': self.generate_charges(),
-            'bail_amount': random.randint(1000, 50000),
-            'jail_facility': random.choice(['King County Jail', 'Bellevue City Jail', 'Seattle City Jail']),
+            'charges': (charges := self.generate_charges()),
+            'bail_amount': self.calculate_bail_amount([charges]),
+            'jail_facility': random.choice(['King County Jail', 'Seattle City Jail']),
             'release_date': None,  # Will be set if released
             'created_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         }
@@ -1338,10 +1456,96 @@ class EnhancedDataGenerator:
         """Generate realistic arrest location in Seattle area"""
         locations = [
             'Downtown Seattle', 'Capitol Hill', 'Ballard', 'Fremont', 'Queen Anne',
-            'Bellevue Downtown', 'Crossroads', 'Factoria', 'Redmond', 'Kirkland'
+            'Redmond', 'Kirkland', 'Sammamish', 'Issaquah', 'Mercer Island'
         ]
         return random.choice(locations)
     
+    def calculate_bail_amount(self, charges):
+        """Calculate realistic bail amount based on charge severity and type"""
+        if not charges:
+            return 0
+        
+        # Base bail amounts by severity and category
+        # Note: Traffic infractions typically don't require bail - they're handled as citations/fines
+        bail_schedule = {
+            'INFRACTION': {
+                'TRAFFIC': {'min': 0, 'max': 0},  # Traffic infractions = citations, no bail
+                'OTHER': {'min': 50, 'max': 200}
+            },
+            'MISDEMEANOR': {
+                'DRUG': {'min': 1000, 'max': 5000},
+                'PROPERTY': {'min': 500, 'max': 2500},
+                'VIOLENT': {'min': 2000, 'max': 10000},
+                'TRAFFIC': {'min': 500, 'max': 2000},  # Reduced for traffic misdemeanors (DUI, etc.)
+                'COURT_ORDER': {'min': 1500, 'max': 5000},
+                'OTHER': {'min': 500, 'max': 2000}
+            },
+            'FELONY': {
+                'DRUG': {'min': 10000, 'max': 50000},  # Increased for serious drug crimes
+                'PROPERTY': {'min': 5000, 'max': 25000},  # Increased for property felonies
+                'VIOLENT': {'min': 25000, 'max': 500000},  # Much higher for violent felonies
+                'WEAPONS': {'min': 15000, 'max': 100000},  # Increased for weapon violations
+                'SEX': {'min': 50000, 'max': 1000000},  # Highest bail for sex crimes
+                'JUSTICE': {'min': 25000, 'max': 200000},  # Increased for justice system violations
+                'COURT_ORDER': {'min': 30000, 'max': 200000}  # Increased for court order violations
+            }
+        }
+        
+        total_bail = 0
+        
+        # Calculate bail for each charge
+        for charge in charges:
+            severity = charge.get('severity', 'MISDEMEANOR')
+            category = charge.get('category', 'OTHER')
+            
+            # Get bail range for this severity/category
+            if severity in bail_schedule and category in bail_schedule[severity]:
+                bail_range = bail_schedule[severity][category]
+                charge_bail = random.randint(bail_range['min'], bail_range['max'])
+            else:
+                # Default bail amounts if category not found
+                if severity == 'INFRACTION':
+                    charge_bail = random.randint(100, 500)
+                elif severity == 'MISDEMEANOR':
+                    charge_bail = random.randint(1000, 5000)
+                else:  # FELONY
+                    charge_bail = random.randint(5000, 25000)
+            
+            total_bail += charge_bail
+        
+        # Apply stacking multipliers for multiple charges based on severity
+        if len(charges) > 1:
+            # Count charges by severity
+            felony_count = sum(1 for c in charges if c.get('severity') == 'FELONY')
+            misdemeanor_count = sum(1 for c in charges if c.get('severity') == 'MISDEMEANOR')
+            
+            # Progressive stacking based on charge severity and count
+            if felony_count >= 2:
+                total_bail = int(total_bail * 1.8)  # 80% increase for multiple felonies
+            elif felony_count == 1 and misdemeanor_count >= 2:
+                total_bail = int(total_bail * 1.6)  # 60% increase for felony + multiple misdemeanors
+            elif len(charges) == 2:
+                total_bail = int(total_bail * 1.3)  # 30% increase for 2 charges
+            elif len(charges) >= 3:
+                total_bail = int(total_bail * 1.7)  # 70% increase for 3+ charges
+        
+        # Traffic infractions should not result in bail - they're handled as citations
+        if all(charge.get('severity') == 'INFRACTION' and charge.get('category') == 'TRAFFIC' for charge in charges):
+            return 0  # No bail for traffic infractions - handled as citations
+        
+        # Some charges may result in no bail (held without bail)
+        serious_violent_crimes = ['murder', 'rape', 'aggravated assault', 'involuntary manslaughter', 'kidnapping', 'armed robbery']
+        if any(charge.get('charge', '').lower() in serious_violent_crimes for charge in charges):
+            if random.random() < 0.4:  # 40% chance of no bail for serious violent crimes
+                return 0  # No bail - held without bail
+        
+        # Multiple serious felonies increase chance of no bail
+        felony_count = sum(1 for c in charges if c.get('severity') == 'FELONY')
+        if felony_count >= 3 and random.random() < 0.2:  # 20% chance for 3+ felonies
+            return 0  # No bail - held without bail
+        
+        return total_bail
+
     def generate_charges(self):
         """Generate realistic criminal charges"""
         charge_categories = {
@@ -1378,9 +1582,16 @@ class EnhancedDataGenerator:
         
         return history
     
-    def generate_jail_booking(self, person_id, arrest_id, agency='KCSO'):
+    def generate_jail_booking(self, person_id, arrest_id, agency='KCSO', charges=None, arrest_datetime=None):
         """Generate comprehensive jail booking record"""
-        booking_datetime = fake.date_time_between(start_date='-2y', end_date='now')
+        # Booking should happen shortly after arrest (1-6 hours)
+        if arrest_datetime:
+            arrest_dt = datetime.strptime(arrest_datetime, '%Y-%m-%d %H:%M:%S')
+            # Ensure booking happens after arrest (1-6 hours later)
+            booking_datetime = arrest_dt + timedelta(hours=random.randint(1, 6))
+        else:
+            # Fallback: generate recent booking time
+            booking_datetime = fake.date_time_between(start_date='-30d', end_date='now')
         
         # Classification based on charges and person history
         classification_levels = ['MINIMUM', 'MEDIUM', 'MAXIMUM']
@@ -1432,7 +1643,7 @@ class EnhancedDataGenerator:
             disciplinary_actions=[],  # Will be populated later
             programs_enrolled=['EDUCATION', 'SUBSTANCE_ABUSE'] if random.random() < 0.4 else [],
             court_dates=[],  # Will be populated later
-            bail_amount=random.randint(1000, 50000),
+            bail_amount=self.calculate_bail_amount(charges) if charges else 0,
             bail_posted=random.random() < 0.6,
             release_datetime=(booking_datetime + timedelta(days=days_served)).strftime('%Y-%m-%d %H:%M:%S'),
             release_type=release_type,
@@ -1616,7 +1827,7 @@ class EnhancedDataGenerator:
             currency_amount=currency_amount_val,
             quantity=quantity_val,
             unit_of_measure=unit_of_measure_val,
-            found_location=fake.street_address(),  # This should generate a proper address
+            found_location=self._generate_king_county_address()[0],  # Use proper Seattle address
             found_date=fake.date_time_between(start_date='-30d', end_date='now').strftime('%Y-%m-%d %H:%M:%S'),
             found_by_officer=f"{random.randint(1000, 9999)}, {fake.last_name().upper()}",
             owner_person_id=person_id or '',
@@ -1665,7 +1876,7 @@ class EnhancedDataGenerator:
         dob = fake.date_of_birth(minimum_age=18, maximum_age=85)
         
         # Generate realistic Seattle-area address
-        seattle_cities = ['Seattle', 'Bellevue', 'Redmond', 'Kirkland', 'Sammamish', 'Issaquah', 'Mercer Island']
+        seattle_cities = ['Seattle', 'Redmond', 'Kirkland', 'Sammamish', 'Issaquah', 'Mercer Island']
         city = random.choice(seattle_cities)
         
         # Generate realistic Seattle-area phone number
@@ -1844,12 +2055,11 @@ class EnhancedDataGenerator:
             color=color,
             body_type=body_type,
             owner_person_id=owner_id or '',
-            registration_expiry=reg_expiry,
+            registration_expiration=registration_expiration,
             insurance_status=insurance_status,
             stolen_status=stolen_status,
             created_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             created_by_agency=agency,
-            registration_expiration=registration_expiration,
             stolen_flag_dt=stolen_flag_dt,
             lienholder=lienholder,
         )
@@ -1873,7 +2083,7 @@ class EnhancedDataGenerator:
         clear_delay = timedelta(minutes=random.randint(15, 120))
         
         # Location
-        cities = ['SEATTLE', 'BELLEVUE', 'KIRKLAND', 'REDMOND', 'SAMMAMISH']
+        cities = ['SEATTLE', 'KIRKLAND', 'REDMOND', 'SAMMAMISH']
         city = random.choice(cities)
         
         # Generate incident number
@@ -1886,7 +2096,7 @@ class EnhancedDataGenerator:
             incident_time=call_datetime.strftime('%H:%M:%S'),
             call_datetime=call_datetime.strftime('%Y-%m-%d %H:%M:%S'),
             cad_id=str(uuid.uuid4()),  # Add this missing attribute
-            location=fake.street_address(),
+            location=self._generate_king_county_address()[0],
             latitude=random.uniform(47.5, 47.8),
             longitude=random.uniform(-122.5, -122.1),
             district=random.choice(['NORTH', 'SOUTH', 'EAST', 'WEST', 'CENTRAL']),
@@ -1901,13 +2111,14 @@ class EnhancedDataGenerator:
             witness_id=str(uuid.uuid4()),
             evidence_collected=random.sample(['PHOTOGRAPHS', 'VIDEO_RECORDING', 'PHYSICAL_EVIDENCE', 'BODY_CAMERA', 'DASH_CAMERA'], random.randint(1, 3)) if random.random() < 0.7 else [],
             case_status=random.choice(['OPEN', 'CLOSED', 'PENDING']),
+            caller_person_id=random.choice(self.persons).person_id if self.persons else None,
             created_date=call_datetime.strftime('%Y-%m-%d %H:%M:%S'),
             created_by_agency=agency
         )
         
         return incident
 
-    def generate_fire_incident(self):
+    def generate_fire_incident(self, cad_incident=None):
         """Generate a sample fire incident with realistic distribution"""
         # Focus FireIncident on fire/hazard calls; EMS medicals are handled in EMSIncident
         weights_map = {
@@ -1928,11 +2139,21 @@ class EnhancedDataGenerator:
             'AIRCRAFT_EMERGENCY': 1,
             'HAZMAT': 2,
         }
-        incident_types = list(weights_map.keys())
-        weights = list(weights_map.values())
-        incident_type = random.choices(incident_types, weights=weights, k=1)[0]
         
-        alarm_datetime = fake.date_time_between(start_date='-30d', end_date='now')
+        # Use CAD incident data if available, otherwise generate new
+        if cad_incident:
+            alarm_datetime = datetime.strptime(cad_incident.call_date_time, '%Y-%m-%d %H:%M:%S')
+            incident_type = cad_incident.incident_type_code
+            address = cad_incident.address
+            apartment_number = cad_incident.apartment_number
+        else:
+            incident_types = list(weights_map.keys())
+            weights = list(weights_map.values())
+            incident_type = random.choices(incident_types, weights=weights, k=1)[0]
+            
+            alarm_datetime = fake.date_time_between(start_date='-30d', end_date='now')
+            address, city, state, zip_code = self._generate_king_county_address()
+            apartment_number = f"Apt {random.randint(1, 500)}" if random.random() < 0.3 else None
         dispatch_delay = timedelta(seconds=random.randint(30, 180))
         en_route_delay = timedelta(seconds=random.randint(45, 300))
         arrive_delay = timedelta(minutes=random.randint(4, 12))
@@ -1956,7 +2177,7 @@ class EnhancedDataGenerator:
             suppression_time_seconds=int(controlled_delay.total_seconds()),
             on_scene_time_seconds=int((controlled_delay + clear_delay).total_seconds()),
             total_time_seconds=int((dispatch_delay + en_route_delay + arrive_delay + controlled_delay + clear_delay).total_seconds()),
-            address=fake.street_address(),  # Make sure this is called properly
+            address=self._generate_king_county_address()[0],  # Use proper Seattle address
             city='SEATTLE',
             latitude=random.uniform(47.5, 47.8),
             longitude=random.uniform(-122.5, -122.1),
@@ -1978,14 +2199,24 @@ class EnhancedDataGenerator:
             casualties=[],
             fatalities=0,
             injuries=0,
+            caller_person_id=random.choice(self.persons).person_id if self.persons else None,
             created_date=alarm_datetime.strftime('%Y-%m-%d %H:%M:%S')
         )
         
         return incident
     
-    def generate_ems_incident(self):
-        incident_datetime = fake.date_time_between(start_date='-30d', end_date='now')
-        incident_type = self._choose_ems_incident_type(incident_datetime)
+    def generate_ems_incident(self, cad_incident=None):
+        # Use CAD incident data if available, otherwise generate new
+        if cad_incident:
+            incident_datetime = datetime.strptime(cad_incident.call_date_time, '%Y-%m-%d %H:%M:%S')
+            incident_type = cad_incident.incident_type_code
+            address = cad_incident.address
+            apartment_number = cad_incident.apartment_number
+        else:
+            incident_datetime = fake.date_time_between(start_date='-30d', end_date='now')
+            incident_type = self._choose_ems_incident_type(incident_datetime)
+            address, city, state, zip_code = self._generate_king_county_address()
+            apartment_number = f"Apt {random.randint(1, 500)}" if random.random() < 0.3 else None
 
         priority_map = {
             'CARDIAC_ARREST': 'HIGH',
@@ -2139,9 +2370,9 @@ class EnhancedDataGenerator:
             state=state,
             zip_code=zip_code,
             district=random.choice(['NORTH', 'SOUTH', 'EAST', 'WEST', 'CENTRAL']),
-            responding_unit=f"MEDIC_{random.randint(1, 20)}",
+            responding_unit=self._assign_ems_unit_by_location(city, zip_code),
             crew_members=[f"PARAMEDIC_{fake.last_name().upper()}", f"EMT_{fake.last_name().upper()}"],
-            patient_person_id=str(uuid.uuid4()),
+            patient_person_id=random.choice(self.persons).person_id if self.persons else None,
             patient_age=random.randint(5, 85),
             patient_sex=random.choice(['M', 'F']),
             chief_complaint=cc,
@@ -2361,8 +2592,11 @@ class EnhancedDataGenerator:
         
         # Generate units and officers
         units = [f"{random.choice(['A', 'B', 'C', 'D'])}{random.randint(1, 9)}" for _ in range(random.randint(1, 3))]
-        primary_officer = f"Officer {fake.last_name()}"
-        backup_officers = [f"Officer {fake.last_name()}" for _ in range(random.randint(0, 2))]
+        # Use consistent officer from pool
+        agency = 'KCSO'  # Default agency for police incidents
+        primary_officer_obj = self.get_or_create_officer(agency)
+        primary_officer = f"{primary_officer_obj.first_name} {primary_officer_obj.last_name} ({primary_officer_obj.badge_number})"
+        backup_officers = [f"{self.get_or_create_officer(agency).first_name} {self.get_or_create_officer(agency).last_name} ({self.get_or_create_officer(agency).badge_number})" for _ in range(random.randint(0, 2))]
         
         # Generate reporting party info
         reporting_party = f"{fake.first_name()} {fake.last_name()}"
@@ -2505,7 +2739,7 @@ class EnhancedDataGenerator:
             'relationship': relationship,
             'phone': contact_phone,
             'address': contact_address,
-            'city': random.choice(['Seattle', 'Bellevue', 'Redmond', 'Kirkland', 'Sammamish', 'Issaquah', 'Mercer Island']),
+            'city': random.choice(['Seattle', 'Redmond', 'Kirkland', 'Sammamish', 'Issaquah', 'Mercer Island']),
             'state': 'WA',
             'zip_code': fake.zipcode_in_state('WA')
         }
@@ -2525,6 +2759,10 @@ class EnhancedDataGenerator:
             'properties': [asdict(p) for p in self.properties],
             'police_incidents': [asdict(i) for i in self.police_incidents],
             'arrests': [asdict(a) for a in self.arrests],
+            'cases': [asdict(c) for c in self.cases],
+            'cad_incidents': [asdict(c) for c in self.cad_incidents],
+            'citations': [asdict(c) for c in getattr(self, 'citations', [])],
+            'field_interviews': [asdict(fi) for fi in getattr(self, 'field_interviews', [])],
             'jail_bookings': [asdict(b) for b in self.jail_bookings],
             'jail_sentences': [asdict(s) for s in getattr(self, 'jail_sentences', [])],
             'jail_incidents': [asdict(j) for j in getattr(self, 'jail_incidents', [])],
@@ -2581,6 +2819,10 @@ class EnhancedDataGenerator:
         write_csv('properties.csv', data_to_save['properties'])
         write_csv('police_incidents.csv', data_to_save['police_incidents'])
         write_csv('arrests.csv', data_to_save['arrests'])
+        write_csv('cases.csv', data_to_save['cases'])
+        write_csv('cad_incidents.csv', data_to_save['cad_incidents'])
+        write_csv('citations.csv', data_to_save['citations'])
+        write_csv('field_interviews.csv', data_to_save['field_interviews'])
         write_csv('jail_bookings.csv', data_to_save['jail_bookings'])
         write_csv('jail_sentences.csv', data_to_save['jail_sentences'])
         write_csv('jail_incidents.csv', data_to_save['jail_incidents'])
@@ -2599,13 +2841,13 @@ class EnhancedDataGenerator:
     def generate_all_data(self):
         """Generate all comprehensive synthetic data"""
         print("Enhanced Multi-Agency Complex Data Generator Starting...")
-        print("Generating comprehensive data for Seattle, King County, Bellevue, and EMS scenarios")
+        print("Generating comprehensive data for King County Sheriff's Office (KCSO) jurisdiction")
         start_time = time.time()
         
         # Generate persons
         print(f"Generating {CONFIG['num_persons']:,} persons...")
         for i in range(CONFIG['num_persons']):
-            agency = random.choices(['KCSO', 'BELLEVUE_PD'], weights=[70, 30])[0]
+            agency = 'KCSO'
             person = self.generate_person(agency)
             self.persons.append(person)
             self.person_index[person.person_id] = person
@@ -2623,32 +2865,48 @@ class EnhancedDataGenerator:
             if (i + 1) % 10000 == 0:
                 print(f"   Generated {i + 1:,} vehicles...")
         
-        # Generate police incidents
+        # Generate CAD incidents FIRST (these are the initial calls for service)
+        print(f"Generating CAD incidents...")
+        cad_incidents_count = CONFIG['num_ems_incidents'] + int(CONFIG['num_fire_incidents'] * 0.8) + CONFIG['num_arrests'] * 2  # Include police CAD incidents
+        for i in range(cad_incidents_count):
+            agency = 'KCSO'
+            # Link CAD incident to a person (90% chance)
+            person = random.choice(self.persons) if random.random() < 0.9 else None
+            cad_incident = self.generate_cad_incident(agency, person=person)
+            self.cad_incidents.append(cad_incident)
+            
+            if (i + 1) % 10000 == 0:
+                print(f"   Generated {i + 1:,} CAD incidents...")
+        
+        # Generate police incidents (linked to CAD incidents)
         print(f"Generating {CONFIG['num_police_incidents']:,} police incidents...")
         for i in range(CONFIG['num_police_incidents']):
-            agency = random.choices(['KCSO', 'BELLEVUE_PD'], weights=[75, 25])[0]
+            agency = 'KCSO'
+            # Link to a CAD incident (80% chance)
+            cad_incident = random.choice(self.cad_incidents) if random.random() < 0.8 else None
             incident = self.generate_police_incident(agency)
             self.police_incidents.append(incident)
             
             if (i + 1) % 10000 == 0:
                 print(f"   Generated {i + 1:,} police incidents...")
         
-        # Generate arrests
+        # Generate arrests (linked to CAD incidents and police incidents)
         print(f"Generating {CONFIG['num_arrests']:,} arrests...")
         for i in range(CONFIG['num_arrests']):
             person = random.choice(self.persons)
-            incident = random.choice(self.police_incidents)
-            arrest = self.generate_arrest(incident, person)
+            # Link to a CAD incident (70% chance)
+            cad_incident = random.choice(self.cad_incidents) if random.random() < 0.7 else None
+            arrest = self.generate_arrest(cad_incident, person)
             self.arrests.append(arrest)
             
             if (i + 1) % 5000 == 0:
                 print(f"   Generated {i + 1:,} arrests...")
         
-        # Generate jail bookings
+        # Generate jail bookings (linked to arrests)
         print(f"Generating {CONFIG['num_jail_bookings']:,} jail bookings...")
         for i in range(CONFIG['num_jail_bookings']):
             arrest = random.choice(self.arrests)
-            booking = self.generate_jail_booking(arrest.person_id, arrest.arrest_id, arrest.agency)
+            booking = self.generate_jail_booking(arrest.person_id, arrest.arrest_id, arrest.agency, arrest.charges, arrest.arrest_datetime)
             self.jail_bookings.append(booking)
             
             if (i + 1) % 5000 == 0:
@@ -2687,7 +2945,7 @@ class EnhancedDataGenerator:
             # Sentence based on charges (55% of bookings)
             if random.random() < CONFIG['pct_bookings_with_sentence']:
                 # Try to align offense description with a case/offense when possible
-                case_numbers = [c.case_number for c in self.cases if booking.person_id in c.suspects or booking.person_id in c.victims]
+                case_numbers = [c.case_number for c in self.cases if booking.person_id == c.jacket_id]
                 court_case_number = case_numbers[0] if case_numbers else None
                 sentence = self.generate_jail_sentence(booking.person_id, booking.booking_id, court_case_number)
                 # If we have a case, reflect a charge in the sentence description
@@ -2719,18 +2977,23 @@ class EnhancedDataGenerator:
             property_record = self.generate_property(
                 incident.incident_id if incident else None,
                 person.person_id if person else None,
-                random.choice(['KCSO', 'BELLEVUE_PD'])
+                'KCSO'
             )
             self.properties.append(property_record)
             
             if (i + 1) % 10000 == 0:
                 print(f"   Generated {i + 1:,} properties...")
         
-        # Generate fire incidents
+        # Generate fire incidents (80% linked to CAD incidents, 20% automatic alarms)
         if CONFIG['generate_fire_data']:
             print(f"Generating {CONFIG['num_fire_incidents']:,} fire incidents...")
             for i in range(CONFIG['num_fire_incidents']):
-                incident = self.generate_fire_incident()
+                # 80% chance of linking to CAD incident, 20% automatic alarm
+                if random.random() < 0.8 and self.cad_incidents:
+                    cad_incident = random.choice(self.cad_incidents)
+                    incident = self.generate_fire_incident(cad_incident)
+                else:
+                    incident = self.generate_fire_incident()  # Automatic alarm
                 self.fire_incidents.append(incident)
                 
                 if (i + 1) % 5000 == 0:
@@ -2745,11 +3008,56 @@ class EnhancedDataGenerator:
             if (i + 1) % 1000 == 0:
                 print(f"   Generated {i + 1:,} Fire Personnel...")
 
-        # Generate EMS incidents
+        # CAD incidents already generated above
+        
+        # Generate citations (after CAD incidents are available)
+        num_citations = CONFIG['num_arrests'] * 3  # Generate 3x more citations than arrests
+        print(f"Generating {num_citations:,} citations...")
+        for i in range(num_citations):
+            person = random.choice(self.persons)
+            vehicle = random.choice(self.vehicles) if random.random() < 0.8 else None
+            cad_incident = random.choice(self.cad_incidents) if random.random() < 0.3 else None
+            agency = 'KCSO'
+            citation = self.generate_citation(person, cad_incident, vehicle, None, agency)
+            self.citations.append(citation)
+            
+            if (i + 1) % 5000 == 0:
+                print(f"   Generated {i + 1:,} citations...")
+        
+        # Generate field interviews (after CAD incidents are available)
+        num_field_interviews = CONFIG['num_arrests'] * 2  # Generate 2x more field interviews than arrests
+        print(f"Generating {num_field_interviews:,} field interviews...")
+        for i in range(num_field_interviews):
+            person = random.choice(self.persons)
+            vehicle = random.choice(self.vehicles) if random.random() < 0.6 else None
+            cad_incident = random.choice(self.cad_incidents) if random.random() < 0.4 else None
+            agency = 'KCSO'
+            field_interview = self.generate_field_interview(person, cad_incident, vehicle, None, agency)
+            self.field_interviews.append(field_interview)
+            
+            if (i + 1) % 5000 == 0:
+                print(f"   Generated {i + 1:,} field interviews...")
+        
+        # Generate cases (after CAD incidents are available)
+        num_cases = CONFIG['num_arrests'] // 2  # Generate half as many cases as arrests
+        print(f"Generating {num_cases:,} cases...")
+        for i in range(num_cases):
+            agency = 'KCSO'
+            # Link case to a CAD incident (80% chance)
+            cad_incident = random.choice(self.cad_incidents) if random.random() < 0.8 and self.cad_incidents else None
+            case = self.generate_case(agency, cad_incident)
+            self.cases.append(case)
+            
+            if (i + 1) % 5000 == 0:
+                print(f"   Generated {i + 1:,} cases...")
+        
+        # Generate EMS incidents (all linked to CAD incidents)
         if CONFIG['generate_ems_data']:
             print(f"Generating {CONFIG['num_ems_incidents']:,} EMS incidents...")
             for i in range(CONFIG['num_ems_incidents']):
-                incident = self.generate_ems_incident()
+                # Link to a CAD incident
+                cad_incident = random.choice(self.cad_incidents)
+                incident = self.generate_ems_incident(cad_incident)
                 self.ems_incidents.append(incident)
                 
                 if (i + 1) % 10000 == 0:
@@ -2800,6 +3108,8 @@ class EnhancedDataGenerator:
         print(f"\nLaw Enforcement Records:")
         print(f"  • Police Incidents: {len(self.police_incidents):,}")
         print(f"  • Arrests: {len(self.arrests):,}")
+        print(f"  • Citations: {len(self.citations):,}")
+        print(f"  • Field Interviews: {len(self.field_interviews):,}")
         print(f"  • Jail Bookings: {len(self.jail_bookings):,}")
         
         print(f"\nFire/EMS Records:")
@@ -2891,7 +3201,7 @@ class EnhancedDataGenerator:
             for _ in range(num_cases):
                 court_cases.append({
                     'case_number': f"CR-{random.randint(100000, 999999)}",
-                    'court': random.choice(['King County Superior Court', 'Seattle Municipal Court', 'Bellevue Municipal Court']),
+                    'court': random.choice(['King County Superior Court', 'Seattle Municipal Court']),
                     'case_type': random.choice(['CRIMINAL', 'TRAFFIC', 'DOMESTIC_VIOLENCE']),
                     'filing_date': fake.date_between(start_date='-1y', end_date='now').strftime('%Y-%m-%d'),
                     'next_hearing': fake.date_between(start_date='now', end_date='+3m').strftime('%Y-%m-%d'),
@@ -2902,7 +3212,9 @@ class EnhancedDataGenerator:
         bail_status = random.choice(['NONE', 'OUT_ON_BAIL', 'HELD_WITHOUT_BAIL', 'NO_BAIL'])
         bail_amount = None
         if bail_status == 'OUT_ON_BAIL':
-            bail_amount = random.randint(1000, 50000)
+            # Generate sample charges for bail calculation
+            sample_charges = [self.generate_charges()]
+            bail_amount = self.calculate_bail_amount(sample_charges)
         
         return {
             'probation_status': probation_status,
@@ -2925,18 +3237,119 @@ class EnhancedDataGenerator:
         parsed = phonenumbers.parse(f"+1{area_code}{exchange}{line}", "US")
         return phonenumbers.format_number(parsed, PhoneNumberFormat.NATIONAL)
 
+    def _determine_agency_by_location(self, city, zip_code):
+        """Determine the correct agency based on location - always KCSO"""
+        # All locations are now handled by KCSO
+        return 'KCSO'
+
+    def _assign_ems_unit_by_location(self, city, zip_code):
+        """Assign EMS unit based on location coverage area"""
+        # Seattle Fire Department EMS units by district
+        if city.upper() == 'SEATTLE':
+            # Downtown/Central (98101-98109)
+            if zip_code in ['98101', '98102', '98103', '98104', '98105', '98106', '98107', '98108', '98109']:
+                return f"MEDIC_{random.randint(1, 5)}"
+            # North (98115, 98117, 98125, 98133, 98177)
+            elif zip_code in ['98115', '98117', '98125', '98133', '98177']:
+                return f"MEDIC_{random.randint(6, 10)}"
+            # South (98118, 98126, 98136, 98144, 98146, 98148)
+            elif zip_code in ['98118', '98126', '98136', '98144', '98146', '98148']:
+                return f"MEDIC_{random.randint(11, 15)}"
+            # East (98112, 98122)
+            elif zip_code in ['98112', '98122']:
+                return f"MEDIC_{random.randint(16, 20)}"
+            else:
+                return f"MEDIC_{random.randint(1, 20)}"
+        # King County EMS units for all other areas
+        # King County EMS units for other areas
+        else:
+            return f"KC_MEDIC_{random.randint(1, 15)}"
+
     def _generate_king_county_address(self):
-        cities = list(CITY_ZIPS.keys())
-        city = random.choice(cities)
-        zip_code = random.choice(CITY_ZIPS[city])
-        street_number = random.randint(100, 9999)
-        street_name = random.choice(['Main','Pine','Cedar','Maple','Lake','Union','Broadway','Rainier','Yesler','Aurora','Riviera'])
-        street_type = random.choice(['St','Ave','Rd','Blvd','Dr','Ln','Way','Pl'])
-        address = f"{street_number} {street_name} {street_type}"
+        """Generate realistic addresses using actual Seattle/King County street names and numbers."""
+        # Real Seattle addresses with actual street names
+        seattle_addresses = {
+            '98101': {  # Downtown Seattle
+                'streets': ['1st Ave', '2nd Ave', '3rd Ave', '4th Ave', '5th Ave', 'Pike St', 'Pine St', 'Union St', 'University St', 'Spring St', 'Madison St', 'Marion St', 'Columbia St', 'Yesler Way', 'James St', 'Cherry St', 'Jefferson St', 'Seneca St', 'Broad St'],
+                'number_range': (100, 2000)
+            },
+            '98102': {  # Capitol Hill
+                'streets': ['Broadway', 'Pine St', 'Pike St', 'E Olive Way', 'E John St', 'E Denny Way', 'E Roy St', 'E Mercer St', 'E Thomas St', 'E Harrison St', 'E Republican St', 'E Galer St', 'E Highland Dr', 'E Aloha St', 'E Howe St', 'E Boston St', 'E Prospect St', 'E Blaine St', 'E Newton St', 'E Lynn St'],
+                'number_range': (100, 1500)
+            },
+            '98103': {  # Wallingford/Green Lake
+                'streets': ['N 45th St', 'N 50th St', 'N 55th St', 'N 40th St', 'N 35th St', 'Stone Way N', 'Wallingford Ave N', 'Interlake Ave N', 'Meridian Ave N', 'Latona Ave NE', 'Burke Ave N', 'Greenwood Ave N', 'Phinney Ave N', 'Fremont Ave N', 'Ashworth Ave N', 'Bagley Ave N', 'Dayton Ave N', 'Evanston Ave N', 'Keystone Pl N', 'N 34th St'],
+                'number_range': (100, 2000)
+            },
+            '98104': {  # Pioneer Square
+                'streets': ['1st Ave S', '2nd Ave S', '3rd Ave S', 'S Jackson St', 'S King St', 'S Main St', 'S Washington St', 'S Dearborn St', 'S Weller St', 'S Lane St', 'S Charles St', 'S Forest St', 'S Walker St', 'S Horton St', 'S Orcas St', 'S Brandon St', 'S Norman St', 'S Nevada St', 'S Oregon St', 'S Idaho St'],
+                'number_range': (100, 1500)
+            },
+            '98105': {  # University District
+                'streets': ['University Way NE', '15th Ave NE', 'Roosevelt Way NE', '12th Ave NE', '11th Ave NE', '10th Ave NE', '8th Ave NE', '7th Ave NE', '5th Ave NE', 'NE 45th St', 'NE 50th St', 'NE 55th St', 'NE 40th St', 'NE 35th St', 'NE 30th St', 'NE 25th St', 'NE 20th St', 'NE 15th St', 'NE 10th St', 'NE Campus Pkwy'],
+                'number_range': (100, 2000)
+            },
+            '98106': {  # West Seattle
+                'streets': ['California Ave SW', 'Fauntleroy Way SW', 'SW Alaska St', 'SW Edmunds St', 'SW Genesee St', 'SW Hudson St', 'SW Juneau St', 'SW Kenyon St', 'SW Lander St', 'SW Manning St', 'SW Oregon St', 'SW Othello St', 'SW Raymond St', 'SW Thistle St', 'SW Trenton St', 'SW Webster St', 'SW Yancy St', 'SW Admiral Way', 'SW Avalon Way', 'SW Andover St'],
+                'number_range': (100, 3000)
+            },
+            '98107': {  # Ballard
+                'streets': ['NW Market St', 'NW Leary Way', 'NW 56th St', 'NW 57th St', 'NW 58th St', 'NW 59th St', 'NW 60th St', 'NW 61st St', 'NW 62nd St', 'NW 63rd St', 'NW 64th St', 'NW 65th St', 'NW 70th St', 'NW 75th St', 'NW 80th St', 'NW 85th St', 'NW 90th St', 'NW 95th St', '24th Ave NW', '32nd Ave NW'],
+                'number_range': (100, 2000)
+            },
+            '98108': {  # Georgetown/South Park
+                'streets': ['S Bailey St', 'S Cloverdale St', 'S Dawson St', 'S Eddy St', 'S Forest St', 'S Garden St', 'S Henderson St', 'S Irving St', 'S Jansen St', 'S Kenyon St', 'S Lucile St', 'S Morgan St', 'S Nevada St', 'S Oregon St', 'S Portland St', 'S Rose St', 'S Sullivan St', 'S Trenton St', 'S Webster St', 'S Willow St'],
+                'number_range': (100, 1500)
+            },
+            '98109': {  # Queen Anne
+                'streets': ['Queen Anne Ave N', '1st Ave N', '2nd Ave N', '3rd Ave N', '4th Ave N', '5th Ave N', '6th Ave N', '7th Ave N', '8th Ave N', '9th Ave N', '10th Ave N', 'W Galer St', 'W Highland Dr', 'W Howe St', 'W Boston St', 'W Prospect St', 'W Blaine St', 'W Newton St', 'W Lynn St', 'W McGraw St'],
+                'number_range': (100, 2000)
+            },
+            '98112': {  # Montlake/Madison Park
+                'streets': ['E Madison St', 'E Union St', 'E Pike St', 'E Pine St', 'E Olive Way', 'E John St', 'E Denny Way', 'E Roy St', 'E Mercer St', 'E Thomas St', 'E Harrison St', 'E Republican St', 'E Galer St', 'E Highland Dr', 'E Aloha St', 'E Howe St', 'E Boston St', 'E Prospect St', 'E Blaine St', 'E Newton St'],
+                'number_range': (100, 1500)
+            }
+        }
+        
+        # Use only Seattle addresses
+        all_addresses = seattle_addresses
+        
+        # Select a random zip code and get its data
+        zip_code = random.choice(list(all_addresses.keys()))
+        address_data = all_addresses[zip_code]
+        
+        # Generate street number and name
+        street_number = random.randint(address_data['number_range'][0], address_data['number_range'][1])
+        street_name = random.choice(address_data['streets'])
+        
+        # All addresses are now in Seattle area
+        city = 'Seattle'
+        
+        address = f"{street_number} {street_name}"
         return address, city, 'WA', zip_code
 
+    def get_or_create_officer(self, agency='KCSO'):
+        """Get an existing officer or create a new one for consistency"""
+        # Check if we have officers for this agency
+        if agency not in self.officer_pool:
+            self.officer_pool[agency] = []
+        
+        # If we have less than 50 officers for this agency, create a new one
+        if len(self.officer_pool[agency]) < 50:
+            officer = self.generate_officer(agency)
+            self.officer_pool[agency].append(officer)
+            self.badge_to_officer[officer.badge_number] = officer
+            return officer
+        
+        # Return a random existing officer
+        return random.choice(self.officer_pool[agency])
+    
     def generate_officer(self, agency='KCSO'):
         badge = str(random.randint(1000, 9999))
+        # Ensure badge is unique
+        while badge in self.badge_to_officer:
+            badge = str(random.randint(1000, 9999))
+            
         call_sign = f"{random.choice(['A','B','C','D'])}{random.randint(1,9)}"
         return Officer(
             officer_id=f"OFF-{uuid.uuid4()}",
@@ -3010,15 +3423,80 @@ class EnhancedDataGenerator:
         base = ''.join(ch for ch in base if ch.isalnum())
         return base, f"{base}@firedepartment.org"
 
-    def _compose_fire_narrative(self, units: List[str], context: str) -> str:
-        tmpl = (
-            "{units_str} responded to a {context} call. "
-            "PCSO called for a medical evaluation after a domestic. "
-            "Patient refused transport and remained in PCSO custody. "
-            "See EMS ESO Report for further information and complete report. "
-            "All units returned from scene AOR."
-        )
-        return tmpl.format(units_str=', '.join(units), context=context)
+    def _compose_fire_narrative(self, units: List[str], incident_type: str) -> str:
+        """Generate realistic fire incident narratives based on incident type"""
+        
+        fire_narratives = {
+            'STRUCTURE_FIRE': [
+                "{units_str} responded to a structure fire at {address}. Fire was contained to {area}. {casualties} reported. Fire investigation determined cause was {cause}. All units returned to quarters.",
+                "{units_str} dispatched to working structure fire. Fire extinguished in {time} minutes. {damage} damage reported. No injuries. Cause under investigation. All units cleared.",
+                "{units_str} responded to residential fire. Fire quickly extinguished. {evacuations} evacuated safely. Property damage estimated at ${damage}. All units returned to service."
+            ],
+            'VEHICLE_FIRE': [
+                "{units_str} responded to vehicle fire on {location}. Fire extinguished using {method}. No injuries reported. Vehicle towed from scene. All units cleared.",
+                "{units_str} dispatched to vehicle fire. Fire quickly controlled. Driver evacuated safely. Vehicle declared total loss. All units returned to quarters."
+            ],
+            'GRASS_FIRE': [
+                "{units_str} responded to grass fire covering {size} acres. Fire contained using {method}. No structures threatened. All units returned to service.",
+                "{units_str} dispatched to wildland fire. Fire extinguished after {time} hours. {acres} acres burned. No injuries. All units cleared."
+            ],
+            'ALARM_ACTIVATION': [
+                "{units_str} responded to fire alarm activation. No fire found. Alarm reset. Building cleared. All units returned to quarters.",
+                "{units_str} dispatched to automatic alarm. False alarm due to {cause}. System reset. All units cleared without incident."
+            ],
+            'GAS_LEAK': [
+                "{units_str} responded to reported gas leak. Area evacuated. Gas company contacted. Leak isolated. All units cleared.",
+                "{units_str} dispatched to gas odor. Building evacuated as precaution. Gas company on scene. Situation resolved. All units returned."
+            ],
+            'HAZMAT': [
+                "{units_str} responded to hazmat incident. Area secured. Hazmat team requested. Situation contained. All units cleared.",
+                "{units_str} dispatched to chemical spill. Area evacuated. Cleanup in progress. No injuries reported. All units returned."
+            ],
+            'RESCUE': [
+                "{units_str} responded to technical rescue. Victim extricated safely. {injuries} treated on scene. All units cleared.",
+                "{units_str} dispatched to rescue operation. {victims} rescued without injury. All units returned to service."
+            ],
+            'MEDICAL': [
+                "{units_str} responded to medical emergency. Patient treated and transported to {hospital}. All units returned to quarters.",
+                "{units_str} dispatched to medical call. Patient assessed and transported. All units cleared."
+            ]
+        }
+        
+        # Get appropriate narrative template based on incident type
+        if incident_type in fire_narratives:
+            template = random.choice(fire_narratives[incident_type])
+        else:
+            # Default template for unknown incident types
+            template = "{units_str} responded to fire incident. Situation resolved. All units returned to quarters."
+        
+        # Generate realistic details for the narrative
+        details = {
+            'address': random.choice(['123 Main St', '456 Oak Ave', '789 Pine Rd']),
+            'area': random.choice(['kitchen', 'bedroom', 'garage', 'basement', 'attic']),
+            'casualties': random.choice(['No casualties', '1 minor injury', '2 minor injuries']),
+            'cause': random.choice(['electrical', 'cooking', 'heating equipment', 'unknown']),
+            'time': random.choice(['15', '20', '30', '45']),
+            'damage': random.choice(['minimal', 'moderate', 'extensive']),
+            'evacuations': random.choice(['2 residents', '4 residents', 'No evacuations']),
+            'location': random.choice(['Highway 99', 'I-5', 'local street']),
+            'method': random.choice(['foam', 'water', 'dry chemical']),
+            'size': random.choice(['0.5', '1.2', '2.8', '5.1']),
+            'acres': random.choice(['2', '5', '8', '12']),
+            'cause': random.choice(['cooking smoke', 'steam', 'dust', 'system malfunction']),
+            'hospital': random.choice(['Harborview', 'Swedish', 'Virginia Mason']),
+            'injuries': random.choice(['minor', 'no', 'serious']),
+            'victims': random.choice(['1', '2', '3'])
+        }
+        
+        # Format the narrative with realistic details
+        try:
+            return template.format(
+                units_str=', '.join(units),
+                **{k: v for k, v in details.items() if k in template}
+            )
+        except KeyError:
+            # Fallback if template formatting fails
+            return f"{', '.join(units)} responded to {incident_type.lower().replace('_', ' ')} incident. All units returned to quarters."
 
     def generate_fire_report(self, incident_number: str, created_dt: datetime = None):
         created_dt = created_dt or fake.date_time_between(start_date='-30d', end_date='now')
@@ -3041,7 +3519,17 @@ class EnhancedDataGenerator:
         if not units:
             units = [f"E{random.randint(101, 199)}", f"M{random.randint(101, 199)}"]
 
-        narrative = self._compose_fire_narrative(units, 'chest pain') + f"\n\n{suffix}"
+        # Determine incident type from incident number or use default
+        incident_type = 'STRUCTURE_FIRE'  # Default
+        # Try to infer incident type from fire incidents if available
+        if hasattr(self, 'fire_incidents') and self.fire_incidents:
+            # Look for matching incident number in fire incidents
+            for fire_incident in self.fire_incidents:
+                if fire_incident.incident_number == incident_number:
+                    incident_type = fire_incident.incident_type
+                    break
+        
+        narrative = self._compose_fire_narrative(units, incident_type) + f"\n\n{suffix}"
 
         return FireReport(
             report_id=f"FR-{uuid.uuid4()}",
@@ -3142,10 +3630,10 @@ class EnhancedDataGenerator:
         end_date = (start_date + timedelta(days=total_days)) if total_days > 0 else None
 
         # Additional sentencing attributes
-        crime_date = fake.date_between(start_date='-2y', end_date=sentence_date).strftime('%Y-%m-%d')
+        crime_date = fake.date_between(start_date='-2y', end_date='now').strftime('%Y-%m-%d')
         def yrs(lo, hi):
             return round(random.uniform(lo, hi), 1)
-        orc_code = f"{random.randint(2901, 2999)}.{random.randint(01,99):02d}" if random.random()<0.6 else None
+        orc_code = f"{random.randint(2901, 2999)}.{random.randint(1,99):02d}" if random.random()<0.6 else None
         definite_years = yrs(0.5, 10.0) if sentence_type in ['PRISON','JAIL_TIME'] and random.random()<0.5 else None
         min_years = yrs(0.5, 5.0) if random.random()<0.4 else None
         max_years = (min_years + yrs(0.5, 10.0)) if min_years and random.random()<0.7 else None
@@ -3228,7 +3716,7 @@ class EnhancedDataGenerator:
                 'Property damage to dayroom table recorded.'
             ]),
             actions_taken=random.sample(['MEDICAL_EVAL','DISCIPLINARY','ISOLATION','REPORT_FILED','EVIDENCE_SEIZED'], k=random.randint(1,3)),
-            referral_to_outside_agency=random.choice([None,'KCSO','BELLEVUE_PD','PROSECUTOR']),
+            referral_to_outside_agency=random.choice([None,'KCSO','PROSECUTOR']),
             created_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         )
 
@@ -3468,9 +3956,25 @@ class EnhancedDataGenerator:
         full_name = f"{first_name} {last_name}"
         username, email = self._generate_fire_email_username(first_name, last_name)
         employee_id = f"FD{random.randint(1000,9999)}"
-        station = f"STATION_{random.randint(1,37)}"
-        unit_type = random.choice(['ENGINE', 'LADDER', 'MEDIC', 'AID', 'BATTALION'])
-        unit_num = random.randint(1, 37)
+        # Assign realistic station numbers based on Seattle Fire Department districts
+        # Seattle has stations 1-37, with specific districts
+        station_num = random.randint(1, 37)
+        station = f"STATION_{station_num:02d}"
+        
+        # Assign unit types and numbers based on station
+        if station_num <= 10:  # Downtown/Central district
+            unit_type = random.choice(['ENGINE', 'LADDER', 'MEDIC', 'AID'])
+            unit_num = station_num
+        elif station_num <= 20:  # North district
+            unit_type = random.choice(['ENGINE', 'MEDIC', 'AID'])
+            unit_num = station_num
+        elif station_num <= 30:  # South district
+            unit_type = random.choice(['ENGINE', 'LADDER', 'MEDIC'])
+            unit_num = station_num
+        else:  # East district
+            unit_type = random.choice(['ENGINE', 'MEDIC', 'AID'])
+            unit_num = station_num
+        
         unit = f"{unit_type} {unit_num:03d}"
         group = random.choice(['OPERATIONS', 'TRAINING', 'PREVENTION', 'ADMIN'])
         role = random.choice(['FIREFIGHTER','PARAMEDIC','LIEUTENANT','CAPTAIN','BATTALION_CHIEF'])
@@ -3612,27 +4116,184 @@ class EnhancedDataGenerator:
                                           else (f"{random.randint(100,9999)} Main St",'Seattle','WA','98101'))
         lat, lon = random.uniform(47.5,47.75), random.uniform(-122.45,-122.1)
         n1 = self.generate_offense('CITATION', 'PENDING', person.person_id, agency)  # temp parent_id, fix after creating
-        fine = random.choice([124.0, 187.0, 250.0, 500.0])
         speed_limit = random.choice([25,30,35,40,45,50,60])
         speed = speed_limit + random.randint(1, 35) if random.random()<0.6 else None
         radar_device_id = f"RAD-{random.randint(1000,9999)}" if speed else None
+        
+        # Generate citation-specific data
+        citation_datetime = fake.date_time_between(start_date='-30d', end_date='now')
+        date_entered = citation_datetime + timedelta(hours=random.randint(1, 24))
+        
+        # Generate officer name
+        officer_name = f"{fake.first_name()} {fake.last_name()}"
+        
+        # Generate person details
+        first_name = person.first_name
+        middle_name = fake.first_name() if random.random() < 0.3 else None
+        last_name = person.last_name
+        person_cited_name = f"{first_name} {middle_name} {last_name}" if middle_name else f"{first_name} {last_name}"
+        
+        # Generate vehicle details if vehicle is provided
+        if vehicle:
+            license_plate = vehicle.license_plate
+            vehicle_year = vehicle.year
+            vehicle_color = vehicle.color
+            vehicle_make = vehicle.make
+            vehicle_model = vehicle.model
+        else:
+            license_plate = f"{random.choice(['ABC', 'DEF', 'GHI', 'JKL', 'MNO'])}{random.randint(1000, 9999)}"
+            vehicle_year = random.randint(2010, 2024)
+            vehicle_color = random.choice(['White', 'Black', 'Silver', 'Red', 'Blue', 'Gray', 'Green'])
+            vehicle_make = random.choice(['Toyota', 'Honda', 'Ford', 'Chevrolet', 'Nissan', 'BMW', 'Mercedes'])
+            vehicle_model = random.choice(['Camry', 'Accord', 'F-150', 'Silverado', 'Altima', '3 Series', 'C-Class'])
+        
+        # Generate citation type and corresponding violation with realistic fine amounts
+        citation_type_fine_mapping = {
+            'TRAFFIC': {
+                'violations': [
+                    # Speeding violations (realistic Washington state amounts)
+                    ("RCW 46.61.400 - Speed 1-10 mph over limit", 150.0),
+                    ("RCW 46.61.400 - Speed 11-20 mph over limit", 300.0),
+                    ("RCW 46.61.400 - Speed 21+ mph over limit", 450.0),
+                    ("RCW 46.61.400 - Speed in school zone", 350.0),
+                    ("RCW 46.61.400 - Speed in construction zone", 400.0),
+                    
+                    # Traffic control violations
+                    ("RCW 46.61.055 - Red light violation", 200.0),
+                    ("RCW 46.61.190 - Stop sign violation", 150.0),
+                    ("RCW 46.61.305 - Yield sign violation", 100.0),
+                    ("RCW 46.61.050 - Disobey traffic control device", 220.0),
+                    
+                    # Lane and turning violations
+                    ("RCW 46.61.140 - Unsafe lane change", 150.0),
+                    ("RCW 46.61.290 - Improper turn", 160.0),
+                    ("RCW 46.61.310 - Turn signal violation", 100.0),
+                    ("RCW 46.61.100 - Following too closely", 180.0),
+                    
+                    # Vehicle equipment violations
+                    ("RCW 46.37.030 - No seatbelt", 75.0),
+                    ("RCW 46.61.667 - Cell phone while driving", 150.0),
+                    ("RCW 46.61.668 - Texting while driving", 200.0),
+                    
+                    # Right of way violations
+                    ("RCW 46.61.235 - Pedestrian right of way", 250.0),
+                    ("RCW 46.61.190 - Emergency vehicle right of way", 300.0),
+                    
+                    # Registration and insurance
+                    ("RCW 46.16A.030 - Expired registration", 125.0),
+                    ("RCW 46.30.020 - No insurance", 250.0),
+                    
+                    # Serious violations
+                    ("RCW 46.61.502 - DUI", 1000.0),
+                    ("RCW 46.61.500 - Reckless driving", 600.0),
+                    ("RCW 46.61.024 - Negligent driving", 400.0)
+                ]
+            },
+            'PARKING': {
+                'violations': [
+                    # Parking violations (realistic King County/Bellevue amounts)
+                    ("RCW 46.61.570 - Meter expired", 50.0),
+                    ("RCW 46.61.570 - No parking zone", 75.0),
+                    ("RCW 46.61.570 - Time limit exceeded", 50.0),
+                    ("RCW 46.61.570 - Handicap parking violation", 500.0),
+                    ("RCW 46.61.570 - Fire hydrant violation", 150.0),
+                    ("RCW 46.61.570 - Bus zone parking", 100.0),
+                    ("RCW 46.61.570 - Loading zone violation", 75.0),
+                    ("RCW 46.61.570 - Street sweeping violation", 75.0),
+                    ("RCW 46.61.570 - Blocking driveway", 100.0),
+                    ("RCW 46.61.570 - Double parking", 100.0),
+                    ("VC 22528 - Loading zone", 85.0),
+                    ("VC 22529 - Blocking driveway", 95.0),
+                    ("VC 22530 - Too close to intersection", 110.0)
+                ]
+            },
+            'CRIMINAL': {
+                'violations': [
+                    ("PC 148 - Resisting arrest", 1000.0),
+                    ("PC 415 - Disturbing the peace", 500.0),
+                    ("PC 602 - Trespassing", 400.0),
+                    ("PC 647 - Disorderly conduct", 600.0),
+                    ("PC 484 - Petty theft", 800.0),
+                    ("PC 459 - Burglary", 2000.0),
+                    ("PC 245 - Assault with deadly weapon", 3000.0),
+                    ("PC 273.5 - Domestic violence", 1500.0),
+                    ("PC 11350 - Drug possession", 1000.0),
+                    ("PC 11351 - Drug sales", 5000.0),
+                    ("PC 12020 - Weapon violation", 1200.0),
+                    ("PC 647F - Public intoxication", 300.0)
+                ]
+            },
+            'MUNICIPAL': {
+                'violations': [
+                    ("MC 8.12.010 - Noise violation", 200.0),
+                    ("MC 8.12.020 - Littering", 150.0),
+                    ("MC 8.12.030 - Graffiti", 300.0),
+                    ("MC 8.12.040 - Public urination", 250.0),
+                    ("MC 8.12.050 - Loitering", 100.0),
+                    ("MC 8.12.060 - Panhandling", 150.0),
+                    ("MC 8.12.070 - Public drinking", 200.0),
+                    ("MC 8.12.080 - Curfew violation", 100.0),
+                    ("MC 8.12.090 - Skateboarding", 75.0),
+                    ("MC 8.12.100 - Dog off leash", 125.0)
+                ]
+            }
+        }
+        
+        # Select citation type and corresponding violation
+        citation_type = random.choice(list(citation_type_fine_mapping.keys()))
+        violation_summary, fine = random.choice(citation_type_fine_mapping[citation_type]['violations'])
+        
+        # Calculate payment status and balance
         payment_status = random.choice(['UNPAID','PARTIAL','PAID'])
         balance_due = 0.0 if payment_status=='PAID' else (fine if payment_status=='UNPAID' else round(fine*random.uniform(0.2,0.8),2))
+        
         citation = Citation(
             citation_id=f"CITE-{uuid.uuid4()}",
             citation_number=f"{random.randint(100000,999999)}",
+            source=random.choice(["Mark43 RMS", "Spillman", "New World Systems", "Tyler Technologies"]),
+            agency=agency,
+            citation_type=citation_type,
+            is_commercial_driver=random.random() < 0.15,
+            violation_summary=violation_summary,
+            citation_datetime=citation_datetime.strftime('%Y-%m-%d %H:%M:%S'),
+            date_entered=date_entered.strftime('%Y-%m-%d %H:%M:%S'),
+            address=address,
+            beat=f"Beat {random.randint(1, 20)}",
+            reporting_district=f"RD{random.randint(100, 999)}",
+            officer=officer_name,
+            person_cited_name=person_cited_name,
+            first_name=first_name,
+            middle_name=middle_name,
+            last_name=last_name,
+            date_of_birth=person.date_of_birth,
+            sex=person.sex,
+            race=person.race,
+            drivers_license_number=person.drivers_license_number,
+            dl_state=person.drivers_license_state,
+            residential_address=person.address,
+            license_plate_number=license_plate,
+            vehicle_year=vehicle_year,
+            vehicle_color=vehicle_color,
+            vehicle_make=vehicle_make,
+            vehicle_model=vehicle_model,
+            approximate_speed=speed,
+            speed_limit=speed_limit,
+            is_confidential=random.random() < 0.05,
+            # Legacy fields for backward compatibility
             person_id=person.person_id,
             vehicle_id=vehicle.vehicle_id if vehicle else None,
             officer_id=officer_id,
             cad_incident_id=cad_incident.cad_id if cad_incident else None,
             police_incident_id=None,
-            citation_datetime=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            address=address, city=city, state=state, zip_code=zip_code,
-            latitude=lat, longitude=lon,
+            city=city, 
+            state=state, 
+            zip_code=zip_code,
+            latitude=lat, 
+            longitude=lon,
             violations=[{
-                'code': n1.nibrs_code,
-                'description': n1.description,
-                'statute': n1.statute,
+                'code': violation_summary.split(' - ')[0],  # Extract code from violation summary
+                'description': violation_summary.split(' - ')[1],  # Extract description from violation summary
+                'statute': violation_summary.split(' - ')[0],  # Use the same code as statute
                 'fine_amount': fine
             }],
             total_fine_amount=fine,
@@ -3644,7 +4305,6 @@ class EnhancedDataGenerator:
             created_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             created_by_agency=agency,
             speed=speed,
-            speed_limit=speed_limit,
             radar_device_id=radar_device_id,
             payment_status=payment_status,
             balance_due=balance_due,
@@ -3660,90 +4320,529 @@ class EnhancedDataGenerator:
             if hasattr(self,'_generate_king_county_address')
             else (f"{random.randint(100,9999)} Main St",'Seattle','WA','98101')
         )
+        
+        # Generate FI-specific data
+        fi_datetime = fake.date_time_between(start_date='-30d', end_date='now')
+        
+        # Generate officer name
+        officer_name = f"{fake.first_name()} {fake.last_name()}"
+        
+        # Generate person's full name
+        full_name = f"{person.first_name} {person.last_name}"
+        
+        # Generate contact reasons and types
+        contact_reasons = [
+            "415 LOITERERS",
+            "647F DISTURBING PEACE",
+            "602 TRESPASSING",
+            "647A DISORDERLY CONDUCT",
+            "647B PROSTITUTION",
+            "647C VAGRANCY",
+            "647D PUBLIC INTOXICATION",
+            "647E PEEPING TOM",
+            "647G ANNOYING PHONE CALLS",
+            "647H HARASSMENT",
+            "647I LEWD CONDUCT",
+            "647J PROSTITUTION SOLICITATION",
+            "647K LOITERING FOR PROSTITUTION",
+            "647L PROSTITUTION IN VEHICLE",
+            "647M PROSTITUTION NEAR SCHOOL",
+            "647N PROSTITUTION NEAR CHURCH",
+            "647O PROSTITUTION NEAR PARK",
+            "647P PROSTITUTION NEAR RESIDENCE",
+            "647Q PROSTITUTION NEAR BUSINESS",
+            "647R PROSTITUTION NEAR PUBLIC BUILDING"
+        ]
+        
+        contact_types = [
+            "pedestrian stop",
+            "vehicle stop",
+            "consensual encounter",
+            "welfare check",
+            "suspicious activity",
+            "trespassing investigation",
+            "loitering investigation",
+            "public intoxication",
+            "disturbance call",
+            "gang activity",
+            "drug activity",
+            "prostitution investigation",
+            "vandalism investigation",
+            "theft investigation",
+            "assault investigation"
+        ]
+        
+        # Generate case and incident numbers if available
+        case_number = None
+        incident_number = None
+        if cad_incident:
+            incident_number = cad_incident.cad_id
+            # Sometimes link to a case
+            if random.random() < 0.3 and hasattr(self, 'cases') and self.cases:
+                case = random.choice(self.cases)
+                case_number = case.case_number
+        
         return FieldInterview(
             fi_id=f"FI-{uuid.uuid4()}",
+            source=random.choice(["Mark43 RMS", "Spillman", "New World Systems", "Tyler Technologies"]),
+            agency=agency,
+            fi_number=f"FI{random.randint(100000, 999999)}",
+            case_number=case_number,
+            incident_number=incident_number,
+            contact_reason=random.choice(contact_reasons),
+            contact_type=random.choice(contact_types),
+            fi_datetime=fi_datetime.strftime('%Y-%m-%d %H:%M:%S'),
+            fi_location=address,
+            beat=f"Beat {random.randint(1, 20)}",
+            reporting_district=f"RD{random.randint(100, 999)}",
+            full_name=full_name,
+            officer=officer_name,
+            is_confidential=random.random() < 0.05,
+            # Legacy fields for backward compatibility
             person_id=person.person_id,
             officer_id=officer_id,
-            vehicle_id=(vehicle.vehicle_id if vehicle else None),  # NEW
-            fi_datetime=fake.date_time_between(start_date='-30d', end_date='now').strftime('%Y-%m-%d %H:%M:%S'),
+            vehicle_id=(vehicle.vehicle_id if vehicle else None),
             reason=random.choice(['SUSPICIOUS_ACTIVITY','CONSENT_CONTACT','GANG_AFFILIATION','CURFEW']),
             outcome=random.choice(['WARNING','INFO_ONLY','CONSENT_SEARCH','NO_ACTION']),
             notes=random.choice(['No contraband found','Subject cooperative','Photo taken','Released at scene']),
-            address=address, city=city, state=state, zip_code=zip_code,
-            latitude=random.uniform(47.5,47.75), longitude=random.uniform(-122.45,-122.1),
+            address=address, 
+            city=city, 
+            state=state, 
+            zip_code=zip_code,
+            latitude=random.uniform(47.5,47.75), 
+            longitude=random.uniform(-122.45,-122.1),
             related_cad_id=(cad_incident.cad_id if cad_incident else None),
             related_incident_id=None,
             created_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
             created_by_agency=agency
         )
 
-    def generate_case(self, incident_number, cad_incident=None, suspects=None, victims=None, agency='KCSO'):
-        reported = fake.date_time_between(start_date='-30d', end_date='now')
-        offense_start = reported - timedelta(hours=random.randint(1,12))
-        offense_end = reported
-        assigned = reported + timedelta(hours=random.randint(1,8))
-        address, city, state, zip_code = (self._generate_king_county_address()
-                                          if hasattr(self,'_generate_king_county_address')
-                                          else (f"{random.randint(100,9999)} Main St",'Seattle','WA','98101'))
-        k, code, group, against, summary = self._nibrs_pick()
+    def generate_case(self, agency='KCSO', cad_incident=None):
+        """Generate a new Case with all required parameters"""
+        # Generate timestamps
+        reported_dt = fake.date_time_between(start_date='-30d', end_date='now')
+        start_dt = reported_dt - timedelta(hours=random.randint(1, 12))
+        end_dt = reported_dt + timedelta(hours=random.randint(1, 8))
+        offense_start_dt = start_dt - timedelta(minutes=random.randint(0, 60))
+        
+        # Enhanced CAD incident to case type mapping for logical consistency
+        cad_to_case_mapping = {
+            # Police incidents with detailed offense descriptions
+            'ASSAULT': {
+                'case_types': ['Aggravated Assault', 'Simple Assault', 'Assault - Other/Unknown Weapon'],
+                'narratives': ['Subject assaulted victim with hands/fists', 'Subject struck victim with weapon', 'Subject threatened victim with bodily harm']
+            },
+            'BURGLARY': {
+                'case_types': ['Burglary', 'Burglary - Forcible Entry', 'Burglary - Unlawful Entry (No Force)', 'Burglary - Residential', 'Burglary - Non-Residential'],
+                'narratives': ['Subject unlawfully entered residence', 'Subject forced entry into business', 'Subject stole property from vehicle']
+            },
+            'THEFT': {
+                'case_types': ['Larceny-Theft', 'Larceny - From Motor Vehicle', 'Larceny - Shoplifting', 'Larceny - All Other'],
+                'narratives': ['Subject stole merchandise from store', 'Subject took property from vehicle', 'Subject removed items without permission']
+            },
+            'ROBBERY': {
+                'case_types': ['Robbery'],
+                'narratives': ['Subject used force/threat to take property', 'Subject robbed victim at gunpoint', 'Subject demanded money under threat']
+            },
+            'DOMESTIC_VIOLENCE': {
+                'case_types': ['Aggravated Assault', 'Simple Assault', 'Domestic Violence'],
+                'narratives': ['Domestic violence incident between partners', 'Subject assaulted family member', 'Subject threatened intimate partner']
+            },
+            'TRAFFIC_ACCIDENT': {
+                'case_types': ['Traffic Violation', 'Reckless Driving', 'DUI'],
+                'narratives': ['Subject caused traffic collision', 'Subject drove under influence', 'Subject operated vehicle recklessly']
+            },
+            'SUSPICIOUS_ACTIVITY': {
+                'case_types': ['Suspicious Activity', 'Trespassing', 'Loitering'],
+                'narratives': ['Subject observed in suspicious circumstances', 'Subject trespassed on private property', 'Subject loitering in prohibited area']
+            },
+            'DISTURBANCE': {
+                'case_types': ['Disorderly Conduct', 'Disturbing the Peace', 'Public Intoxication'],
+                'narratives': ['Subject caused public disturbance', 'Subject engaged in disorderly conduct', 'Subject intoxicated in public']
+            },
+            
+            # Fire incidents
+            'STRUCTURE_FIRE': {
+                'case_types': ['Arson', 'Arson - Structure'],
+                'narratives': ['Subject intentionally set fire to structure', 'Arson investigation - structure fire']
+            },
+            'VEHICLE_FIRE': {
+                'case_types': ['Arson', 'Arson - Mobile Property'],
+                'narratives': ['Subject set fire to vehicle', 'Arson investigation - vehicle fire']
+            },
+            'ALARM_ACTIVATION': {
+                'case_types': ['False Alarm', 'Burglary - Attempted'],
+                'narratives': ['False alarm activation', 'Attempted burglary - alarm activated']
+            },
+            'GAS_LEAK': {
+                'case_types': ['Hazardous Materials', 'Public Safety'],
+                'narratives': ['Gas leak reported - public safety response', 'Hazardous materials incident']
+            },
+            
+            # EMS incidents (typically don't generate cases, but some might)
+            'MEDICAL_EMERGENCY': {
+                'case_types': ['Public Safety', 'Welfare Check'],
+                'narratives': ['Medical emergency response', 'Welfare check conducted']
+            },
+            'OVERDOSE': {
+                'case_types': ['Drug/Narcotic Violations - Possession', 'Public Safety'],
+                'narratives': ['Drug overdose - medical response', 'Subject found unconscious - possible overdose']
+            },
+            'TRAUMA': {
+                'case_types': ['Assault', 'Traffic Violation', 'Public Safety'],
+                'narratives': ['Trauma incident - medical response', 'Subject injured - trauma response']
+            }
+        }
+        
+        # Determine case details based on CAD incident if provided
+        if cad_incident:
+            cad_type = cad_incident.incident_type_code
+            # Get appropriate case types and narratives for this CAD incident
+            if cad_type in cad_to_case_mapping:
+                possible_case_types = cad_to_case_mapping[cad_type]['case_types']
+                bcs_description = random.choice(possible_case_types)
+                synopsis = random.choice(cad_to_case_mapping[cad_type]['narratives'])
+            else:
+                bcs_description = 'All Other Offenses'
+                synopsis = f"Case generated from CAD incident type: {cad_type}"
+            
+            # Get corresponding BCS code
+            bcs_code = None
+            for code, desc in BCS_CODES.items():
+                if desc == bcs_description:
+                    bcs_code = code
+                    break
+            
+            # If no exact match, use a related code
+            if not bcs_code:
+                if 'Assault' in bcs_description:
+                    bcs_code = random.choice(['04', '13'])  # Aggravated or Simple Assault
+                elif 'Burglary' in bcs_description:
+                    bcs_code = '05'
+                elif 'Theft' in bcs_description or 'Larceny' in bcs_description:
+                    bcs_code = '06'
+                elif 'Robbery' in bcs_description:
+                    bcs_code = '03'
+                elif 'Arson' in bcs_description:
+                    bcs_code = '08'
+                else:
+                    bcs_code = random.choice(list(BCS_CODES.keys()))
+        else:
+            # Generate random case details if no CAD incident
+            bcs_code = random.choice(list(BCS_CODES.keys()))
+            bcs_description = BCS_CODES[bcs_code]
+            synopsis = f"Case generated without specific CAD incident - {bcs_description}"
+        
+        # Generate case status and related dates
+        case_status = random.choice(['OPEN', 'INVESTIGATING', 'PENDING_APPROVAL', 'APPROVED', 'CLOSED'])
+        is_reviewed = random.random() < 0.7
+        reviewed_dt = reported_dt + timedelta(days=random.randint(1, 14)) if is_reviewed else None
+        
+        # Generate approval info
+        approved_dt = reported_dt + timedelta(hours=random.randint(2, 48))
+        approved_by = f"{fake.first_name()} {fake.last_name()}"
+        
+        # Generate NIBRS code
+        nibrs_code = f"{random.randint(10, 99)}.{random.randint(1, 99):02d}"
+        
+        # Generate offense code
+        offense_code = f"OC{random.randint(1000, 9999)}"
+        
+        # Generate zip code
+        zip_code = random.choice(['98101', '98102', '98103', '98104', '98105', '98106', '98107', '98108', '98109', '98112', '98115', '98116', '98117', '98118', '98119', '98121', '98122', '98125', '98126', '98133', '98134', '98136', '98144', '98146', '98154', '98155', '98158', '98164', '98166', '98168', '98174', '98177', '98178', '98188', '98195', '98199'])
+        
+        # Select a suspect person for jacket_id
+        jacket_id = random.choice(self.persons).person_id if self.persons else str(uuid.uuid4())
+        
+        # Generate synopsis based on BCS description
+        synopsis_templates = {
+            # Part I Offenses
+            'Criminal Homicide': 'Victim found deceased with apparent gunshot wounds. Investigation ongoing.',
+            'Forcible Rape': 'Victim reported sexual assault. Suspect identified and investigation proceeding.',
+            'Robbery': 'Victim robbed at gunpoint. Suspect fled scene, investigation active.',
+            'Aggravated Assault': 'Victim assaulted with weapon. Suspect arrested at scene.',
+            'Burglary': 'Residence broken into, property stolen. Investigation ongoing.',
+            'Larceny-Theft': 'Property stolen from victim. Suspect identified through surveillance.',
+            'Motor Vehicle Theft': 'Vehicle reported stolen. Investigation in progress.',
+            'Arson': 'Structure fire determined to be arson. Investigation active.',
+            
+            # Part II Offenses
+            'Simple Assault': 'Physical altercation between parties. Case under investigation.',
+            'Forgery and Counterfeiting': 'Forged documents discovered. Investigation ongoing.',
+            'Fraud': 'Victim defrauded of money. Investigation ongoing.',
+            'Embezzlement': 'Funds misappropriated by employee. Investigation active.',
+            'Stolen Property; Buying, Receiving, Possessing': 'Suspect in possession of stolen property. Investigation ongoing.',
+            'Vandalism': 'Property damaged by unknown suspect. Investigation active.',
+            'Weapons; Carrying, Possessing, etc.': 'Suspect arrested for illegal weapon possession.',
+            'Prostitution and Commercialized Vice': 'Prostitution activity reported. Investigation ongoing.',
+            'Sex Offenses (except forcible rape and prostitution)': 'Sexual offense reported. Investigation active.',
+            'Drug Abuse Violations': 'Suspect arrested for drug possession. Evidence collected.',
+            'Gambling': 'Illegal gambling operation discovered. Investigation ongoing.',
+            'Offenses Against Family and Children': 'Family violence incident reported. Investigation active.',
+            'Driving Under the Influence': 'Driver arrested for DUI. Blood alcohol test pending.',
+            'Liquor Laws': 'Liquor law violation reported. Investigation ongoing.',
+            'Drunkenness': 'Public intoxication incident. Suspect cited.',
+            'Disorderly Conduct': 'Suspect arrested for disorderly conduct and public disturbance.',
+            'Vagrancy': 'Vagrancy violation reported. Suspect cited.',
+            'All Other Offenses': 'Miscellaneous offense reported. Investigation ongoing.',
+            'Suspicion': 'Suspicious activity reported. Investigation ongoing.',
+            'Curfew and Loitering Law Violations': 'Curfew violation reported. Suspect cited.',
+            'Runaway': 'Juvenile runaway reported. Investigation ongoing.',
+            
+            # Additional BCS Codes
+            'Bad Checks': 'Bad check passed to business. Investigation ongoing.',
+            'Bribery': 'Bribery attempt reported. Investigation active.',
+            'Extortion': 'Extortion attempt reported. Investigation ongoing.',
+            'Kidnapping/Abduction': 'Person reported missing/abducted. Investigation active.',
+            'Negligent Manslaughter': 'Negligent death reported. Investigation ongoing.',
+            'Non-Negligent Manslaughter': 'Manslaughter incident reported. Investigation active.',
+            'Rape by Force': 'Forcible rape reported. Investigation ongoing.',
+            'Statutory Rape': 'Statutory rape reported. Investigation active.',
+            'Assault with Deadly Weapon': 'Assault with weapon reported. Investigation ongoing.',
+            'Assault with Intent to Kill': 'Attempted murder reported. Investigation active.',
+            'Assault with Intent to Rape': 'Attempted rape reported. Investigation ongoing.',
+            'Assault with Intent to Rob': 'Attempted robbery reported. Investigation active.',
+            'Assault with Intent to Commit Other Felony': 'Assault with intent reported. Investigation ongoing.',
+            'Assault on Police Officer': 'Officer assaulted in line of duty. Investigation active.',
+            'Assault on Firefighter': 'Firefighter assaulted. Investigation ongoing.',
+            'Assault on Emergency Medical Personnel': 'EMS personnel assaulted. Investigation active.',
+            'Assault on School Employee': 'School employee assaulted. Investigation ongoing.',
+            'Assault on Transit Employee': 'Transit employee assaulted. Investigation active.',
+            'Assault on Other Public Employee': 'Public employee assaulted. Investigation ongoing.',
+            'Assault on Family Member': 'Domestic violence incident. Investigation active.',
+            'Assault on Child': 'Child abuse reported. Investigation ongoing.',
+            'Assault on Elderly': 'Elder abuse reported. Investigation active.',
+            'Assault on Disabled Person': 'Assault on disabled person reported. Investigation ongoing.',
+            'Assault with Firearm': 'Shooting incident reported. Investigation active.',
+            'Assault with Knife/Cutting Instrument': 'Stabbing incident reported. Investigation ongoing.',
+            'Assault with Other Dangerous Weapon': 'Assault with weapon reported. Investigation active.',
+            'Assault with Hands/Fists/Feet': 'Physical assault reported. Investigation ongoing.',
+            'Assault with Other Object': 'Assault with object reported. Investigation active.',
+            'Assault - Other/Unknown Weapon': 'Assault reported. Investigation ongoing.',
+            'Burglary - Forcible Entry': 'Forced entry burglary reported. Investigation active.',
+            'Burglary - Unlawful Entry (No Force)': 'Unlawful entry burglary reported. Investigation ongoing.',
+            'Burglary - Attempted Forcible Entry': 'Attempted burglary reported. Investigation active.',
+            'Burglary - Residential': 'Home burglary reported. Investigation ongoing.',
+            'Burglary - Non-Residential': 'Business burglary reported. Investigation active.',
+            'Burglary - Attempted': 'Attempted burglary reported. Investigation ongoing.',
+            'Larceny - From Motor Vehicle': 'Vehicle break-in reported. Investigation ongoing.',
+            'Larceny - Motor Vehicle Parts/Accessories': 'Vehicle parts stolen. Investigation active.',
+            'Larceny - Bicycles': 'Bicycle theft reported. Investigation ongoing.',
+            'Larceny - From Building': 'Building theft reported. Investigation active.',
+            'Larceny - From Coin-Operated Machine': 'Vending machine theft reported. Investigation ongoing.',
+            'Larceny - Pocket Picking': 'Pickpocketing reported. Investigation active.',
+            'Larceny - Purse Snatching': 'Purse snatching reported. Investigation ongoing.',
+            'Larceny - Shoplifting': 'Shoplifting incident reported. Investigation active.',
+            'Larceny - All Other': 'Theft reported. Investigation ongoing.',
+            'Motor Vehicle Theft - Auto': 'Auto theft reported. Investigation active.',
+            'Motor Vehicle Theft - Truck/Bus': 'Truck/bus theft reported. Investigation ongoing.',
+            'Motor Vehicle Theft - Other Vehicle': 'Vehicle theft reported. Investigation active.',
+            'Motor Vehicle Theft - Attempted': 'Attempted vehicle theft reported. Investigation ongoing.',
+            'Arson - Structure': 'Structure arson reported. Investigation active.',
+            'Arson - Mobile Property': 'Vehicle arson reported. Investigation ongoing.',
+            'Arson - Other Property': 'Property arson reported. Investigation active.',
+            'Arson - Attempted': 'Attempted arson reported. Investigation ongoing.',
+            'Drug/Narcotic Violations - Sale/Manufacturing': 'Drug dealing operation discovered. Investigation active.',
+            'Drug/Narcotic Violations - Possession': 'Drug possession arrest. Investigation ongoing.',
+            'Drug/Narcotic Violations - Other': 'Drug violation reported. Investigation active.',
+            'Weapons Violations - Carrying/Possessing': 'Illegal weapon possession. Investigation ongoing.',
+            'Weapons Violations - Sale/Manufacturing': 'Illegal weapon sales. Investigation active.',
+            'Weapons Violations - Other': 'Weapon violation reported. Investigation ongoing.',
+            'Prostitution - Assisting/Promoting': 'Prostitution promotion reported. Investigation ongoing.',
+            'Prostitution - Purchasing Prostitution': 'Prostitution solicitation reported. Investigation active.',
+            'Prostitution - Other': 'Prostitution activity reported. Investigation ongoing.',
+            'Sex Offenses - Forcible': 'Forcible sex offense reported. Investigation active.',
+            'Sex Offenses - Non-Forcible': 'Non-forcible sex offense reported. Investigation ongoing.',
+            'Sex Offenses - Other': 'Sex offense reported. Investigation active.',
+            'Gambling - Bookmaking': 'Illegal bookmaking operation. Investigation active.',
+            'Gambling - Numbers/Lottery': 'Illegal lottery operation. Investigation ongoing.',
+            'Gambling - Other': 'Illegal gambling reported. Investigation active.',
+            'All Other Offenses': 'Miscellaneous offense reported. Investigation ongoing.'
+        }
+        
+        synopsis = synopsis_templates.get(bcs_description, f"Case involving {bcs_description.lower()}. Investigation ongoing.")
+        
+        # Generate arrest date if case is closed
+        arrest_dt = None
+        closed_date = None
+        if case_status == 'CLOSED' and random.random() < 0.8:
+            arrest_dt = reported_dt + timedelta(hours=random.randint(1, 72))
+            closed_date = arrest_dt + timedelta(days=random.randint(1, 30))
+        
+        # Generate threat to life indicator
+        threat_to_life = bcs_code in ['01', '02', '03', '04', '08'] or random.random() < 0.1
+        
+        # Generate unique case number with agency prefix
+        agency_prefix = "KC" if agency == "KCSO" else "BLV"
+        case_number = f"{agency_prefix}-24-{random.randint(10000, 99999)}"
+        
         case = Case(
             case_id=f"CASE-{uuid.uuid4()}",
-            case_number=f"24-{random.randint(10000,99999)}",
-            incident_number=incident_number,
+            case_number=case_number,
             agency=agency,
-            cad_incident_start_datetime=(cad_incident.call_datetime if cad_incident else reported.strftime('%Y-%m-%d %H:%M:%S')),
-            cad_incident_end_datetime=(cad_incident.clear_datetime if cad_incident else (reported+timedelta(hours=2)).strftime('%Y-%m-%d %H:%M:%S')),
-            reported_date=reported.strftime('%Y-%m-%d'),
-            reported_time=reported.strftime('%H:%M:%S'),
-            original_report_entered_date=reported.strftime('%Y-%m-%d'),
-            original_report_entered_time=reported.strftime('%H:%M:%S'),
-            offense_start_datetime=offense_start.strftime('%Y-%m-%d %H:%M:%S'),
-            offense_end_datetime=offense_end.strftime('%Y-%m-%d %H:%M:%S'),
-            case_assigned_date=assigned.strftime('%Y-%m-%d'),
-            case_assigned_time=assigned.strftime('%H:%M:%S'),
-            address=address, city=city, state=state, zip_code=zip_code,
-            beat=f"{random.choice(list('NSEWC'))}{random.randint(1,9)}",
-            reporting_district=random.choice(['NORTH','SOUTH','EAST','WEST','CENTRAL']),
-            case_type=random.choice(['CRIMINAL','TRAFFIC','DV','DRUG','PROPERTY']),
-            assigned_unit=random.choice(['PATROL','DETECTIVES','TRAFFIC','NARCOTICS']),
-            assigned_officer_id=(lambda o: (o['officer_id'] if isinstance(o, dict) else o.officer_id)) (random.choice(self.officers)) if self.officers else None,
-            case_status=random.choice(['OPEN','INVESTIGATING','PENDING_APPROVAL','APPROVED','CLOSED']),
-            is_case_approved=random.random() < 0.6,
-            offense_summary=summary,
-            nibrs_offense=k,
-            nibrs_code=code,
-            nibrs_group_name=group,
-            nibrs_crime_against=against,
-            suspects=[s.person_id for s in (suspects or [])],
-            victims=[v.person_id for v in (victims or [])],
-            witnesses=[],
-            linked_arrest_ids=[],
-            linked_property_ids=[],
-            linked_citation_ids=[],
-            related_cad_id=cad_incident.cad_id if cad_incident else None,
-            related_police_incident_id=None,
+            case_status=case_status,
+            reported_date_time=reported_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            start_date_time=start_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            end_date_time=end_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            offense_start_date_time=offense_start_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            zip=zip_code,
+            offense_code=offense_code,
+            nibrs_code=nibrs_code,
+            approved_by=approved_by,
+            approved_date_time=approved_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            is_reviewed=is_reviewed,
+            reviewed_date_time=reviewed_dt.strftime('%Y-%m-%d %H:%M:%S') if reviewed_dt else None,
+            jacket_id=jacket_id,
+            is_restricted=random.random() < 0.15,  # 15% of cases are restricted
+            bcs_code=bcs_code,
+            bcs_description=bcs_description,
+            synopsis=synopsis,
+            closed_date=closed_date.strftime('%Y-%m-%d') if closed_date else None,
+            arrest_date_time=arrest_dt.strftime('%Y-%m-%d %H:%M:%S') if arrest_dt else None,
+            threat_to_life_indicator=threat_to_life,
             created_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            created_by_agency=agency,
-            updated_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-            clearance_code=random.choice(['CLEARED_BY_ARREST', 'EXCEPTIONAL_CLEARANCE', 'UNFOUNDED']) if random.random() < 0.5 else None,
-            clearance_dt=(datetime.now() - timedelta(days=random.randint(0, 30))).strftime('%Y-%m-%d %H:%M:%S') if case.clearance_code else None,
-            solvability_factors=random.sample(['WITNESS_COOP', 'VIDEO', 'FORENSICS', 'LICENSE_PLATE', 'CONFESSION'], k=random.randint(0, 3)),
-            followups=[{'task': 'Contact victim', 'due_dt': (reported + timedelta(days=2)).strftime('%Y-%m-%d'), 'status': random.choice(['OPEN', 'DONE'])} for _ in range(random.randint(0, 3))]
+            # CAD incident linking fields
+            cad_incident_id=cad_incident.cad_id if cad_incident else None,
+            cad_incident_type=cad_incident.incident_type_code if cad_incident else None,
+            cad_incident_description=cad_incident.incident_type_description if cad_incident else None
         )
-        # Create a normalized offense linked to the case
-        self.offenses.append(
-            self.generate_offense(
-                parent_type='CASE',
-                parent_id=case.case_id,
-                person_id=(suspects or [None])[0].person_id if suspects else None,
-                agency=agency,
-                nibrs=(k, code, group, against),
-                start=offense_start,
-                end=offense_end,
-                description=summary
-            )
-        )
+        
         return case
+
+    def generate_cad_incident(self, agency='KCSO', incident_type=None, is_self_initiated=None, person=None):
+        """Generate a CAD incident with all required parameters"""
+        # Generate timestamps
+        call_dt = fake.date_time_between(start_date='-30d', end_date='now')
+        call_entry_dt = call_dt - timedelta(minutes=random.randint(1, 10))
+        
+        # Generate address
+        address, city, state, zip_code = self._generate_king_county_address()
+        
+        # Determine correct agency based on location
+        correct_agency = self._determine_agency_by_location(city, zip_code)
+        
+        # Generate apartment number (30% chance)
+        apartment_number = f"Apt {random.randint(1, 500)}" if random.random() < 0.3 else None
+        
+        # Generate reporting district and beat
+        reporting_district = random.choice(['NORTH', 'SOUTH', 'EAST', 'WEST', 'CENTRAL', 'NORTHEAST', 'NORTHWEST', 'SOUTHEAST', 'SOUTHWEST'])
+        beat = f"{random.choice(list('NSEWC'))}{random.randint(1, 9)}"
+        
+        # Generate incident type if not provided
+        if incident_type is None:
+            incident_types = {
+                'EMS': ['MEDICAL_EMERGENCY', 'CARDIAC_ARREST', 'TRAUMA', 'FALLS', 'BREATHING_PROBLEMS', 'CHEST_PAIN', 'OVERDOSE', 'STROKE', 'SEIZURE', 'DIABETIC_EMERGENCY'],
+                'FIRE': ['STRUCTURE_FIRE', 'VEHICLE_FIRE', 'GRASS_FIRE', 'ALARM_ACTIVATION', 'GAS_LEAK', 'HAZMAT', 'RESCUE', 'MUTUAL_AID'],
+                'POLICE': ['ASSAULT', 'BURGLARY', 'THEFT', 'ROBBERY', 'DOMESTIC_VIOLENCE', 'TRAFFIC_ACCIDENT', 'SUSPICIOUS_ACTIVITY', 'DISTURBANCE']
+            }
+            
+            # Weight towards EMS and Fire for CAD incidents
+            incident_category = random.choices(['EMS', 'FIRE', 'POLICE'], weights=[50, 35, 15])[0]
+            incident_type = random.choice(incident_types[incident_category])
+        
+        # Generate incident type description
+        incident_descriptions = {
+            'MEDICAL_EMERGENCY': 'Medical emergency response',
+            'CARDIAC_ARREST': 'Cardiac arrest response',
+            'TRAUMA': 'Trauma response',
+            'FALLS': 'Fall victim response',
+            'BREATHING_PROBLEMS': 'Respiratory emergency',
+            'CHEST_PAIN': 'Chest pain response',
+            'OVERDOSE': 'Drug overdose response',
+            'STROKE': 'Stroke response',
+            'SEIZURE': 'Seizure response',
+            'DIABETIC_EMERGENCY': 'Diabetic emergency',
+            'STRUCTURE_FIRE': 'Structure fire response',
+            'VEHICLE_FIRE': 'Vehicle fire response',
+            'GRASS_FIRE': 'Grass fire response',
+            'ALARM_ACTIVATION': 'Fire alarm activation',
+            'GAS_LEAK': 'Gas leak response',
+            'HAZMAT': 'Hazardous materials response',
+            'RESCUE': 'Rescue operation',
+            'MUTUAL_AID': 'Mutual aid response',
+            'ASSAULT': 'Assault response',
+            'BURGLARY': 'Burglary response',
+            'THEFT': 'Theft response',
+            'ROBBERY': 'Robbery response',
+            'DOMESTIC_VIOLENCE': 'Domestic violence response',
+            'TRAFFIC_ACCIDENT': 'Traffic accident response',
+            'SUSPICIOUS_ACTIVITY': 'Suspicious activity response',
+            'DISTURBANCE': 'Disturbance response'
+        }
+        
+        incident_type_description = incident_descriptions.get(incident_type, f'{incident_type} response')
+        
+        # Generate priority based on incident type
+        high_priority_types = ['CARDIAC_ARREST', 'STRUCTURE_FIRE', 'ROBBERY', 'ASSAULT', 'DOMESTIC_VIOLENCE', 'TRAFFIC_ACCIDENT']
+        medium_priority_types = ['MEDICAL_EMERGENCY', 'TRAUMA', 'BREATHING_PROBLEMS', 'CHEST_PAIN', 'BURGLARY', 'THEFT', 'VEHICLE_FIRE']
+        
+        if incident_type in high_priority_types:
+            incident_priority = random.choices(['HIGH', 'MEDIUM'], weights=[70, 30])[0]
+        elif incident_type in medium_priority_types:
+            incident_priority = random.choices(['HIGH', 'MEDIUM', 'LOW'], weights=[20, 60, 20])[0]
+        else:
+            incident_priority = random.choices(['MEDIUM', 'LOW'], weights=[40, 60])[0]
+        
+        # Generate incident status
+        incident_status = random.choices(['DISPATCHED', 'EN_ROUTE', 'ON_SCENE', 'COMPLETED', 'CANCELLED'], weights=[10, 15, 25, 45, 5])[0]
+        
+        # Generate CAD safety flag (higher for certain incident types)
+        safety_flag_types = ['ASSAULT', 'ROBBERY', 'DOMESTIC_VIOLENCE', 'SUSPICIOUS_ACTIVITY', 'DISTURBANCE']
+        cad_safety_flag = incident_type in safety_flag_types or random.random() < 0.15
+        
+        # Generate reporting party info (80% chance of having a reporting party)
+        reporting_party_name = None
+        reporting_party_phone = None
+        if random.random() < 0.8:
+            reporting_party_name = f"{fake.first_name()} {fake.last_name()}"
+            reporting_party_phone = self._format_seattle_phone()
+        
+        # Generate self-initiated flag
+        if is_self_initiated is None:
+            # Higher chance for police incidents, lower for EMS/Fire
+            if incident_type in ['ASSAULT', 'BURGLARY', 'THEFT', 'ROBBERY', 'DOMESTIC_VIOLENCE', 'SUSPICIOUS_ACTIVITY', 'DISTURBANCE']:
+                is_self_initiated = random.random() < 0.3
+            else:
+                is_self_initiated = random.random() < 0.1
+        
+        # Generate CAD source link
+        cad_source_link = f"CAD-{random.randint(100000, 999999)}"
+        
+        # Generate incident number
+        incident_number = f"{agency}-{call_dt.year}{random.randint(100000, 999999)}"
+        
+        # Generate person information if person is provided
+        person_id = person.person_id if person else None
+        person_name = f"{person.first_name} {person.last_name}" if person else None
+        person_phone = person.phone if person else None
+        
+        cad_incident = CADIncident(
+            cad_id=f"CAD-{uuid.uuid4()}",
+            agency=correct_agency,  # Use the correct agency based on location
+            cad_source_link=cad_source_link,
+            call_date_time=call_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            incident_number=incident_number,
+            address=address,
+            apartment_number=apartment_number,
+            reporting_district=reporting_district,
+            beat=beat,
+            incident_type_code=incident_type,
+            incident_type_description=incident_type_description,
+            incident_priority=incident_priority,
+            incident_status=incident_status,
+            cad_safety_flag=cad_safety_flag,
+            reporting_party_name=reporting_party_name,
+            reporting_party_phone=reporting_party_phone,
+            is_self_initiated=is_self_initiated,
+            call_entry_date_time=call_entry_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            created_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            # Person linking fields
+            person_id=person_id,
+            person_name=person_name,
+            person_phone=person_phone
+        )
+        
+        return cad_incident
 
     def _choose_ems_incident_type(self, dt):
         base = {
