@@ -825,6 +825,21 @@ class EMSIncident:
     transport_destination: str
     transport_mode: str
     created_date: str
+    # Enhanced EMS fields based on schema
+    complaint_reported_by_dispatch: str
+    patient_full_name: str
+    unit_call_sign: str
+    patient_contact: bool
+    patient_disposition: str
+    crew_disposition: str
+    patient_evaluation_care_disposition: str
+    transport_disposition: str
+    transfer_destination: str
+    destination_type: str
+    transportation_method: str
+    unit_level_of_care: str
+    cad_emd_code: str
+    prearrival_activation: str
 
 # REMOVED: Duplicate CADIncident dataclass definition - using the one at line 1067
 
@@ -2376,7 +2391,22 @@ class EnhancedDataGenerator:
             medications_given=meds_list,
             transport_destination=random.choice(['HARBORVIEW', 'UW_MEDICAL', 'VIRGINIA_MASON', 'SWEDISH']),
             transport_mode=random.choice(['GROUND_AMBULANCE', 'AIR_AMBULANCE', 'PRIVATE_VEHICLE']),
-            created_date=call_dt.strftime('%Y-%m-%d %H:%M:%S')
+            created_date=call_dt.strftime('%Y-%m-%d %H:%M:%S'),
+            # Enhanced EMS fields based on schema
+            complaint_reported_by_dispatch=random.choice(['Caller', 'Bystander', 'Police', 'Fire Department', 'Hospital', 'Family Member']),
+            patient_full_name=f"{fake.first_name()} {fake.last_name()}",
+            unit_call_sign=f"EMS{random.randint(1, 50)}",
+            patient_contact=random.random() < 0.95,  # 95% of calls have patient contact
+            patient_disposition=random.choice(['TRANSPORTED', 'REFUSED_CARE', 'TREATED_AT_SCENE', 'DEAD_ON_ARRIVAL', 'NO_PATIENT_FOUND']),
+            crew_disposition=random.choice(['CLEARED', 'AVAILABLE', 'OUT_OF_SERVICE', 'EN_ROUTE_TO_STATION']),
+            patient_evaluation_care_disposition=random.choice(['EVALUATED_AND_TRANSPORTED', 'EVALUATED_NO_TRANSPORT', 'EVALUATED_REFUSED_CARE', 'NO_EVALUATION_POSSIBLE']),
+            transport_disposition=random.choice(['TRANSPORTED_TO_HOSPITAL', 'TRANSPORTED_TO_CLINIC', 'TRANSPORTED_TO_HOME', 'NOT_TRANSPORTED', 'TRANSPORTED_DECLINED']),
+            transfer_destination=random.choice(['HARBORVIEW_MEDICAL_CENTER', 'UW_MEDICAL_CENTER', 'VIRGINIA_MASON_MEDICAL_CENTER', 'SWEDISH_MEDICAL_CENTER', 'CHILDRENS_HOSPITAL']),
+            destination_type=random.choice(['HOSPITAL', 'CLINIC', 'HOME', 'NURSING_HOME', 'MENTAL_HEALTH_FACILITY']),
+            transportation_method=random.choice(['GROUND_AMBULANCE', 'AIR_AMBULANCE', 'PRIVATE_VEHICLE', 'WHEELCHAIR_VAN', 'NOT_TRANSPORTED']),
+            unit_level_of_care=random.choice(['BLS', 'ALS', 'CRITICAL_CARE', 'SPECIAL_EVENTS']),
+            cad_emd_code=random.choice(['01-A', '02-A', '03-A', '04-A', '05-A', '06-A', '07-A', '08-A', '09-A', '10-A']),
+            prearrival_activation=random.choice(['TRAUMA_ALERT', 'STROKE_ALERT', 'CARDIAC_ALERT', 'NONE', 'BURN_ALERT'])
         )
         
         return incident
