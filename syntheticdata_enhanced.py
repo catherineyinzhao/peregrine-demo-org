@@ -941,6 +941,9 @@ class Citation:
     disposition: str  # ISSUED, DISMISSED, PAID, CONVERTED_TO_WARRANT, etc.
     status: str       # OPEN, CLOSED, PENDING_COURT
     created_date: str
+    # Case linking fields
+    related_case_id: Optional[str]       # If this citation led to a follow-up case
+    case_number: Optional[str]           # Case number if applicable
     created_by_agency: str
     speed: Optional[int]
     radar_device_id: Optional[str]
@@ -977,6 +980,9 @@ class Case:
     cad_incident_id: Optional[str]  # Source CAD incident
     cad_incident_type: Optional[str]  # Original CAD incident type
     cad_incident_description: Optional[str]  # Original CAD incident description
+    # Arrest linking fields
+    arrest_id: Optional[str]  # Source arrest that led to this case
+    arrest_datetime: Optional[str]  # When the arrest occurred
 
 @dataclass
 class CADIncident:
@@ -2884,6 +2890,20 @@ class EnhancedDataGenerator:
             if (i + 1) % 5000 == 0:
                 print(f"   Generated {i + 1:,} arrests...")
         
+        # Generate cases immediately after arrests (linked to arrests when charges warrant prosecution)
+        num_cases = CONFIG['num_arrests'] // 2  # Generate half as many cases as arrests
+        print(f"Generating {num_cases:,} cases...")
+        for i in range(num_cases):
+            agency = 'KCSO'
+            # Link case to an arrest (80% chance) and CAD incident (60% chance)
+            arrest = random.choice(self.arrests) if random.random() < 0.8 else None
+            cad_incident = random.choice(self.cad_incidents) if random.random() < 0.6 and self.cad_incidents else None
+            case = self.generate_case(agency, cad_incident, arrest)
+            self.cases.append(case)
+            
+            if (i + 1) % 5000 == 0:
+                print(f"   Generated {i + 1:,} cases...")
+        
         # Generate jail bookings (linked to arrests)
         print(f"Generating {CONFIG['num_jail_bookings']:,} jail bookings...")
         for i in range(CONFIG['num_jail_bookings']):
@@ -3020,18 +3040,6 @@ class EnhancedDataGenerator:
             if (i + 1) % 5000 == 0:
                 print(f"   Generated {i + 1:,} field interviews...")
         
-        # Generate cases (after CAD incidents are available)
-        num_cases = CONFIG['num_arrests'] // 2  # Generate half as many cases as arrests
-        print(f"Generating {num_cases:,} cases...")
-        for i in range(num_cases):
-            agency = 'KCSO'
-            # Link case to a CAD incident (80% chance)
-            cad_incident = random.choice(self.cad_incidents) if random.random() < 0.8 and self.cad_incidents else None
-            case = self.generate_case(agency, cad_incident)
-            self.cases.append(case)
-            
-            if (i + 1) % 5000 == 0:
-                print(f"   Generated {i + 1:,} cases...")
         
         # Generate EMS incidents (all linked to CAD incidents)
         if CONFIG['generate_ems_data']:
