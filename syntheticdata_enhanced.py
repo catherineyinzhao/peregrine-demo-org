@@ -4298,6 +4298,9 @@ class EnhancedDataGenerator:
             radar_device_id=radar_device_id,
             payment_status=payment_status,
             balance_due=balance_due,
+            # Case linking fields
+            related_case_id=None,  # Most citations don't lead to cases
+            case_number=None
         )
         # finalize offense parent_id to this citation
         n1.parent_id = citation.citation_id
@@ -4407,7 +4410,7 @@ class EnhancedDataGenerator:
             created_by_agency=agency
         )
 
-    def generate_case(self, agency='KCSO', cad_incident=None):
+    def generate_case(self, agency='KCSO', cad_incident=None, arrest=None):
         """Generate a new Case with all required parameters"""
         # Generate timestamps
         reported_dt = fake.date_time_between(start_date='-30d', end_date='now')
@@ -4541,8 +4544,11 @@ class EnhancedDataGenerator:
         # Generate zip code
         zip_code = random.choice(['98101', '98102', '98103', '98104', '98105', '98106', '98107', '98108', '98109', '98112', '98115', '98116', '98117', '98118', '98119', '98121', '98122', '98125', '98126', '98133', '98134', '98136', '98144', '98146', '98154', '98155', '98158', '98164', '98166', '98168', '98174', '98177', '98178', '98188', '98195', '98199'])
         
-        # Select a suspect person for jacket_id
-        jacket_id = random.choice(self.persons).person_id if self.persons else str(uuid.uuid4())
+        # Select a suspect person for jacket_id - use arrest person if available
+        if arrest:
+            jacket_id = arrest.person_id
+        else:
+            jacket_id = random.choice(self.persons).person_id if self.persons else str(uuid.uuid4())
         
         # Generate synopsis based on BCS description
         synopsis_templates = {
@@ -4693,7 +4699,10 @@ class EnhancedDataGenerator:
             # CAD incident linking fields
             cad_incident_id=cad_incident.cad_id if cad_incident else None,
             cad_incident_type=cad_incident.incident_type_code if cad_incident else None,
-            cad_incident_description=cad_incident.incident_type_description if cad_incident else None
+            cad_incident_description=cad_incident.incident_type_description if cad_incident else None,
+            # Arrest linking fields
+            arrest_id=arrest.arrest_id if arrest else None,
+            arrest_datetime=arrest.arrest_datetime if arrest else None
         )
         
         return case
