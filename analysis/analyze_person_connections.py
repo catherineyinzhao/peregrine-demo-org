@@ -56,23 +56,23 @@ def analyze_person_connections():
     
     # Define the data classes and their corresponding JSON files
     data_classes = {
-        'Person': 'persons.json',
-        'JailBooking': 'jail_bookings.json',
-        'JailSentence': 'jail_sentences.json',
-        'JailIncident': 'jail_incidents.json',
-        'BailBond': 'bail_bonds.json',
-        'JailProgram': 'jail_programs.json',
-        'JailLog': 'jail_logs.json',
-        'Arrest': 'arrests.json',
-        'Property': 'properties.json',
-        'EMSIncident': 'ems_incidents.json',
-        'FireIncident': 'fire_incidents.json',
-        'PoliceIncident': 'police_incidents.json',
-        'Vehicle': 'vehicles.json',
-        'FirePersonnel': 'fire_personnel.json',
-        'FireReport': 'fire_reports.json',
-        'FireRMSIncident': 'fire_rms_incidents.json',
-        'FireShift': 'fire_shifts.json',
+        'Person': '../data/json/persons.json',
+        'JailBooking': '../data/json/jail_bookings.json',
+        'JailSentence': '../data/json/jail_sentences.json',
+        'JailIncident': '../data/json/jail_incidents.json',
+        'BailBond': '../data/json/bail_bonds.json',
+        'JailProgram': '../data/json/jail_programs.json',
+        'JailLog': '../data/json/jail_logs.json',
+        'Arrest': '../data/json/arrests.json',
+        'Property': '../data/json/properties.json',
+        'EMSIncident': '../data/json/ems_incidents.json',
+        'FireIncident': '../data/json/fire_incidents.json',
+        'PoliceIncident': '../data/json/police_incidents.json',
+        'Vehicle': '../data/json/vehicles.json',
+        'FirePersonnel': '../data/json/fire_personnel.json',
+        'FireReport': '../data/json/fire_reports.json',
+        'FireRMSIncident': '../data/json/fire_rms_incidents.json',
+        'FireShift': '../data/json/fire_shifts.json',
     }
     
     # Track connections for each person_id
@@ -85,7 +85,7 @@ def analyze_person_connections():
     
     # Process each data class
     for data_class, filename in data_classes.items():
-        filepath = os.path.join('.', filename)
+        filepath = filename
         
         if not os.path.exists(filepath):
             print(f"File not found: {filename}")

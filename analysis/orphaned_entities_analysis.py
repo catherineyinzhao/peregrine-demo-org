@@ -24,78 +24,78 @@ def analyze_orphaned_entities():
     # Define data files and their person_id field mappings
     data_files = {
         'Arrest': {
-            'file': 'arrests.json',
+            'file': '../data/json/arrests.json',
             'person_field': 'person_id'
         },
         'Vehicle': {
-            'file': 'vehicles.json',
+            'file': '../data/json/vehicles.json',
             'person_field': 'owner_person_id'
         },
         'JailBooking': {
-            'file': 'jail_bookings.json',
+            'file': '../data/json/jail_bookings.json',
             'person_field': 'person_id'
         },
         'JailSentence': {
-            'file': 'jail_sentences.json',
+            'file': '../data/json/jail_sentences.json',
             'person_field': 'person_id'
         },
         'JailIncident': {
-            'file': 'jail_incidents.json',
+            'file': '../data/json/jail_incidents.json',
             'person_field': 'person_id'
         },
         'BailBond': {
-            'file': 'bail_bonds.json',
+            'file': '../data/json/bail_bonds.json',
             'person_field': 'person_id'
         },
         'JailLog': {
-            'file': 'jail_logs.json',
+            'file': '../data/json/jail_logs.json',
             'person_field': 'person_id'
         },
         'JailProgram': {
-            'file': 'jail_programs.json',
+            'file': '../data/json/jail_programs.json',
             'person_field': 'enrolled_person_ids'  # This is a list
         },
         'Property': {
-            'file': 'properties.json',
+            'file': '../data/json/properties.json',
             'person_field': 'owner_person_id'
         },
         'EMSIncident': {
-            'file': 'ems_incidents.json',
+            'file': '../data/json/ems_incidents.json',
             'person_field': 'patient_person_id'
         },
         'FireIncident': {
-            'file': 'fire_incidents.json',
+            'file': '../data/json/fire_incidents.json',
             'person_field': 'caller_person_id'
         },
         'PoliceIncident': {
-            'file': 'police_incidents.json',
+            'file': '../data/json/police_incidents.json',
             'person_field': 'caller_person_id'
         },
         'Case': {
-            'file': 'cases.json',
+            'file': '../data/json/cases.json',
             'person_field': 'jacket_id'
         },
         'FirePersonnel': {
-            'file': 'fire_personnel.json',
+            'file': '../data/json/fire_personnel.json',
             'person_field': None  # This doesn't link to Person entities
         },
         'FireReport': {
-            'file': 'fire_reports.json',
+            'file': '../data/json/fire_reports.json',
             'person_field': None  # This links to FirePersonnel, not Person
         },
         'FireRMSIncident': {
-            'file': 'fire_rms_incidents.json',
+            'file': '../data/json/fire_rms_incidents.json',
             'person_field': None  # This doesn't link to Person entities
         },
         'FireShift': {
-            'file': 'fire_shifts.json',
+            'file': '../data/json/fire_shifts.json',
             'person_field': None  # This doesn't link to Person entities
         },
     }
     
     # Load all person IDs
     print("Loading person data...")
-    persons = load_json_file('persons.json')
+    persons = load_json_file('../data/json/persons.json')
     person_ids = set(person.get('person_id') for person in persons if person.get('person_id'))
     print(f"Total persons loaded: {len(person_ids):,}")
     

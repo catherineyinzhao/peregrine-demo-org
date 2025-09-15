@@ -22,7 +22,7 @@ def load_json_file(filepath: str) -> list:
 
 def get_person_details(person_id: str) -> dict:
     """Get detailed information about a person."""
-    persons = load_json_file('persons.json')
+    persons = load_json_file('../data/json/persons.json')
     for person in persons:
         if person.get('person_id') == person_id:
             return person
@@ -30,27 +30,27 @@ def get_person_details(person_id: str) -> dict:
 
 def get_arrest_details(person_id: str) -> list:
     """Get arrest details for a person."""
-    arrests = load_json_file('arrests.json')
+    arrests = load_json_file('../data/json/arrests.json')
     return [arrest for arrest in arrests if arrest.get('person_id') == person_id]
 
 def get_vehicle_details(person_id: str) -> list:
     """Get vehicle details for a person."""
-    vehicles = load_json_file('vehicles.json')
+    vehicles = load_json_file('../data/json/vehicles.json')
     return [vehicle for vehicle in vehicles if vehicle.get('owner_person_id') == person_id]
 
 def get_jail_booking_details(person_id: str) -> list:
     """Get jail booking details for a person."""
-    bookings = load_json_file('jail_bookings.json')
+    bookings = load_json_file('../data/json/jail_bookings.json')
     return [booking for booking in bookings if booking.get('person_id') == person_id]
 
 def get_property_details(person_id: str) -> list:
     """Get property details for a person."""
-    properties = load_json_file('properties.json')
+    properties = load_json_file('../data/json/properties.json')
     return [prop for prop in properties if prop.get('owner_person_id') == person_id]
 
 def get_ems_incident_details(person_id: str) -> list:
     """Get EMS incident details for a person."""
-    incidents = load_json_file('ems_incidents.json')
+    incidents = load_json_file('../data/json/ems_incidents.json')
     return [incident for incident in incidents if incident.get('patient_person_id') == person_id]
 
 def create_final_network_graph():

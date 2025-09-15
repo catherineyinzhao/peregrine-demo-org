@@ -66,25 +66,25 @@ def main():
     
     # List of all JSON data files
     data_files = [
-        'persons.json',
-        'vehicles.json', 
-        'properties.json',
-        'police_incidents.json',
-        'arrests.json',
-        'cases.json',
-        'jail_bookings.json',
-        'jail_sentences.json',
-        'jail_incidents.json',
-        'bail_bonds.json',
-        'jail_programs.json',
-        'jail_logs.json',
+        '../data/json/persons.json',
+        '../data/json/vehicles.json', 
+        '../data/json/properties.json',
+        '../data/json/police_incidents.json',
+        '../data/json/arrests.json',
+        '../data/json/cases.json',
+        '../data/json/jail_bookings.json',
+        '../data/json/jail_sentences.json',
+        '../data/json/jail_incidents.json',
+        '../data/json/bail_bonds.json',
+        '../data/json/jail_programs.json',
+        '../data/json/jail_logs.json',
         'corrections_facilities.json',
-        'fire_incidents.json',
-        'ems_incidents.json',
-        'fire_rms_incidents.json',
-        'fire_shifts.json',
-        'fire_personnel.json',
-        'fire_reports.json'
+        '../data/json/fire_incidents.json',
+        '../data/json/ems_incidents.json',
+        '../data/json/fire_rms_incidents.json',
+        '../data/json/fire_shifts.json',
+        '../data/json/fire_personnel.json',
+        '../data/json/fire_reports.json'
     ]
     
     overall_stats = {}
