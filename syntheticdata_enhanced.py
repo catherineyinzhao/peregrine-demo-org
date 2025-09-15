@@ -840,6 +840,51 @@ class EMSIncident:
     unit_level_of_care: str
     cad_emd_code: str
     prearrival_activation: str
+    # Medical Details fields
+    complaint_reported_by_dispatch_code: str
+    patient_acuity: str
+    attempted_procedures: List[str]
+    successful_procedures: List[str]
+    cardiac_arrest_datetime: Optional[str]
+    cardiac_arrest_resuscitation_discontinuation_datetime: Optional[str]
+    ecg_findings: str
+    incident_emd_performed: str
+    incident_emd_performed_code: str
+    cad_level_of_care_provided: str
+    incident_level_of_care_provided: str
+    provider_primary_impression: str
+    situation_patient_acuity: str
+    # Crew Details fields
+    crew_member_name: str
+    crew_member_level: str
+    crew_badge_number: str
+    # Patient Details fields
+    patient_id: str
+    patient_date_of_birth: str
+    patient_weight: float
+    patient_home_address: str
+    is_superuser: bool
+    # Unit Details fields
+    agency_number: str
+    agency_name: str
+    agency_affiliation: str
+    primary_unit_role: str
+    # Incident Dates/Times fields
+    total_commit_time: int
+    unit_notified_by_dispatch_datetime: str
+    unit_arrived_at_patient_datetime: str
+    transfer_of_ems_patient_care_datetime: str
+    arrival_at_destination_landing_area_datetime: str
+    unit_left_scene_datetime: str
+    patient_arrived_at_destination_datetime: str
+    unit_back_in_service_datetime: str
+    last_modified: str
+    # Ungrouped Properties fields
+    incident_status: str
+    created_by: str
+    patient_pk: str
+    primary_patient_caregiver_on_scene: str
+    crew_with_als_pt_contact_response_role: str
 
 # REMOVED: Duplicate CADIncident dataclass definition - using the one at line 1067
 
@@ -2406,7 +2451,52 @@ class EnhancedDataGenerator:
             transportation_method=random.choice(['GROUND_AMBULANCE', 'AIR_AMBULANCE', 'PRIVATE_VEHICLE', 'WHEELCHAIR_VAN', 'NOT_TRANSPORTED']),
             unit_level_of_care=random.choice(['BLS', 'ALS', 'CRITICAL_CARE', 'SPECIAL_EVENTS']),
             cad_emd_code=random.choice(['01-A', '02-A', '03-A', '04-A', '05-A', '06-A', '07-A', '08-A', '09-A', '10-A']),
-            prearrival_activation=random.choice(['TRAUMA_ALERT', 'STROKE_ALERT', 'CARDIAC_ALERT', 'NONE', 'BURN_ALERT'])
+            prearrival_activation=random.choice(['TRAUMA_ALERT', 'STROKE_ALERT', 'CARDIAC_ALERT', 'NONE', 'BURN_ALERT']),
+            # Medical Details fields
+            complaint_reported_by_dispatch_code=random.choice(['CALLER', 'BYSTANDER', 'POLICE', 'FIRE_DEPT', 'HOSPITAL', 'FAMILY']),
+            patient_acuity=random.choice(['CRITICAL', 'EMERGENT', 'URGENT', 'LESS_URGENT', 'NON_URGENT']),
+            attempted_procedures=random.sample(['IV_ACCESS', 'INTUBATION', 'CPR', 'DEFIBRILLATION', 'MEDICATION_ADMIN', 'SPLINTING', 'BANDAGING'], k=random.randint(0, 3)),
+            successful_procedures=random.sample(['IV_ACCESS', 'INTUBATION', 'CPR', 'DEFIBRILLATION', 'MEDICATION_ADMIN', 'SPLINTING', 'BANDAGING'], k=random.randint(0, 2)),
+            cardiac_arrest_datetime=(call_dt + timedelta(minutes=random.randint(5, 15))).strftime('%Y-%m-%d %H:%M:%S') if incident_type == 'CARDIAC_ARREST' else None,
+            cardiac_arrest_resuscitation_discontinuation_datetime=(call_dt + timedelta(minutes=random.randint(20, 45))).strftime('%Y-%m-%d %H:%M:%S') if incident_type == 'CARDIAC_ARREST' else None,
+            ecg_findings=random.choice(['NORMAL_SINUS_RHYTHM', 'ATRIAL_FIBRILLATION', 'VENTRICULAR_TACHYCARDIA', 'ASYSTOLE', 'PULSELESS_ELECTRICAL_ACTIVITY', 'ST_ELEVATION']),
+            incident_emd_performed=random.choice(['YES', 'NO', 'PARTIAL']),
+            incident_emd_performed_code=random.choice(['01-A', '02-A', '03-A', '04-A', '05-A', '06-A', '07-A', '08-A', '09-A', '10-A']),
+            cad_level_of_care_provided=random.choice(['BLS', 'ALS', 'CRITICAL_CARE']),
+            incident_level_of_care_provided=random.choice(['BLS', 'ALS', 'CRITICAL_CARE']),
+            provider_primary_impression=prof['impression'],
+            situation_patient_acuity=random.choice(['CRITICAL', 'EMERGENT', 'URGENT', 'LESS_URGENT', 'NON_URGENT']),
+            # Crew Details fields
+            crew_member_name=f"{fake.first_name()} {fake.last_name()}",
+            crew_member_level=random.choice(['EMT_BASIC', 'EMT_ADVANCED', 'PARAMEDIC', 'CRITICAL_CARE_PARAMEDIC']),
+            crew_badge_number=f"EMS{random.randint(1000, 9999)}",
+            # Patient Details fields
+            patient_id=str(uuid.uuid4()),
+            patient_date_of_birth=(datetime.now() - timedelta(days=random.randint(18*365, 80*365))).strftime('%Y-%m-%d'),
+            patient_weight=round(random.uniform(100, 300), 1),
+            patient_home_address=f"{fake.street_address()}, {city}, {state} {zip_code}",
+            is_superuser=False,
+            # Unit Details fields
+            agency_number=f"KC{random.randint(100, 999)}",
+            agency_name="King County EMS",
+            agency_affiliation="King County Fire District",
+            primary_unit_role=random.choice(['PRIMARY_RESPONSE', 'BACKUP_RESPONSE', 'SPECIAL_EVENTS', 'MUTUAL_AID']),
+            # Incident Dates/Times fields
+            total_commit_time=random.randint(1800, 7200),  # 30 minutes to 2 hours
+            unit_notified_by_dispatch_datetime=(call_dt + dispatch_delay).strftime('%Y-%m-%d %H:%M:%S'),
+            unit_arrived_at_patient_datetime=(call_dt + dispatch_delay + en_route_delay + arrive_delay + timedelta(minutes=2)).strftime('%Y-%m-%d %H:%M:%S'),
+            transfer_of_ems_patient_care_datetime=(call_dt + dispatch_delay + en_route_delay + arrive_delay + timedelta(minutes=random.randint(10, 30))).strftime('%Y-%m-%d %H:%M:%S'),
+            arrival_at_destination_landing_area_datetime=(call_dt + dispatch_delay + en_route_delay + arrive_delay + transport_delay + hospital_delay).strftime('%Y-%m-%d %H:%M:%S'),
+            unit_left_scene_datetime=(call_dt + dispatch_delay + en_route_delay + arrive_delay + transport_delay + timedelta(minutes=5)).strftime('%Y-%m-%d %H:%M:%S'),
+            patient_arrived_at_destination_datetime=(call_dt + dispatch_delay + en_route_delay + arrive_delay + transport_delay + hospital_delay + timedelta(minutes=2)).strftime('%Y-%m-%d %H:%M:%S'),
+            unit_back_in_service_datetime=(call_dt + dispatch_delay + en_route_delay + arrive_delay + transport_delay + hospital_delay + clear_delay).strftime('%Y-%m-%d %H:%M:%S'),
+            last_modified=(call_dt + timedelta(hours=1)).strftime('%Y-%m-%d %H:%M:%S'),
+            # Ungrouped Properties fields
+            incident_status=random.choice(['ACTIVE', 'COMPLETED', 'CANCELLED', 'PENDING_REVIEW']),
+            created_by=f"USER_{random.randint(1000, 9999)}",
+            patient_pk=str(uuid.uuid4()),
+            primary_patient_caregiver_on_scene=f"PARAMEDIC_{fake.last_name().upper()}",
+            crew_with_als_pt_contact_response_role=random.choice(['PRIMARY_ALS', 'SECONDARY_ALS', 'ALS_SUPERVISOR'])
         )
         
         return incident
