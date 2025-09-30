@@ -1,0 +1,58 @@
+[
+  {
+    "facility_id": "FAC-KCCF",
+    "name": "King County Correctional Facility",
+    "address": "500 5th Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "capacity": 1300,
+    "security_level": "MAXIMUM",
+    "contact_phone": "(206) 982-3947",
+    "contact_email": null,
+    "warden_name": null,
+    "created_date": "2025-09-16 10:29:14"
+  },
+  {
+    "facility_id": "FAC-MRJC",
+    "name": "Maleng Regional Justice Center",
+    "address": "401 4th Ave N",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "capacity": 700,
+    "security_level": "MEDIUM",
+    "contact_phone": "(425) 869-9806",
+    "contact_email": null,
+    "warden_name": null,
+    "created_date": "2025-09-16 10:29:14"
+  },
+  {
+    "facility_id": "FAC-SCORE",
+    "name": "South Correctional Entity (SCORE) Jail",
+    "address": "20817 17th Ave S",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "capacity": 800,
+    "security_level": "MEDIUM",
+    "contact_phone": "(206) 424-4076",
+    "contact_email": null,
+    "warden_name": null,
+    "created_date": "2025-09-16 10:29:14"
+  },
+  {
+    "facility_id": "FAC-KIRKLAND",
+    "name": "Kirkland Justice Center Jail",
+    "address": "11750 NE 118th St",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "capacity": 60,
+    "security_level": "MINIMUM",
+    "contact_phone": "(206) 756-1072",
+    "contact_email": null,
+    "warden_name": null,
+    "created_date": "2025-09-16 10:29:14"
+  }
+]

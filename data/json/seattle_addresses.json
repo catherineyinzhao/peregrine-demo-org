@@ -1,0 +1,7002 @@
+[
+  {
+    "address": "1170 Denny Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98443",
+    "full_address": "1170 Denny Ter, Tacoma, WA 98443"
+  },
+  {
+    "address": "1111 Sixth Rd, # 211",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "1111 Sixth Rd, # 211, Seattle, WA 98116"
+  },
+  {
+    "address": "4197 E Olive Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "4197 E Olive Blvd, Seattle, WA 98107"
+  },
+  {
+    "address": "3919 NE Union Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "3919 NE Union Rd, Seattle, WA 98104"
+  },
+  {
+    "address": "9089 Eastlake Ter",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "9089 Eastlake Ter, Kirkland, WA 98033"
+  },
+  {
+    "address": "3373 SW First Ct",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "3373 SW First Ct, Bellevue, WA 98005"
+  },
+  {
+    "address": "5818 Way Dr, Ste 457",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98422",
+    "full_address": "5818 Way Dr, Ste 457, Tacoma, WA 98422"
+  },
+  {
+    "address": "7666 Bell Ct",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "7666 Bell Ct, Kirkland, WA 98033"
+  },
+  {
+    "address": "2257 Dock Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "2257 Dock Way, Everett, WA 98214"
+  },
+  {
+    "address": "4684 E Pier Dr",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98053",
+    "full_address": "4684 E Pier Dr, Redmond, WA 98053"
+  },
+  {
+    "address": "7210 Queen Anne Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "7210 Queen Anne Ln, Seattle, WA 98122"
+  },
+  {
+    "address": "8214 NE Avenue Ter",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "8214 NE Avenue Ter, Redmond, WA 98052"
+  },
+  {
+    "address": "5270 Lane St",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98202",
+    "full_address": "5270 Lane St, Everett, WA 98202"
+  },
+  {
+    "address": "4394 S Street Rd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "4394 S Street Rd, Everett, WA 98208"
+  },
+  {
+    "address": "3146 Main Ct, Unit 39",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "3146 Main Ct, Unit 39, Seattle, WA 98108"
+  },
+  {
+    "address": "6419 Jefferson Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98417",
+    "full_address": "6419 Jefferson Dr, Tacoma, WA 98417"
+  },
+  {
+    "address": "7441 NE Dock Rd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98215",
+    "full_address": "7441 NE Dock Rd, Everett, WA 98215"
+  },
+  {
+    "address": "184 SW Lakeview Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "184 SW Lakeview Ter, Tacoma, WA 98418"
+  },
+  {
+    "address": "1311 University Pl, Ste 203",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "1311 University Pl, Ste 203, Shoreline, WA 98133"
+  },
+  {
+    "address": "1587 Bell Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "1587 Bell Blvd, Tacoma, WA 98413"
+  },
+  {
+    "address": "4839 N John Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "4839 N John Ter, Seattle, WA 98115"
+  },
+  {
+    "address": "8992 Circle Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "8992 Circle Ave, Everett, WA 98213"
+  },
+  {
+    "address": "4408 Capitol Rd",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "4408 Capitol Rd, Shoreline, WA 98177"
+  },
+  {
+    "address": "3044 Main Ter",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "3044 Main Ter, Renton, WA 98058"
+  },
+  {
+    "address": "4179 Pine Ln, Apt 232",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98117",
+    "full_address": "4179 Pine Ln, Apt 232, Seattle, WA 98117"
+  },
+  {
+    "address": "5090 Broadway Rd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98206",
+    "full_address": "5090 Broadway Rd, Everett, WA 98206"
+  },
+  {
+    "address": "9784 Olive Dr, Apt 268",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "9784 Olive Dr, Apt 268, Tukwila, WA 98168"
+  },
+  {
+    "address": "6358 N Denny Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "6358 N Denny Blvd, Seattle, WA 98104"
+  },
+  {
+    "address": "3422 Madison Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98118",
+    "full_address": "3422 Madison Rd, Seattle, WA 98118"
+  },
+  {
+    "address": "3601 Ballard Way, Unit 421",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98499",
+    "full_address": "3601 Ballard Way, Unit 421, Tacoma, WA 98499"
+  },
+  {
+    "address": "1205 Boylston Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "1205 Boylston Ave, Tacoma, WA 98471"
+  },
+  {
+    "address": "992 Union Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "992 Union Dr, Seattle, WA 98108"
+  },
+  {
+    "address": "4137 Spring Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98126",
+    "full_address": "4137 Spring Ln, Seattle, WA 98126"
+  },
+  {
+    "address": "7363 SW Fremont Ave",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98003",
+    "full_address": "7363 SW Fremont Ave, Federal Way, WA 98003"
+  },
+  {
+    "address": "5921 SE Columbia Pl",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "5921 SE Columbia Pl, SeaTac, WA 98188"
+  },
+  {
+    "address": "2285 Columbia Pl",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "2285 Columbia Pl, SeaTac, WA 98158"
+  },
+  {
+    "address": "5123 Olive Ter",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "5123 Olive Ter, Kent, WA 98032"
+  },
+  {
+    "address": "7569 Boren Rd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98031",
+    "full_address": "7569 Boren Rd, Kent, WA 98031"
+  },
+  {
+    "address": "5897 Greenwood Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "5897 Greenwood Ter, Seattle, WA 98104"
+  },
+  {
+    "address": "2651 NE Marina Ave",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "2651 NE Marina Ave, Bellevue, WA 98005"
+  },
+  {
+    "address": "3175 University Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98411",
+    "full_address": "3175 University Ln, Tacoma, WA 98411"
+  },
+  {
+    "address": "6415 Drive Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98498",
+    "full_address": "6415 Drive Ter, Tacoma, WA 98498"
+  },
+  {
+    "address": "9194 NW Place Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98121",
+    "full_address": "9194 NW Place Rd, Seattle, WA 98121"
+  },
+  {
+    "address": "5965 John Pl, Ste 406",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98199",
+    "full_address": "5965 John Pl, Ste 406, Seattle, WA 98199"
+  },
+  {
+    "address": "5645 NE Wallingford Ave",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "5645 NE Wallingford Ave, Des Moines, WA 98198"
+  },
+  {
+    "address": "2002 Greenwood Pl",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "2002 Greenwood Pl, Redmond, WA 98052"
+  },
+  {
+    "address": "3691 Union Ct",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "3691 Union Ct, Redmond, WA 98052"
+  },
+  {
+    "address": "5233 SW Prospect Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "5233 SW Prospect Way, Seattle, WA 98108"
+  },
+  {
+    "address": "7808 Greenwood Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "7808 Greenwood Rd, Seattle, WA 98178"
+  },
+  {
+    "address": "9584 S Madison St",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98023",
+    "full_address": "9584 S Madison St, Federal Way, WA 98023"
+  },
+  {
+    "address": "6466 Beacon Pl",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "6466 Beacon Pl, Shoreline, WA 98133"
+  },
+  {
+    "address": "8731 Marina Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98499",
+    "full_address": "8731 Marina Ter, Tacoma, WA 98499"
+  },
+  {
+    "address": "3131 SW Avenue Ave",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98148",
+    "full_address": "3131 SW Avenue Ave, Burien, WA 98148"
+  },
+  {
+    "address": "7897 S Belltown Pl",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "7897 S Belltown Pl, Des Moines, WA 98198"
+  },
+  {
+    "address": "3789 James Rd",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98053",
+    "full_address": "3789 James Rd, Redmond, WA 98053"
+  },
+  {
+    "address": "856 Pine Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "856 Pine Pl, Seattle, WA 98107"
+  },
+  {
+    "address": "8693 SW Second Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "8693 SW Second Pl, Seattle, WA 98119"
+  },
+  {
+    "address": "1224 Galer Ave, Apt 177",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98467",
+    "full_address": "1224 Galer Ave, Apt 177, Tacoma, WA 98467"
+  },
+  {
+    "address": "2438 SW Belltown Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "2438 SW Belltown Pl, Tacoma, WA 98465"
+  },
+  {
+    "address": "978 W Valley Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "978 W Valley Ter, Tacoma, WA 98465"
+  },
+  {
+    "address": "3190 Street Dr",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "3190 Street Dr, Sammamish, WA 98075"
+  },
+  {
+    "address": "3670 Ninth St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "3670 Ninth St, Seattle, WA 98108"
+  },
+  {
+    "address": "5449 NW Thomas Way",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "5449 NW Thomas Way, Kirkland, WA 98033"
+  },
+  {
+    "address": "4759 NE Yesler Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "4759 NE Yesler Ter, Seattle, WA 98154"
+  },
+  {
+    "address": "3128 Park Ter, Ste 157",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98498",
+    "full_address": "3128 Park Ter, Ste 157, Tacoma, WA 98498"
+  },
+  {
+    "address": "6072 Wallingford St",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "6072 Wallingford St, Everett, WA 98214"
+  },
+  {
+    "address": "6499 NE Main Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98421",
+    "full_address": "6499 NE Main Way, Tacoma, WA 98421"
+  },
+  {
+    "address": "6656 Lynn Ave",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "6656 Lynn Ave, Bothell, WA 98021"
+  },
+  {
+    "address": "4822 SW Columbia Ln, Ste 353",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98424",
+    "full_address": "4822 SW Columbia Ln, Ste 353, Tacoma, WA 98424"
+  },
+  {
+    "address": "199 E Grove Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "199 E Grove Ln, Tacoma, WA 98408"
+  },
+  {
+    "address": "1224 Lynn Dr",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98006",
+    "full_address": "1224 Lynn Dr, Bellevue, WA 98006"
+  },
+  {
+    "address": "527 Waterfront Pl",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "527 Waterfront Pl, Everett, WA 98213"
+  },
+  {
+    "address": "4665 Avenue Ter",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "4665 Avenue Ter, Tukwila, WA 98108"
+  },
+  {
+    "address": "7820 Bellevue Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "7820 Bellevue Way, Tacoma, WA 98404"
+  },
+  {
+    "address": "2819 Grove St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "2819 Grove St, Seattle, WA 98146"
+  },
+  {
+    "address": "9108 Magnolia Ter",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98008",
+    "full_address": "9108 Magnolia Ter, Bellevue, WA 98008"
+  },
+  {
+    "address": "8824 Street St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "8824 Street St, Renton, WA 98058"
+  },
+  {
+    "address": "4519 Street Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "4519 Street Dr, Tacoma, WA 98406"
+  },
+  {
+    "address": "578 N Park Way",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98027",
+    "full_address": "578 N Park Way, Issaquah, WA 98027"
+  },
+  {
+    "address": "5920 NW Circle Rd",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98053",
+    "full_address": "5920 NW Circle Rd, Redmond, WA 98053"
+  },
+  {
+    "address": "7722 Highland Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98109",
+    "full_address": "7722 Highland Pl, Seattle, WA 98109"
+  },
+  {
+    "address": "2231 NE SoDo Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "2231 NE SoDo Rd, Tacoma, WA 98465"
+  },
+  {
+    "address": "4945 Tenth Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98164",
+    "full_address": "4945 Tenth Pl, Seattle, WA 98164"
+  },
+  {
+    "address": "537 Pike Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "537 Pike Ave, Tacoma, WA 98413"
+  },
+  {
+    "address": "5951 Pier Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98103",
+    "full_address": "5951 Pier Blvd, Seattle, WA 98103"
+  },
+  {
+    "address": "715 SW Lakeview Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98401",
+    "full_address": "715 SW Lakeview Pl, Tacoma, WA 98401"
+  },
+  {
+    "address": "2945 Boston Ln",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "2945 Boston Ln, Renton, WA 98055"
+  },
+  {
+    "address": "2934 NE Spring Ln",
+    "city": "Mercer Island",
+    "state": "WA",
+    "zip_code": "98040",
+    "full_address": "2934 NE Spring Ln, Mercer Island, WA 98040"
+  },
+  {
+    "address": "9670 NW Valley Pl, Apt 42",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98148",
+    "full_address": "9670 NW Valley Pl, Apt 42, Burien, WA 98148"
+  },
+  {
+    "address": "3932 SE Cherry Ln, Unit 105",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98203",
+    "full_address": "3932 SE Cherry Ln, Unit 105, Everett, WA 98203"
+  },
+  {
+    "address": "7366 SE Roosevelt Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "7366 SE Roosevelt Way, Tacoma, WA 98404"
+  },
+  {
+    "address": "8201 Tenth Pl, Apt 279",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98125",
+    "full_address": "8201 Tenth Pl, Apt 279, Seattle, WA 98125"
+  },
+  {
+    "address": "8729 Fairview Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "8729 Fairview Blvd, Renton, WA 98058"
+  },
+  {
+    "address": "3132 Ravenna Ter",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98023",
+    "full_address": "3132 Ravenna Ter, Federal Way, WA 98023"
+  },
+  {
+    "address": "9511 N Pine Rd",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "9511 N Pine Rd, Auburn, WA 98002"
+  },
+  {
+    "address": "8711 E West Seattle Dr",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "8711 E West Seattle Dr, Tukwila, WA 98108"
+  },
+  {
+    "address": "8084 Fifth Ln",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "8084 Fifth Ln, Bothell, WA 98021"
+  },
+  {
+    "address": "5502 E Yesler Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98105",
+    "full_address": "5502 E Yesler Pl, Seattle, WA 98105"
+  },
+  {
+    "address": "9001 Queen Anne Ave",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "9001 Queen Anne Ave, Kent, WA 98089"
+  },
+  {
+    "address": "3610 Broadway Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "3610 Broadway Rd, Seattle, WA 98133"
+  },
+  {
+    "address": "4224 Roosevelt Ct",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98006",
+    "full_address": "4224 Roosevelt Ct, Bellevue, WA 98006"
+  },
+  {
+    "address": "6977 Union St",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98166",
+    "full_address": "6977 Union St, Burien, WA 98166"
+  },
+  {
+    "address": "2630 Wallingford Dr",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98155",
+    "full_address": "2630 Wallingford Dr, Shoreline, WA 98155"
+  },
+  {
+    "address": "9565 Belltown Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98422",
+    "full_address": "9565 Belltown Blvd, Tacoma, WA 98422"
+  },
+  {
+    "address": "2826 Belltown Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98105",
+    "full_address": "2826 Belltown Rd, Seattle, WA 98105"
+  },
+  {
+    "address": "464 SW Howe Ave, Apt 498",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "464 SW Howe Ave, Apt 498, Everett, WA 98208"
+  },
+  {
+    "address": "5692 S Queen Anne Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98202",
+    "full_address": "5692 S Queen Anne Ave, Everett, WA 98202"
+  },
+  {
+    "address": "2526 Marina Ct",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "2526 Marina Ct, Shoreline, WA 98133"
+  },
+  {
+    "address": "2020 Third Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98424",
+    "full_address": "2020 Third Dr, Tacoma, WA 98424"
+  },
+  {
+    "address": "1282 S Drive Blvd",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "1282 S Drive Blvd, Redmond, WA 98052"
+  },
+  {
+    "address": "1000 Boylston Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "1000 Boylston Pl, Tacoma, WA 98418"
+  },
+  {
+    "address": "8642 SE Place St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "8642 SE Place St, Seattle, WA 98134"
+  },
+  {
+    "address": "7183 Pier Way, Ste 147",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "7183 Pier Way, Ste 147, Tacoma, WA 98415"
+  },
+  {
+    "address": "4017 Thomas Ln",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98023",
+    "full_address": "4017 Thomas Ln, Federal Way, WA 98023"
+  },
+  {
+    "address": "2723 Park Ave",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98011",
+    "full_address": "2723 Park Ave, Bothell, WA 98011"
+  },
+  {
+    "address": "7599 Bell Ct",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98027",
+    "full_address": "7599 Bell Ct, Issaquah, WA 98027"
+  },
+  {
+    "address": "1927 SW John Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98422",
+    "full_address": "1927 SW John Rd, Tacoma, WA 98422"
+  },
+  {
+    "address": "7459 James Dr, # 110",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "7459 James Dr, # 110, Burien, WA 98168"
+  },
+  {
+    "address": "928 Main Pl",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98012",
+    "full_address": "928 Main Pl, Bothell, WA 98012"
+  },
+  {
+    "address": "490 Queen Anne Ave",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "490 Queen Anne Ave, Kirkland, WA 98034"
+  },
+  {
+    "address": "2353 Galer St",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98166",
+    "full_address": "2353 Galer St, Burien, WA 98166"
+  },
+  {
+    "address": "4898 Eastlake Dr",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98203",
+    "full_address": "4898 Eastlake Dr, Everett, WA 98203"
+  },
+  {
+    "address": "9702 Lakeview Ave",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "9702 Lakeview Ave, Tukwila, WA 98108"
+  },
+  {
+    "address": "9000 Pine Way",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98057",
+    "full_address": "9000 Pine Way, Renton, WA 98057"
+  },
+  {
+    "address": "496 Denny Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98422",
+    "full_address": "496 Denny Ave, Tacoma, WA 98422"
+  },
+  {
+    "address": "762 NW Main Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98106",
+    "full_address": "762 NW Main Dr, Seattle, WA 98106"
+  },
+  {
+    "address": "498 Roy Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "498 Roy Ave, Everett, WA 98214"
+  },
+  {
+    "address": "2193 Wallingford Ln",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "2193 Wallingford Ln, Kent, WA 98089"
+  },
+  {
+    "address": "9838 Garden Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "9838 Garden Ave, Seattle, WA 98108"
+  },
+  {
+    "address": "6056 Galer St, # 112",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98407",
+    "full_address": "6056 Galer St, # 112, Tacoma, WA 98407"
+  },
+  {
+    "address": "6358 Howe Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "6358 Howe Ave, Seattle, WA 98133"
+  },
+  {
+    "address": "6756 Jefferson Ln",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "6756 Jefferson Ln, Bellevue, WA 98004"
+  },
+  {
+    "address": "8332 Columbia Rd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "8332 Columbia Rd, Renton, WA 98059"
+  },
+  {
+    "address": "188 Jefferson St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "188 Jefferson St, Renton, WA 98059"
+  },
+  {
+    "address": "4992 SW Place Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "4992 SW Place Ln, Tacoma, WA 98406"
+  },
+  {
+    "address": "4266 Valley Blvd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98042",
+    "full_address": "4266 Valley Blvd, Kent, WA 98042"
+  },
+  {
+    "address": "7443 SW Place Ln",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "7443 SW Place Ln, Renton, WA 98056"
+  },
+  {
+    "address": "3323 Circle Ter",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "3323 Circle Ter, Kirkland, WA 98034"
+  },
+  {
+    "address": "7074 Drive Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98201",
+    "full_address": "7074 Drive Ct, Everett, WA 98201"
+  },
+  {
+    "address": "1933 Wallingford St, # 33",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "1933 Wallingford St, # 33, Tacoma, WA 98416"
+  },
+  {
+    "address": "1442 Boylston Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "1442 Boylston Blvd, Tacoma, WA 98444"
+  },
+  {
+    "address": "6688 SW Fifth Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "6688 SW Fifth Ave, Tacoma, WA 98447"
+  },
+  {
+    "address": "7484 John Ave",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "7484 John Ave, SeaTac, WA 98158"
+  },
+  {
+    "address": "3203 Park Rd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98205",
+    "full_address": "3203 Park Rd, Everett, WA 98205"
+  },
+  {
+    "address": "3742 Drive Ter",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "3742 Drive Ter, Burien, WA 98168"
+  },
+  {
+    "address": "5314 S Place Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "5314 S Place Ct, Seattle, WA 98112"
+  },
+  {
+    "address": "2962 SW Garden Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98199",
+    "full_address": "2962 SW Garden Ter, Seattle, WA 98199"
+  },
+  {
+    "address": "1236 Thomas Ave, Ste 249",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98009",
+    "full_address": "1236 Thomas Ave, Ste 249, Bellevue, WA 98009"
+  },
+  {
+    "address": "6772 Pine Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "6772 Pine Ln, Tacoma, WA 98446"
+  },
+  {
+    "address": "2682 Olive Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "2682 Olive Ave, Tacoma, WA 98413"
+  },
+  {
+    "address": "6603 Republican Ave",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98063",
+    "full_address": "6603 Republican Ave, Federal Way, WA 98063"
+  },
+  {
+    "address": "1251 Denny Ave, Unit 393",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "1251 Denny Ave, Unit 393, Seattle, WA 98112"
+  },
+  {
+    "address": "2373 Prospect Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "2373 Prospect Rd, Tacoma, WA 98471"
+  },
+  {
+    "address": "2721 Galer Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98215",
+    "full_address": "2721 Galer Ave, Everett, WA 98215"
+  },
+  {
+    "address": "2654 Eastlake Way",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "2654 Eastlake Way, Renton, WA 98059"
+  },
+  {
+    "address": "9356 N Howe Ln, Apt 73",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98012",
+    "full_address": "9356 N Howe Ln, Apt 73, Bothell, WA 98012"
+  },
+  {
+    "address": "8362 SE Ninth Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "8362 SE Ninth Ct, Tacoma, WA 98465"
+  },
+  {
+    "address": "3766 SoDo Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "3766 SoDo Dr, Seattle, WA 98134"
+  },
+  {
+    "address": "4496 Eighth Rd",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "4496 Eighth Rd, Redmond, WA 98052"
+  },
+  {
+    "address": "8998 Prospect Way",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "8998 Prospect Way, Shoreline, WA 98133"
+  },
+  {
+    "address": "6991 James Rd, # 310",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "6991 James Rd, # 310, Bellevue, WA 98004"
+  },
+  {
+    "address": "1575 Ballard St, Ste 236",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "1575 Ballard St, Ste 236, Seattle, WA 98107"
+  },
+  {
+    "address": "6601 SE Cherry St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98199",
+    "full_address": "6601 SE Cherry St, Seattle, WA 98199"
+  },
+  {
+    "address": "2992 Pine St",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98074",
+    "full_address": "2992 Pine St, Sammamish, WA 98074"
+  },
+  {
+    "address": "8592 Main Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98411",
+    "full_address": "8592 Main Dr, Tacoma, WA 98411"
+  },
+  {
+    "address": "1413 Fremont Way",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98155",
+    "full_address": "1413 Fremont Way, Shoreline, WA 98155"
+  },
+  {
+    "address": "8538 Park Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98443",
+    "full_address": "8538 Park Blvd, Tacoma, WA 98443"
+  },
+  {
+    "address": "9233 E Dock Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "9233 E Dock Dr, Tacoma, WA 98446"
+  },
+  {
+    "address": "7205 Garden Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "7205 Garden Blvd, Renton, WA 98055"
+  },
+  {
+    "address": "2260 SE Cherry Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "2260 SE Cherry Ln, Seattle, WA 98178"
+  },
+  {
+    "address": "2671 Jackson Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98206",
+    "full_address": "2671 Jackson Way, Everett, WA 98206"
+  },
+  {
+    "address": "5981 Terry Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "5981 Terry Pl, Seattle, WA 98116"
+  },
+  {
+    "address": "1328 Jefferson Ln, Ste 355",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98164",
+    "full_address": "1328 Jefferson Ln, Ste 355, Seattle, WA 98164"
+  },
+  {
+    "address": "1451 Madison Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98421",
+    "full_address": "1451 Madison Ter, Tacoma, WA 98421"
+  },
+  {
+    "address": "6921 Magnolia Ave, Unit 175",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "6921 Magnolia Ave, Unit 175, Seattle, WA 98178"
+  },
+  {
+    "address": "4979 Jefferson Way, Apt 16",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98467",
+    "full_address": "4979 Jefferson Way, Apt 16, Tacoma, WA 98467"
+  },
+  {
+    "address": "5435 John Dr",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "5435 John Dr, Des Moines, WA 98198"
+  },
+  {
+    "address": "670 Boston Ave",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "670 Boston Ave, Shoreline, WA 98133"
+  },
+  {
+    "address": "1144 Tenth Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "1144 Tenth Way, Everett, WA 98214"
+  },
+  {
+    "address": "7634 E Madison Ct, Unit 314",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98063",
+    "full_address": "7634 E Madison Ct, Unit 314, Federal Way, WA 98063"
+  },
+  {
+    "address": "4754 Olive Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98204",
+    "full_address": "4754 Olive Ter, Everett, WA 98204"
+  },
+  {
+    "address": "5752 Sixth Ln",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "5752 Sixth Ln, Sammamish, WA 98075"
+  },
+  {
+    "address": "218 W Fairview St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98443",
+    "full_address": "218 W Fairview St, Tacoma, WA 98443"
+  },
+  {
+    "address": "431 Cherry Pl",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "431 Cherry Pl, SeaTac, WA 98158"
+  },
+  {
+    "address": "2972 NW Second Way",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "2972 NW Second Way, Renton, WA 98056"
+  },
+  {
+    "address": "7502 Denny Ct",
+    "city": "Mercer Island",
+    "state": "WA",
+    "zip_code": "98040",
+    "full_address": "7502 Denny Ct, Mercer Island, WA 98040"
+  },
+  {
+    "address": "8893 SE Avenue Way, Ste 453",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "8893 SE Avenue Way, Ste 453, Tacoma, WA 98444"
+  },
+  {
+    "address": "9480 Ballard Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98466",
+    "full_address": "9480 Ballard Way, Tacoma, WA 98466"
+  },
+  {
+    "address": "8560 John Ln, Ste 32",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98205",
+    "full_address": "8560 John Ln, Ste 32, Everett, WA 98205"
+  },
+  {
+    "address": "8958 SE Howe Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98203",
+    "full_address": "8958 SE Howe Ter, Everett, WA 98203"
+  },
+  {
+    "address": "2107 SW Garden Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98201",
+    "full_address": "2107 SW Garden Ct, Everett, WA 98201"
+  },
+  {
+    "address": "5226 E Harrison Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98125",
+    "full_address": "5226 E Harrison Dr, Seattle, WA 98125"
+  },
+  {
+    "address": "8484 Pier Ter, Apt 264",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98125",
+    "full_address": "8484 Pier Ter, Apt 264, Seattle, WA 98125"
+  },
+  {
+    "address": "3377 Park Rd, Apt 384",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "3377 Park Rd, Apt 384, Tacoma, WA 98413"
+  },
+  {
+    "address": "7727 Marion Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "7727 Marion Way, Seattle, WA 98107"
+  },
+  {
+    "address": "8269 W Fourth Rd, # 13",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98012",
+    "full_address": "8269 W Fourth Rd, # 13, Bothell, WA 98012"
+  },
+  {
+    "address": "670 Rainier Blvd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98215",
+    "full_address": "670 Rainier Blvd, Everett, WA 98215"
+  },
+  {
+    "address": "9798 Capitol Rd",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "9798 Capitol Rd, Shoreline, WA 98177"
+  },
+  {
+    "address": "6311 Beacon Way",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "6311 Beacon Way, Des Moines, WA 98198"
+  },
+  {
+    "address": "928 Boylston Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98421",
+    "full_address": "928 Boylston Pl, Tacoma, WA 98421"
+  },
+  {
+    "address": "909 W Howe Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "909 W Howe Ln, Tacoma, WA 98444"
+  },
+  {
+    "address": "628 Lynn Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98125",
+    "full_address": "628 Lynn Ave, Seattle, WA 98125"
+  },
+  {
+    "address": "2825 Marion Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98195",
+    "full_address": "2825 Marion Blvd, Seattle, WA 98195"
+  },
+  {
+    "address": "7590 Sixth Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "7590 Sixth Pl, Tacoma, WA 98415"
+  },
+  {
+    "address": "9935 S Highland St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98405",
+    "full_address": "9935 S Highland St, Tacoma, WA 98405"
+  },
+  {
+    "address": "6126 Third Ter, Apt 78",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98030",
+    "full_address": "6126 Third Ter, Apt 78, Kent, WA 98030"
+  },
+  {
+    "address": "9247 SW Valley St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98136",
+    "full_address": "9247 SW Valley St, Seattle, WA 98136"
+  },
+  {
+    "address": "825 James Ave",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "825 James Ave, Tukwila, WA 98108"
+  },
+  {
+    "address": "1228 NW Columbia Rd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "1228 NW Columbia Rd, Everett, WA 98213"
+  },
+  {
+    "address": "1201 NW Dock Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98424",
+    "full_address": "1201 NW Dock Way, Tacoma, WA 98424"
+  },
+  {
+    "address": "4174 Way Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "4174 Way Ter, Tacoma, WA 98446"
+  },
+  {
+    "address": "3152 Eastlake Ln",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "3152 Eastlake Ln, Everett, WA 98208"
+  },
+  {
+    "address": "9576 Terry St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98407",
+    "full_address": "9576 Terry St, Tacoma, WA 98407"
+  },
+  {
+    "address": "3163 Sixth Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "3163 Sixth Dr, Tacoma, WA 98465"
+  },
+  {
+    "address": "1828 E Jackson Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "1828 E Jackson Ter, Seattle, WA 98144"
+  },
+  {
+    "address": "4119 NE First Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98421",
+    "full_address": "4119 NE First Ter, Tacoma, WA 98421"
+  },
+  {
+    "address": "4946 Circle Rd",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "4946 Circle Rd, Bellevue, WA 98005"
+  },
+  {
+    "address": "1511 N Waterfront Rd, Ste 37",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98126",
+    "full_address": "1511 N Waterfront Rd, Ste 37, Seattle, WA 98126"
+  },
+  {
+    "address": "2599 Avenue Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "2599 Avenue Way, Tacoma, WA 98444"
+  },
+  {
+    "address": "2852 Columbia Dr",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "2852 Columbia Dr, Shoreline, WA 98177"
+  },
+  {
+    "address": "8611 E John Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "8611 E John Pl, Tacoma, WA 98404"
+  },
+  {
+    "address": "2548 Lynn Ln",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98148",
+    "full_address": "2548 Lynn Ln, Burien, WA 98148"
+  },
+  {
+    "address": "1172 Lakeview St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98405",
+    "full_address": "1172 Lakeview St, Tacoma, WA 98405"
+  },
+  {
+    "address": "3791 Boylston St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98421",
+    "full_address": "3791 Boylston St, Tacoma, WA 98421"
+  },
+  {
+    "address": "8130 Thomas Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98405",
+    "full_address": "8130 Thomas Rd, Tacoma, WA 98405"
+  },
+  {
+    "address": "7399 West Seattle Pl",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98011",
+    "full_address": "7399 West Seattle Pl, Bothell, WA 98011"
+  },
+  {
+    "address": "626 Denny St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "626 Denny St, Seattle, WA 98134"
+  },
+  {
+    "address": "9300 Jackson St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98057",
+    "full_address": "9300 Jackson St, Renton, WA 98057"
+  },
+  {
+    "address": "4254 Greenwood Ave",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98006",
+    "full_address": "4254 Greenwood Ave, Bellevue, WA 98006"
+  },
+  {
+    "address": "2466 Jefferson Pl",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "2466 Jefferson Pl, Burien, WA 98168"
+  },
+  {
+    "address": "9233 Boston Pl",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98001",
+    "full_address": "9233 Boston Pl, Auburn, WA 98001"
+  },
+  {
+    "address": "3114 Third Pl, Unit 452",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "3114 Third Pl, Unit 452, Auburn, WA 98092"
+  },
+  {
+    "address": "6201 Waterfront Rd, Apt 466",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98101",
+    "full_address": "6201 Waterfront Rd, Apt 466, Seattle, WA 98101"
+  },
+  {
+    "address": "2395 Third Ct, Apt 84",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "2395 Third Ct, Apt 84, Tukwila, WA 98168"
+  },
+  {
+    "address": "4854 Main Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "4854 Main Way, Seattle, WA 98108"
+  },
+  {
+    "address": "5107 W Marina Way, Ste 361",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "5107 W Marina Way, Ste 361, Des Moines, WA 98198"
+  },
+  {
+    "address": "6507 NW Wallingford Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98118",
+    "full_address": "6507 NW Wallingford Ave, Seattle, WA 98118"
+  },
+  {
+    "address": "4345 Drive St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "4345 Drive St, Renton, WA 98056"
+  },
+  {
+    "address": "204 NW Fairview Rd",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "204 NW Fairview Rd, Tukwila, WA 98168"
+  },
+  {
+    "address": "7367 Howe Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98466",
+    "full_address": "7367 Howe Dr, Tacoma, WA 98466"
+  },
+  {
+    "address": "4598 Place Ave",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "4598 Place Ave, Kirkland, WA 98033"
+  },
+  {
+    "address": "4947 NW Thomas Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "4947 NW Thomas Dr, Seattle, WA 98108"
+  },
+  {
+    "address": "2637 Ballard Ct, Unit 60",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "2637 Ballard Ct, Unit 60, Bellevue, WA 98004"
+  },
+  {
+    "address": "5096 S Way Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98201",
+    "full_address": "5096 S Way Ave, Everett, WA 98201"
+  },
+  {
+    "address": "3118 John Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "3118 John Way, Tacoma, WA 98408"
+  },
+  {
+    "address": "1879 Magnolia Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98424",
+    "full_address": "1879 Magnolia Ave, Tacoma, WA 98424"
+  },
+  {
+    "address": "2607 Broadway Dr",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98204",
+    "full_address": "2607 Broadway Dr, Everett, WA 98204"
+  },
+  {
+    "address": "1863 NE Harbor Ct",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98007",
+    "full_address": "1863 NE Harbor Ct, Bellevue, WA 98007"
+  },
+  {
+    "address": "136 NW SoDo Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98102",
+    "full_address": "136 NW SoDo Ave, Seattle, WA 98102"
+  },
+  {
+    "address": "3732 Queen Anne St, Apt 169",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98063",
+    "full_address": "3732 Queen Anne St, Apt 169, Federal Way, WA 98063"
+  },
+  {
+    "address": "5646 Pine Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98207",
+    "full_address": "5646 Pine Way, Everett, WA 98207"
+  },
+  {
+    "address": "8482 Lakeview Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "8482 Lakeview Pl, Tacoma, WA 98418"
+  },
+  {
+    "address": "9736 Third Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "9736 Third Dr, Seattle, WA 98144"
+  },
+  {
+    "address": "5392 Jackson Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98101",
+    "full_address": "5392 Jackson Ter, Seattle, WA 98101"
+  },
+  {
+    "address": "2114 NE Ballard Rd",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "2114 NE Ballard Rd, Des Moines, WA 98198"
+  },
+  {
+    "address": "2904 NW Roy Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "2904 NW Roy Ter, Seattle, WA 98134"
+  },
+  {
+    "address": "5504 S Bellevue Way",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "5504 S Bellevue Way, Renton, WA 98055"
+  },
+  {
+    "address": "2307 S John Ter",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "2307 S John Ter, Tukwila, WA 98168"
+  },
+  {
+    "address": "7071 NW Aloha Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98126",
+    "full_address": "7071 NW Aloha Ave, Seattle, WA 98126"
+  },
+  {
+    "address": "4695 Eighth Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "4695 Eighth Way, Everett, WA 98216"
+  },
+  {
+    "address": "2995 Ravenna Blvd",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "2995 Ravenna Blvd, Kirkland, WA 98034"
+  },
+  {
+    "address": "577 First Rd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98201",
+    "full_address": "577 First Rd, Everett, WA 98201"
+  },
+  {
+    "address": "9752 E Harbor Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98117",
+    "full_address": "9752 E Harbor Ct, Seattle, WA 98117"
+  },
+  {
+    "address": "8848 Garden Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "8848 Garden Ter, Everett, WA 98214"
+  },
+  {
+    "address": "7554 Rainier Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "7554 Rainier Blvd, Seattle, WA 98112"
+  },
+  {
+    "address": "6592 Harrison Ln",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98203",
+    "full_address": "6592 Harrison Ln, Everett, WA 98203"
+  },
+  {
+    "address": "7275 Capitol Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "7275 Capitol Way, Seattle, WA 98133"
+  },
+  {
+    "address": "6610 E Ninth Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "6610 E Ninth Ct, Seattle, WA 98178"
+  },
+  {
+    "address": "6256 Broadway Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98106",
+    "full_address": "6256 Broadway Ter, Seattle, WA 98106"
+  },
+  {
+    "address": "4097 N Capitol Ave",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "4097 N Capitol Ave, Auburn, WA 98002"
+  },
+  {
+    "address": "7770 SE Circle Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "7770 SE Circle Ct, Tacoma, WA 98447"
+  },
+  {
+    "address": "1699 Belltown St",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "1699 Belltown St, Sammamish, WA 98075"
+  },
+  {
+    "address": "6878 Circle Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "6878 Circle Ave, Seattle, WA 98134"
+  },
+  {
+    "address": "8074 Bellevue Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98125",
+    "full_address": "8074 Bellevue Way, Seattle, WA 98125"
+  },
+  {
+    "address": "1232 Drive Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98422",
+    "full_address": "1232 Drive Ln, Tacoma, WA 98422"
+  },
+  {
+    "address": "7794 S Terry Ct",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "7794 S Terry Ct, Shoreline, WA 98177"
+  },
+  {
+    "address": "2757 Valley Blvd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "2757 Valley Blvd, Everett, WA 98214"
+  },
+  {
+    "address": "7023 Magnolia St, Ste 333",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "7023 Magnolia St, Ste 333, Everett, WA 98208"
+  },
+  {
+    "address": "2254 Jackson Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98136",
+    "full_address": "2254 Jackson Ln, Seattle, WA 98136"
+  },
+  {
+    "address": "8083 Park Ct",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "8083 Park Ct, Renton, WA 98056"
+  },
+  {
+    "address": "6117 Jackson Ave, # 222",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "6117 Jackson Ave, # 222, Auburn, WA 98002"
+  },
+  {
+    "address": "2568 Pike Ter, Ste 285",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98202",
+    "full_address": "2568 Pike Ter, Ste 285, Everett, WA 98202"
+  },
+  {
+    "address": "6246 N Marion Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98493",
+    "full_address": "6246 N Marion Ct, Tacoma, WA 98493"
+  },
+  {
+    "address": "2325 E Lane Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98106",
+    "full_address": "2325 E Lane Blvd, Seattle, WA 98106"
+  },
+  {
+    "address": "9584 Tenth Dr, # 182",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "9584 Tenth Dr, # 182, Tacoma, WA 98471"
+  },
+  {
+    "address": "4404 Pike Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "4404 Pike Pl, Seattle, WA 98122"
+  },
+  {
+    "address": "1175 Jackson Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98121",
+    "full_address": "1175 Jackson Pl, Seattle, WA 98121"
+  },
+  {
+    "address": "1310 Fourth Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "1310 Fourth Pl, Tacoma, WA 98408"
+  },
+  {
+    "address": "4996 Spring Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "4996 Spring Ave, Seattle, WA 98134"
+  },
+  {
+    "address": "1366 SW Boylston Ave, Ste 450",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98203",
+    "full_address": "1366 SW Boylston Ave, Ste 450, Everett, WA 98203"
+  },
+  {
+    "address": "8239 SW Pine Way",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "8239 SW Pine Way, Kirkland, WA 98034"
+  },
+  {
+    "address": "7338 NE Queen Anne Ave",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "7338 NE Queen Anne Ave, Burien, WA 98168"
+  },
+  {
+    "address": "3065 E Capitol Ter",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "3065 E Capitol Ter, Renton, WA 98059"
+  },
+  {
+    "address": "318 Second Ave",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "318 Second Ave, Bellevue, WA 98004"
+  },
+  {
+    "address": "2729 University Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98422",
+    "full_address": "2729 University Ave, Tacoma, WA 98422"
+  },
+  {
+    "address": "6489 NE Tenth Rd",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "6489 NE Tenth Rd, Kirkland, WA 98034"
+  },
+  {
+    "address": "7071 Queen Anne Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "7071 Queen Anne Ter, Tacoma, WA 98471"
+  },
+  {
+    "address": "1744 James Pl",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98057",
+    "full_address": "1744 James Pl, Renton, WA 98057"
+  },
+  {
+    "address": "8928 Yesler St, # 253",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98121",
+    "full_address": "8928 Yesler St, # 253, Seattle, WA 98121"
+  },
+  {
+    "address": "5284 S Boston Blvd",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98029",
+    "full_address": "5284 S Boston Blvd, Issaquah, WA 98029"
+  },
+  {
+    "address": "737 NW Capitol Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "737 NW Capitol Ct, Tacoma, WA 98413"
+  },
+  {
+    "address": "9706 SE Way Ln",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "9706 SE Way Ln, Kirkland, WA 98033"
+  },
+  {
+    "address": "5379 NE Roy Ave",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "5379 NE Roy Ave, Kirkland, WA 98034"
+  },
+  {
+    "address": "2494 Spring Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "2494 Spring Ct, Everett, WA 98213"
+  },
+  {
+    "address": "4832 N Prospect Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "4832 N Prospect Way, Everett, WA 98213"
+  },
+  {
+    "address": "5342 E Place Rd, Ste 436",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "5342 E Place Rd, Ste 436, Everett, WA 98208"
+  },
+  {
+    "address": "9274 Court Rd",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "9274 Court Rd, Kirkland, WA 98034"
+  },
+  {
+    "address": "6289 Denny Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "6289 Denny Pl, Seattle, WA 98134"
+  },
+  {
+    "address": "7774 Lynn Pl, Apt 484",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "7774 Lynn Pl, Apt 484, Tacoma, WA 98408"
+  },
+  {
+    "address": "6608 Belltown Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "6608 Belltown Blvd, Renton, WA 98058"
+  },
+  {
+    "address": "3821 Court Way, Unit 399",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98103",
+    "full_address": "3821 Court Way, Unit 399, Seattle, WA 98103"
+  },
+  {
+    "address": "232 Rainier Pl",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "232 Rainier Pl, Sammamish, WA 98075"
+  },
+  {
+    "address": "1606 Eighth Rd",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "1606 Eighth Rd, Kirkland, WA 98034"
+  },
+  {
+    "address": "682 Bellevue Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98202",
+    "full_address": "682 Bellevue Way, Everett, WA 98202"
+  },
+  {
+    "address": "1996 Lakeview Ct, Unit 347",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98195",
+    "full_address": "1996 Lakeview Ct, Unit 347, Seattle, WA 98195"
+  },
+  {
+    "address": "2339 Fremont Way, Ste 136",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "2339 Fremont Way, Ste 136, Kirkland, WA 98033"
+  },
+  {
+    "address": "7032 Boren Ct",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "7032 Boren Ct, Des Moines, WA 98198"
+  },
+  {
+    "address": "1485 NE Ravenna Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98412",
+    "full_address": "1485 NE Ravenna Ter, Tacoma, WA 98412"
+  },
+  {
+    "address": "2051 Lane Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "2051 Lane Blvd, Renton, WA 98059"
+  },
+  {
+    "address": "2704 Pier Ln, # 355",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98421",
+    "full_address": "2704 Pier Ln, # 355, Tacoma, WA 98421"
+  },
+  {
+    "address": "1517 Eighth Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "1517 Eighth Blvd, Seattle, WA 98154"
+  },
+  {
+    "address": "4892 Place Rd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98031",
+    "full_address": "4892 Place Rd, Kent, WA 98031"
+  },
+  {
+    "address": "4457 Ballard St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "4457 Ballard St, Renton, WA 98055"
+  },
+  {
+    "address": "4053 SE Highland Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98407",
+    "full_address": "4053 SE Highland Dr, Tacoma, WA 98407"
+  },
+  {
+    "address": "6668 S SoDo Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "6668 S SoDo Ter, Tacoma, WA 98447"
+  },
+  {
+    "address": "1544 Tenth Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "1544 Tenth Way, Seattle, WA 98144"
+  },
+  {
+    "address": "8219 SE Drive Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "8219 SE Drive Ln, Seattle, WA 98146"
+  },
+  {
+    "address": "2084 W Ballard St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "2084 W Ballard St, Seattle, WA 98107"
+  },
+  {
+    "address": "110 NW Circle Way, Unit 87",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98155",
+    "full_address": "110 NW Circle Way, Unit 87, Shoreline, WA 98155"
+  },
+  {
+    "address": "2776 Fourth Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98117",
+    "full_address": "2776 Fourth Ave, Seattle, WA 98117"
+  },
+  {
+    "address": "9771 Drive Dr",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98007",
+    "full_address": "9771 Drive Dr, Bellevue, WA 98007"
+  },
+  {
+    "address": "4552 Capitol Way",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "4552 Capitol Way, Kent, WA 98089"
+  },
+  {
+    "address": "1479 Queen Anne Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98102",
+    "full_address": "1479 Queen Anne Pl, Seattle, WA 98102"
+  },
+  {
+    "address": "5466 Lane St",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "5466 Lane St, Shoreline, WA 98133"
+  },
+  {
+    "address": "5216 SW Fifth St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "5216 SW Fifth St, Tacoma, WA 98465"
+  },
+  {
+    "address": "1199 SE Fifth St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98445",
+    "full_address": "1199 SE Fifth St, Tacoma, WA 98445"
+  },
+  {
+    "address": "4869 First St",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98166",
+    "full_address": "4869 First St, Burien, WA 98166"
+  },
+  {
+    "address": "2535 SE Olive Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98125",
+    "full_address": "2535 SE Olive Dr, Seattle, WA 98125"
+  },
+  {
+    "address": "7887 Seventh St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98164",
+    "full_address": "7887 Seventh St, Seattle, WA 98164"
+  },
+  {
+    "address": "9721 University Ln",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98205",
+    "full_address": "9721 University Ln, Everett, WA 98205"
+  },
+  {
+    "address": "9766 Main Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "9766 Main Pl, Seattle, WA 98112"
+  },
+  {
+    "address": "7030 S Capitol St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98199",
+    "full_address": "7030 S Capitol St, Seattle, WA 98199"
+  },
+  {
+    "address": "4593 N Prospect Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "4593 N Prospect Dr, Seattle, WA 98115"
+  },
+  {
+    "address": "8856 Marina Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "8856 Marina Rd, Seattle, WA 98122"
+  },
+  {
+    "address": "6642 Roosevelt Ave",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98138",
+    "full_address": "6642 Roosevelt Ave, Tukwila, WA 98138"
+  },
+  {
+    "address": "985 First St",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98042",
+    "full_address": "985 First St, Kent, WA 98042"
+  },
+  {
+    "address": "5561 Ballard Ave, Ste 54",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "5561 Ballard Ave, Ste 54, Tacoma, WA 98406"
+  },
+  {
+    "address": "4576 Highland Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "4576 Highland Pl, Tacoma, WA 98471"
+  },
+  {
+    "address": "3790 SE Seventh Ave",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "3790 SE Seventh Ave, Renton, WA 98056"
+  },
+  {
+    "address": "3767 Boston St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98493",
+    "full_address": "3767 Boston St, Tacoma, WA 98493"
+  },
+  {
+    "address": "314 Union Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "314 Union Ave, Seattle, WA 98177"
+  },
+  {
+    "address": "3586 Pier Dr",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "3586 Pier Dr, Redmond, WA 98052"
+  },
+  {
+    "address": "6287 Lynn Ct, # 212",
+    "city": "Mercer Island",
+    "state": "WA",
+    "zip_code": "98040",
+    "full_address": "6287 Lynn Ct, # 212, Mercer Island, WA 98040"
+  },
+  {
+    "address": "1654 Beacon Rd, # 257",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "1654 Beacon Rd, # 257, Everett, WA 98214"
+  },
+  {
+    "address": "7968 Lynn Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "7968 Lynn Rd, Seattle, WA 98154"
+  },
+  {
+    "address": "6741 N Aloha Pl",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "6741 N Aloha Pl, Kirkland, WA 98033"
+  },
+  {
+    "address": "4183 Grove Blvd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98030",
+    "full_address": "4183 Grove Blvd, Kent, WA 98030"
+  },
+  {
+    "address": "1705 Cherry Ave",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98138",
+    "full_address": "1705 Cherry Ave, Tukwila, WA 98138"
+  },
+  {
+    "address": "3275 Ninth Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98443",
+    "full_address": "3275 Ninth Way, Tacoma, WA 98443"
+  },
+  {
+    "address": "3332 Highland Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "3332 Highland Ter, Seattle, WA 98107"
+  },
+  {
+    "address": "5857 Galer St, Ste 169",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98207",
+    "full_address": "5857 Galer St, Ste 169, Everett, WA 98207"
+  },
+  {
+    "address": "576 Tenth Ln, Apt 94",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "576 Tenth Ln, Apt 94, Seattle, WA 98116"
+  },
+  {
+    "address": "1746 Boylston Ter",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "1746 Boylston Ter, Des Moines, WA 98198"
+  },
+  {
+    "address": "7085 Roy St, Apt 482",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98409",
+    "full_address": "7085 Roy St, Apt 482, Tacoma, WA 98409"
+  },
+  {
+    "address": "7030 Ballard Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "7030 Ballard Dr, Seattle, WA 98115"
+  },
+  {
+    "address": "7609 Cherry Ave",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "7609 Cherry Ave, Bothell, WA 98021"
+  },
+  {
+    "address": "217 Lane Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "217 Lane Ct, Tacoma, WA 98404"
+  },
+  {
+    "address": "9620 Lakeview Ct, Ste 500",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "9620 Lakeview Ct, Ste 500, Seattle, WA 98115"
+  },
+  {
+    "address": "5623 N Capitol Pl",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "5623 N Capitol Pl, Everett, WA 98213"
+  },
+  {
+    "address": "4436 Republican Way",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "4436 Republican Way, Auburn, WA 98092"
+  },
+  {
+    "address": "2576 Lane Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "2576 Lane Ln, Seattle, WA 98177"
+  },
+  {
+    "address": "8068 Yesler Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "8068 Yesler Ter, Seattle, WA 98119"
+  },
+  {
+    "address": "7150 SE Greenwood Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "7150 SE Greenwood Dr, Tacoma, WA 98447"
+  },
+  {
+    "address": "6385 Dock Dr",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "6385 Dock Dr, Bellevue, WA 98004"
+  },
+  {
+    "address": "9015 Marina Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98402",
+    "full_address": "9015 Marina Dr, Tacoma, WA 98402"
+  },
+  {
+    "address": "2037 Pine Ln, # 425",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98001",
+    "full_address": "2037 Pine Ln, # 425, Auburn, WA 98001"
+  },
+  {
+    "address": "4635 E Greenwood Rd",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "4635 E Greenwood Rd, Sammamish, WA 98075"
+  },
+  {
+    "address": "2886 S Pike Ct",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "2886 S Pike Ct, Kirkland, WA 98034"
+  },
+  {
+    "address": "4675 Third Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98402",
+    "full_address": "4675 Third Ave, Tacoma, WA 98402"
+  },
+  {
+    "address": "6009 Harbor Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "6009 Harbor Way, Everett, WA 98216"
+  },
+  {
+    "address": "8168 N Rainier St",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "8168 N Rainier St, Auburn, WA 98092"
+  },
+  {
+    "address": "5737 E Boylston Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98498",
+    "full_address": "5737 E Boylston Way, Tacoma, WA 98498"
+  },
+  {
+    "address": "6360 Wallingford Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "6360 Wallingford Pl, Seattle, WA 98177"
+  },
+  {
+    "address": "7181 W Magnolia St",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98030",
+    "full_address": "7181 W Magnolia St, Kent, WA 98030"
+  },
+  {
+    "address": "9765 SE Roosevelt Blvd",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98148",
+    "full_address": "9765 SE Roosevelt Blvd, Burien, WA 98148"
+  },
+  {
+    "address": "856 Republican Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98401",
+    "full_address": "856 Republican Ter, Tacoma, WA 98401"
+  },
+  {
+    "address": "9621 Boylston Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "9621 Boylston Rd, Tacoma, WA 98446"
+  },
+  {
+    "address": "8763 Garden Ln",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "8763 Garden Ln, Auburn, WA 98002"
+  },
+  {
+    "address": "124 Republican Ter, # 426",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "124 Republican Ter, # 426, Shoreline, WA 98177"
+  },
+  {
+    "address": "9008 Harbor Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "9008 Harbor Rd, Seattle, WA 98146"
+  },
+  {
+    "address": "5356 Fifth St, Apt 322",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "5356 Fifth St, Apt 322, Everett, WA 98216"
+  },
+  {
+    "address": "3388 Way Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98405",
+    "full_address": "3388 Way Way, Tacoma, WA 98405"
+  },
+  {
+    "address": "9297 SE Beacon Ter, Apt 67",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98206",
+    "full_address": "9297 SE Beacon Ter, Apt 67, Everett, WA 98206"
+  },
+  {
+    "address": "5420 Harrison Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "5420 Harrison Blvd, Seattle, WA 98177"
+  },
+  {
+    "address": "9445 Rainier Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "9445 Rainier Pl, Seattle, WA 98146"
+  },
+  {
+    "address": "7274 Street Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98199",
+    "full_address": "7274 Street Blvd, Seattle, WA 98199"
+  },
+  {
+    "address": "248 SW Spring Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "248 SW Spring Ln, Seattle, WA 98144"
+  },
+  {
+    "address": "4358 SoDo Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "4358 SoDo Ave, Seattle, WA 98108"
+  },
+  {
+    "address": "3178 Columbia Way",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "3178 Columbia Way, Redmond, WA 98052"
+  },
+  {
+    "address": "3282 Marion Ct",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "3282 Marion Ct, Sammamish, WA 98075"
+  },
+  {
+    "address": "9031 Pier St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "9031 Pier St, Renton, WA 98059"
+  },
+  {
+    "address": "6572 Lakeview Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "6572 Lakeview Ave, Seattle, WA 98119"
+  },
+  {
+    "address": "6729 Belltown Rd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "6729 Belltown Rd, Renton, WA 98058"
+  },
+  {
+    "address": "2871 W Spring Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "2871 W Spring Ln, Seattle, WA 98112"
+  },
+  {
+    "address": "3680 Boston Dr",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98001",
+    "full_address": "3680 Boston Dr, Auburn, WA 98001"
+  },
+  {
+    "address": "1283 Fifth Ct, Ste 435",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "1283 Fifth Ct, Ste 435, Bothell, WA 98021"
+  },
+  {
+    "address": "4330 NE Fremont Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98499",
+    "full_address": "4330 NE Fremont Ter, Tacoma, WA 98499"
+  },
+  {
+    "address": "9261 Grove Way",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98007",
+    "full_address": "9261 Grove Way, Bellevue, WA 98007"
+  },
+  {
+    "address": "7896 Bellevue Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98205",
+    "full_address": "7896 Bellevue Ave, Everett, WA 98205"
+  },
+  {
+    "address": "2433 SE Lane Ave, Unit 337",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "2433 SE Lane Ave, Unit 337, Auburn, WA 98002"
+  },
+  {
+    "address": "8388 Belltown Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98136",
+    "full_address": "8388 Belltown Ln, Seattle, WA 98136"
+  },
+  {
+    "address": "1119 Magnolia Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "1119 Magnolia Way, Everett, WA 98216"
+  },
+  {
+    "address": "6011 Harrison Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "6011 Harrison Pl, Seattle, WA 98144"
+  },
+  {
+    "address": "2775 SW Bell Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "2775 SW Bell Ct, Seattle, WA 98133"
+  },
+  {
+    "address": "6984 E Boren Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "6984 E Boren Ave, Seattle, WA 98178"
+  },
+  {
+    "address": "1324 SE Beacon Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "1324 SE Beacon Rd, Seattle, WA 98177"
+  },
+  {
+    "address": "9809 Terry Ln, Ste 353",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "9809 Terry Ln, Ste 353, Everett, WA 98216"
+  },
+  {
+    "address": "8871 Queen Anne Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "8871 Queen Anne Dr, Seattle, WA 98108"
+  },
+  {
+    "address": "2391 Terry Pl, Apt 337",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98027",
+    "full_address": "2391 Terry Pl, Apt 337, Issaquah, WA 98027"
+  },
+  {
+    "address": "4243 Drive Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "4243 Drive Way, Tacoma, WA 98413"
+  },
+  {
+    "address": "7083 Bellevue Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98203",
+    "full_address": "7083 Bellevue Ave, Everett, WA 98203"
+  },
+  {
+    "address": "5879 Boston St",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98063",
+    "full_address": "5879 Boston St, Federal Way, WA 98063"
+  },
+  {
+    "address": "4386 John Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "4386 John Pl, Tacoma, WA 98413"
+  },
+  {
+    "address": "4637 Fourth Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98204",
+    "full_address": "4637 Fourth Ave, Everett, WA 98204"
+  },
+  {
+    "address": "1748 SW Jackson Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "1748 SW Jackson Ter, Seattle, WA 98178"
+  },
+  {
+    "address": "9896 Columbia Ln",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "9896 Columbia Ln, Kent, WA 98089"
+  },
+  {
+    "address": "2688 SoDo Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "2688 SoDo Pl, Tacoma, WA 98447"
+  },
+  {
+    "address": "6850 Pine Blvd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "6850 Pine Blvd, Kent, WA 98032"
+  },
+  {
+    "address": "9186 Capitol Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "9186 Capitol Dr, Seattle, WA 98146"
+  },
+  {
+    "address": "8237 Garden Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "8237 Garden Ave, Tacoma, WA 98446"
+  },
+  {
+    "address": "9179 NW Dock Ter",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "9179 NW Dock Ter, Des Moines, WA 98198"
+  },
+  {
+    "address": "7315 West Seattle Dr, # 496",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98011",
+    "full_address": "7315 West Seattle Dr, # 496, Bothell, WA 98011"
+  },
+  {
+    "address": "7733 Harbor St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "7733 Harbor St, Tacoma, WA 98404"
+  },
+  {
+    "address": "2934 Circle Ave, Apt 103",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "2934 Circle Ave, Apt 103, Seattle, WA 98112"
+  },
+  {
+    "address": "708 W Marina Ln",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "708 W Marina Ln, Redmond, WA 98052"
+  },
+  {
+    "address": "3517 SoDo Ter",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98012",
+    "full_address": "3517 SoDo Ter, Bothell, WA 98012"
+  },
+  {
+    "address": "1587 Roy Pl, Unit 495",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98101",
+    "full_address": "1587 Roy Pl, Unit 495, Seattle, WA 98101"
+  },
+  {
+    "address": "2374 N Roy Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98466",
+    "full_address": "2374 N Roy Ter, Tacoma, WA 98466"
+  },
+  {
+    "address": "7293 Aloha Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "7293 Aloha Ct, Tacoma, WA 98447"
+  },
+  {
+    "address": "2592 Columbia Ter, Ste 67",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "2592 Columbia Ter, Ste 67, Seattle, WA 98177"
+  },
+  {
+    "address": "2665 Denny Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "2665 Denny Dr, Tacoma, WA 98408"
+  },
+  {
+    "address": "8568 Valley Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98498",
+    "full_address": "8568 Valley Pl, Tacoma, WA 98498"
+  },
+  {
+    "address": "128 Roy Blvd",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "128 Roy Blvd, SeaTac, WA 98188"
+  },
+  {
+    "address": "5153 Harrison Ln",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98063",
+    "full_address": "5153 Harrison Ln, Federal Way, WA 98063"
+  },
+  {
+    "address": "1478 University Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "1478 University Rd, Seattle, WA 98144"
+  },
+  {
+    "address": "5667 NW Boylston Ct",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "5667 NW Boylston Ct, Auburn, WA 98002"
+  },
+  {
+    "address": "8475 Cherry Ter",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98057",
+    "full_address": "8475 Cherry Ter, Renton, WA 98057"
+  },
+  {
+    "address": "2501 Ravenna Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "2501 Ravenna Ter, Everett, WA 98214"
+  },
+  {
+    "address": "1768 Circle Dr",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "1768 Circle Dr, Bothell, WA 98021"
+  },
+  {
+    "address": "2148 NE First Ter, # 393",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "2148 NE First Ter, # 393, Tacoma, WA 98413"
+  },
+  {
+    "address": "4358 Roy Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98215",
+    "full_address": "4358 Roy Ter, Everett, WA 98215"
+  },
+  {
+    "address": "2185 NE Aloha Rd",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "2185 NE Aloha Rd, Des Moines, WA 98198"
+  },
+  {
+    "address": "3320 Pier Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "3320 Pier Ln, Seattle, WA 98178"
+  },
+  {
+    "address": "1563 Howe Ter, Unit 23",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "1563 Howe Ter, Unit 23, Tacoma, WA 98471"
+  },
+  {
+    "address": "9134 Columbia Pl",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "9134 Columbia Pl, SeaTac, WA 98158"
+  },
+  {
+    "address": "5597 Court Ln",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98001",
+    "full_address": "5597 Court Ln, Auburn, WA 98001"
+  },
+  {
+    "address": "7876 Fifth Ter, Unit 239",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "7876 Fifth Ter, Unit 239, Everett, WA 98214"
+  },
+  {
+    "address": "3529 Park Ct",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "3529 Park Ct, SeaTac, WA 98188"
+  },
+  {
+    "address": "9836 Fifth St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98164",
+    "full_address": "9836 Fifth St, Seattle, WA 98164"
+  },
+  {
+    "address": "794 Sixth Ct",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "794 Sixth Ct, Kent, WA 98032"
+  },
+  {
+    "address": "7278 E Yesler Dr",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "7278 E Yesler Dr, Renton, WA 98058"
+  },
+  {
+    "address": "8336 Aloha Ln",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98029",
+    "full_address": "8336 Aloha Ln, Issaquah, WA 98029"
+  },
+  {
+    "address": "7169 SW Galer Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98109",
+    "full_address": "7169 SW Galer Rd, Seattle, WA 98109"
+  },
+  {
+    "address": "7426 E Ravenna Ave, # 241",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "7426 E Ravenna Ave, # 241, Bothell, WA 98021"
+  },
+  {
+    "address": "4238 SE Magnolia Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98205",
+    "full_address": "4238 SE Magnolia Ct, Everett, WA 98205"
+  },
+  {
+    "address": "1747 Ballard Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98422",
+    "full_address": "1747 Ballard Ter, Tacoma, WA 98422"
+  },
+  {
+    "address": "4900 Lane Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "4900 Lane Pl, Tacoma, WA 98416"
+  },
+  {
+    "address": "9510 W West Seattle Way",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98057",
+    "full_address": "9510 W West Seattle Way, Renton, WA 98057"
+  },
+  {
+    "address": "5642 Tenth Dr",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "5642 Tenth Dr, Kirkland, WA 98033"
+  },
+  {
+    "address": "8484 Marion Ct, Ste 127",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "8484 Marion Ct, Ste 127, Seattle, WA 98116"
+  },
+  {
+    "address": "5991 Eighth Ct",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98057",
+    "full_address": "5991 Eighth Ct, Renton, WA 98057"
+  },
+  {
+    "address": "7748 SE Boren Pl",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98011",
+    "full_address": "7748 SE Boren Pl, Bothell, WA 98011"
+  },
+  {
+    "address": "4784 West Seattle Ct",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98042",
+    "full_address": "4784 West Seattle Ct, Kent, WA 98042"
+  },
+  {
+    "address": "6508 W Ballard Pl",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "6508 W Ballard Pl, Renton, WA 98059"
+  },
+  {
+    "address": "9811 NW Capitol Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "9811 NW Capitol Way, Seattle, WA 98133"
+  },
+  {
+    "address": "1359 Terry Pl",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98138",
+    "full_address": "1359 Terry Pl, Tukwila, WA 98138"
+  },
+  {
+    "address": "348 Howe Ave",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98030",
+    "full_address": "348 Howe Ave, Kent, WA 98030"
+  },
+  {
+    "address": "1509 Pine Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "1509 Pine Blvd, Seattle, WA 98122"
+  },
+  {
+    "address": "2040 Thomas Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98411",
+    "full_address": "2040 Thomas Dr, Tacoma, WA 98411"
+  },
+  {
+    "address": "7428 Broadway Blvd",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "7428 Broadway Blvd, Bellevue, WA 98004"
+  },
+  {
+    "address": "6934 Galer Rd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98042",
+    "full_address": "6934 Galer Rd, Kent, WA 98042"
+  },
+  {
+    "address": "856 NE Queen Anne St, # 452",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "856 NE Queen Anne St, # 452, Tacoma, WA 98408"
+  },
+  {
+    "address": "6391 NE Valley Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98101",
+    "full_address": "6391 NE Valley Ave, Seattle, WA 98101"
+  },
+  {
+    "address": "2311 Beacon Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "2311 Beacon Dr, Seattle, WA 98178"
+  },
+  {
+    "address": "2814 Lakeview Blvd",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "2814 Lakeview Blvd, Des Moines, WA 98198"
+  },
+  {
+    "address": "711 Place Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98409",
+    "full_address": "711 Place Ln, Tacoma, WA 98409"
+  },
+  {
+    "address": "2802 Thomas Ln",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "2802 Thomas Ln, Everett, WA 98214"
+  },
+  {
+    "address": "5170 SW Queen Anne Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "5170 SW Queen Anne Blvd, Renton, WA 98058"
+  },
+  {
+    "address": "2412 Republican Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "2412 Republican Ln, Tacoma, WA 98416"
+  },
+  {
+    "address": "6589 W Ravenna Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "6589 W Ravenna Pl, Seattle, WA 98133"
+  },
+  {
+    "address": "2882 Pier Ln, # 399",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "2882 Pier Ln, # 399, Tacoma, WA 98446"
+  },
+  {
+    "address": "5539 Dock Ct, # 283",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98203",
+    "full_address": "5539 Dock Ct, # 283, Everett, WA 98203"
+  },
+  {
+    "address": "7296 University Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "7296 University Way, Tacoma, WA 98471"
+  },
+  {
+    "address": "6153 Madison Ln, # 164",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "6153 Madison Ln, # 164, Seattle, WA 98178"
+  },
+  {
+    "address": "795 Thomas Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "795 Thomas Ter, Seattle, WA 98122"
+  },
+  {
+    "address": "5175 University Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "5175 University Pl, Seattle, WA 98115"
+  },
+  {
+    "address": "9038 N Cherry Dr",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98204",
+    "full_address": "9038 N Cherry Dr, Everett, WA 98204"
+  },
+  {
+    "address": "4093 S Pine Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "4093 S Pine Pl, Tacoma, WA 98465"
+  },
+  {
+    "address": "310 Tenth Ter, Unit 88",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98117",
+    "full_address": "310 Tenth Ter, Unit 88, Seattle, WA 98117"
+  },
+  {
+    "address": "4815 Beacon Way, # 448",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "4815 Beacon Way, # 448, Des Moines, WA 98198"
+  },
+  {
+    "address": "5048 Howe St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "5048 Howe St, Renton, WA 98058"
+  },
+  {
+    "address": "3424 Park Pl, Unit 33",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "3424 Park Pl, Unit 33, SeaTac, WA 98188"
+  },
+  {
+    "address": "792 S Pine Blvd, # 194",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "792 S Pine Blvd, # 194, Tacoma, WA 98413"
+  },
+  {
+    "address": "9680 Lane Pl",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "9680 Lane Pl, Everett, WA 98214"
+  },
+  {
+    "address": "1656 Aloha Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "1656 Aloha Ct, Tacoma, WA 98471"
+  },
+  {
+    "address": "888 Republican Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98403",
+    "full_address": "888 Republican Way, Tacoma, WA 98403"
+  },
+  {
+    "address": "5296 S Wallingford Blvd, Ste 30",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "5296 S Wallingford Blvd, Ste 30, Shoreline, WA 98177"
+  },
+  {
+    "address": "5943 W Park Ct, Ste 208",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98136",
+    "full_address": "5943 W Park Ct, Ste 208, Seattle, WA 98136"
+  },
+  {
+    "address": "8515 E Main Rd, # 124",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "8515 E Main Rd, # 124, Kent, WA 98089"
+  },
+  {
+    "address": "2161 Lane Way, # 425",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "2161 Lane Way, # 425, Kent, WA 98032"
+  },
+  {
+    "address": "7068 Ravenna Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98103",
+    "full_address": "7068 Ravenna Ave, Seattle, WA 98103"
+  },
+  {
+    "address": "9585 Queen Anne Ct",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "9585 Queen Anne Ct, Des Moines, WA 98198"
+  },
+  {
+    "address": "6011 E Greenwood Pl, Apt 325",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98493",
+    "full_address": "6011 E Greenwood Pl, Apt 325, Tacoma, WA 98493"
+  },
+  {
+    "address": "9344 Union St",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98023",
+    "full_address": "9344 Union St, Federal Way, WA 98023"
+  },
+  {
+    "address": "9862 Fifth St",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98053",
+    "full_address": "9862 Fifth St, Redmond, WA 98053"
+  },
+  {
+    "address": "6550 E Boren Ter, Unit 446",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "6550 E Boren Ter, Unit 446, SeaTac, WA 98188"
+  },
+  {
+    "address": "2478 Ravenna Ave, Ste 476",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98424",
+    "full_address": "2478 Ravenna Ave, Ste 476, Tacoma, WA 98424"
+  },
+  {
+    "address": "192 Spring St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98125",
+    "full_address": "192 Spring St, Seattle, WA 98125"
+  },
+  {
+    "address": "1111 W Ballard St",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "1111 W Ballard St, Kirkland, WA 98033"
+  },
+  {
+    "address": "5391 NW Belltown Ter, Ste 86",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "5391 NW Belltown Ter, Ste 86, Everett, WA 98213"
+  },
+  {
+    "address": "8435 Second Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98121",
+    "full_address": "8435 Second Ave, Seattle, WA 98121"
+  },
+  {
+    "address": "3091 Street Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "3091 Street Rd, Seattle, WA 98112"
+  },
+  {
+    "address": "8482 W Wallingford Ave",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98031",
+    "full_address": "8482 W Wallingford Ave, Kent, WA 98031"
+  },
+  {
+    "address": "2710 SE Ballard Way",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98053",
+    "full_address": "2710 SE Ballard Way, Redmond, WA 98053"
+  },
+  {
+    "address": "8994 S Lynn Way, Apt 213",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98421",
+    "full_address": "8994 S Lynn Way, Apt 213, Tacoma, WA 98421"
+  },
+  {
+    "address": "9900 Thomas Ln",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "9900 Thomas Ln, Renton, WA 98055"
+  },
+  {
+    "address": "6140 West Seattle St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "6140 West Seattle St, Seattle, WA 98112"
+  },
+  {
+    "address": "4504 Way Pl",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98053",
+    "full_address": "4504 Way Pl, Redmond, WA 98053"
+  },
+  {
+    "address": "6268 Place Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98102",
+    "full_address": "6268 Place Ct, Seattle, WA 98102"
+  },
+  {
+    "address": "537 Republican Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "537 Republican Ct, Tacoma, WA 98471"
+  },
+  {
+    "address": "2650 SW Rainier St",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "2650 SW Rainier St, Tukwila, WA 98108"
+  },
+  {
+    "address": "7778 Sixth Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "7778 Sixth Way, Tacoma, WA 98413"
+  },
+  {
+    "address": "5404 Cherry Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98493",
+    "full_address": "5404 Cherry Ter, Tacoma, WA 98493"
+  },
+  {
+    "address": "3161 Wallingford Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "3161 Wallingford Blvd, Tacoma, WA 98418"
+  },
+  {
+    "address": "5171 Boren Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98443",
+    "full_address": "5171 Boren Dr, Tacoma, WA 98443"
+  },
+  {
+    "address": "1344 Denny Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "1344 Denny Ct, Tacoma, WA 98447"
+  },
+  {
+    "address": "498 E Wallingford Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98405",
+    "full_address": "498 E Wallingford Dr, Tacoma, WA 98405"
+  },
+  {
+    "address": "9310 Lane Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "9310 Lane Pl, Tacoma, WA 98418"
+  },
+  {
+    "address": "7839 SE Denny Ct, Apt 250",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "7839 SE Denny Ct, Apt 250, Seattle, WA 98119"
+  },
+  {
+    "address": "5459 Olive Blvd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "5459 Olive Blvd, Kent, WA 98032"
+  },
+  {
+    "address": "2326 Second Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "2326 Second Ave, Seattle, WA 98154"
+  },
+  {
+    "address": "4928 Street Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "4928 Street Dr, Tacoma, WA 98415"
+  },
+  {
+    "address": "7543 Ballard Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98402",
+    "full_address": "7543 Ballard Rd, Tacoma, WA 98402"
+  },
+  {
+    "address": "9598 Highland Ave",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "9598 Highland Ave, Renton, WA 98056"
+  },
+  {
+    "address": "7664 W Pier Ct, # 282",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "7664 W Pier Ct, # 282, Seattle, WA 98154"
+  },
+  {
+    "address": "2898 Bellevue St, Ste 76",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "2898 Bellevue St, Ste 76, Auburn, WA 98002"
+  },
+  {
+    "address": "1451 NW Pier Way",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "1451 NW Pier Way, Shoreline, WA 98133"
+  },
+  {
+    "address": "722 Marion Rd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "722 Marion Rd, Everett, WA 98216"
+  },
+  {
+    "address": "8838 W Spring Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "8838 W Spring Ln, Tacoma, WA 98444"
+  },
+  {
+    "address": "5497 SE Jackson Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "5497 SE Jackson Dr, Tacoma, WA 98415"
+  },
+  {
+    "address": "6844 SW Ravenna Ave",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "6844 SW Ravenna Ave, Bellevue, WA 98005"
+  },
+  {
+    "address": "3306 N Marina St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "3306 N Marina St, Seattle, WA 98104"
+  },
+  {
+    "address": "6365 Howe Pl",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "6365 Howe Pl, Auburn, WA 98092"
+  },
+  {
+    "address": "5814 NE Republican Pl",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "5814 NE Republican Pl, SeaTac, WA 98158"
+  },
+  {
+    "address": "3818 Boylston Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98403",
+    "full_address": "3818 Boylston Blvd, Tacoma, WA 98403"
+  },
+  {
+    "address": "6738 E Main Blvd",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "6738 E Main Blvd, Bellevue, WA 98005"
+  },
+  {
+    "address": "6396 Eighth Blvd, Ste 142",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "6396 Eighth Blvd, Ste 142, Renton, WA 98056"
+  },
+  {
+    "address": "8295 S West Seattle Blvd",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "8295 S West Seattle Blvd, Auburn, WA 98092"
+  },
+  {
+    "address": "3143 Spring Ln, Ste 459",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98417",
+    "full_address": "3143 Spring Ln, Ste 459, Tacoma, WA 98417"
+  },
+  {
+    "address": "3950 NW Marina St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98401",
+    "full_address": "3950 NW Marina St, Tacoma, WA 98401"
+  },
+  {
+    "address": "5383 Lakeview Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98199",
+    "full_address": "5383 Lakeview Dr, Seattle, WA 98199"
+  },
+  {
+    "address": "3622 Ballard Ter, Unit 326",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98164",
+    "full_address": "3622 Ballard Ter, Unit 326, Seattle, WA 98164"
+  },
+  {
+    "address": "1931 Place Dr, Unit 6",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "1931 Place Dr, Unit 6, Tacoma, WA 98406"
+  },
+  {
+    "address": "8146 N Spring Rd, Unit 344",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98008",
+    "full_address": "8146 N Spring Rd, Unit 344, Bellevue, WA 98008"
+  },
+  {
+    "address": "8741 Ravenna Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98102",
+    "full_address": "8741 Ravenna Dr, Seattle, WA 98102"
+  },
+  {
+    "address": "126 Harbor Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "126 Harbor Dr, Tacoma, WA 98416"
+  },
+  {
+    "address": "8830 SW Bell Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "8830 SW Bell Way, Tacoma, WA 98416"
+  },
+  {
+    "address": "2246 Spring Rd",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "2246 Spring Rd, Bellevue, WA 98004"
+  },
+  {
+    "address": "9334 Beacon Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "9334 Beacon Ln, Seattle, WA 98122"
+  },
+  {
+    "address": "9270 Eighth Blvd",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "9270 Eighth Blvd, Redmond, WA 98052"
+  },
+  {
+    "address": "9827 Fourth Ln",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98204",
+    "full_address": "9827 Fourth Ln, Everett, WA 98204"
+  },
+  {
+    "address": "5049 Ballard Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98118",
+    "full_address": "5049 Ballard Dr, Seattle, WA 98118"
+  },
+  {
+    "address": "9149 Broadway Dr",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "9149 Broadway Dr, Bellevue, WA 98005"
+  },
+  {
+    "address": "4072 Thomas St",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98074",
+    "full_address": "4072 Thomas St, Sammamish, WA 98074"
+  },
+  {
+    "address": "1359 Seventh Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "1359 Seventh Rd, Seattle, WA 98115"
+  },
+  {
+    "address": "8349 NW Marina Rd",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "8349 NW Marina Rd, Redmond, WA 98052"
+  },
+  {
+    "address": "5369 Terry Way",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98202",
+    "full_address": "5369 Terry Way, Everett, WA 98202"
+  },
+  {
+    "address": "100 SW Fourth Ter",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98008",
+    "full_address": "100 SW Fourth Ter, Bellevue, WA 98008"
+  },
+  {
+    "address": "152 Boylston Way",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "152 Boylston Way, Renton, WA 98056"
+  },
+  {
+    "address": "793 NW Rainier Dr",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "793 NW Rainier Dr, Renton, WA 98055"
+  },
+  {
+    "address": "815 Highland Rd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "815 Highland Rd, Kent, WA 98089"
+  },
+  {
+    "address": "7990 Boren St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "7990 Boren St, Tacoma, WA 98406"
+  },
+  {
+    "address": "7433 NW Pike Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "7433 NW Pike Ln, Tacoma, WA 98415"
+  },
+  {
+    "address": "7691 Greenwood Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "7691 Greenwood Blvd, Tacoma, WA 98415"
+  },
+  {
+    "address": "3276 Marina Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "3276 Marina Ave, Seattle, WA 98104"
+  },
+  {
+    "address": "3232 Ballard Rd",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "3232 Ballard Rd, SeaTac, WA 98158"
+  },
+  {
+    "address": "5990 Ninth Ter, # 408",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "5990 Ninth Ter, # 408, Seattle, WA 98133"
+  },
+  {
+    "address": "1249 N Union Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "1249 N Union Ct, Tacoma, WA 98408"
+  },
+  {
+    "address": "1156 N Grove Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "1156 N Grove Dr, Tacoma, WA 98418"
+  },
+  {
+    "address": "408 Ballard Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98498",
+    "full_address": "408 Ballard Ter, Tacoma, WA 98498"
+  },
+  {
+    "address": "6797 Lakeview Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "6797 Lakeview Pl, Seattle, WA 98122"
+  },
+  {
+    "address": "7818 SE Way Way",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "7818 SE Way Way, Des Moines, WA 98198"
+  },
+  {
+    "address": "4669 Second Ter",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "4669 Second Ter, Bothell, WA 98021"
+  },
+  {
+    "address": "4072 E Union Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98412",
+    "full_address": "4072 E Union Dr, Tacoma, WA 98412"
+  },
+  {
+    "address": "9081 Fairview Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "9081 Fairview Blvd, Tacoma, WA 98416"
+  },
+  {
+    "address": "2446 Broadway Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "2446 Broadway Pl, Tacoma, WA 98447"
+  },
+  {
+    "address": "1947 Queen Anne St",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98006",
+    "full_address": "1947 Queen Anne St, Bellevue, WA 98006"
+  },
+  {
+    "address": "3828 W Magnolia Ave",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "3828 W Magnolia Ave, Auburn, WA 98092"
+  },
+  {
+    "address": "7740 Sixth St",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "7740 Sixth St, SeaTac, WA 98158"
+  },
+  {
+    "address": "6071 Terry Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "6071 Terry Blvd, Tacoma, WA 98471"
+  },
+  {
+    "address": "6015 Prospect Ave, Ste 225",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98206",
+    "full_address": "6015 Prospect Ave, Ste 225, Everett, WA 98206"
+  },
+  {
+    "address": "960 Union Blvd, # 318",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "960 Union Blvd, # 318, Shoreline, WA 98133"
+  },
+  {
+    "address": "5698 S Court Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "5698 S Court Pl, Tacoma, WA 98416"
+  },
+  {
+    "address": "3980 Republican Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98493",
+    "full_address": "3980 Republican Ter, Tacoma, WA 98493"
+  },
+  {
+    "address": "6942 Pine Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98207",
+    "full_address": "6942 Pine Ter, Everett, WA 98207"
+  },
+  {
+    "address": "288 NW Wallingford Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "288 NW Wallingford Rd, Seattle, WA 98177"
+  },
+  {
+    "address": "1139 Olive Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98101",
+    "full_address": "1139 Olive Blvd, Seattle, WA 98101"
+  },
+  {
+    "address": "6507 Highland Dr",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98215",
+    "full_address": "6507 Highland Dr, Everett, WA 98215"
+  },
+  {
+    "address": "5881 Jefferson Ter",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98003",
+    "full_address": "5881 Jefferson Ter, Federal Way, WA 98003"
+  },
+  {
+    "address": "5621 Boston St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "5621 Boston St, Renton, WA 98059"
+  },
+  {
+    "address": "9145 Ravenna Blvd, Apt 18",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98105",
+    "full_address": "9145 Ravenna Blvd, Apt 18, Seattle, WA 98105"
+  },
+  {
+    "address": "2668 Pike Ter",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "2668 Pike Ter, Kirkland, WA 98034"
+  },
+  {
+    "address": "1813 Eastlake Rd, Ste 232",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98117",
+    "full_address": "1813 Eastlake Rd, Ste 232, Seattle, WA 98117"
+  },
+  {
+    "address": "9696 N Howe Ter",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98006",
+    "full_address": "9696 N Howe Ter, Bellevue, WA 98006"
+  },
+  {
+    "address": "1349 Jefferson Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98402",
+    "full_address": "1349 Jefferson Way, Tacoma, WA 98402"
+  },
+  {
+    "address": "1902 Ballard Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "1902 Ballard Rd, Seattle, WA 98146"
+  },
+  {
+    "address": "597 E Madison Dr",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "597 E Madison Dr, Bothell, WA 98021"
+  },
+  {
+    "address": "3219 Roy St",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98001",
+    "full_address": "3219 Roy St, Auburn, WA 98001"
+  },
+  {
+    "address": "2194 SE Place Ter, Apt 273",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98138",
+    "full_address": "2194 SE Place Ter, Apt 273, Tukwila, WA 98138"
+  },
+  {
+    "address": "5263 SW Tenth Blvd",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "5263 SW Tenth Blvd, Des Moines, WA 98198"
+  },
+  {
+    "address": "391 Fairview Ct, Ste 330",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "391 Fairview Ct, Ste 330, Renton, WA 98059"
+  },
+  {
+    "address": "8487 NW Seventh Way",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98027",
+    "full_address": "8487 NW Seventh Way, Issaquah, WA 98027"
+  },
+  {
+    "address": "1725 SW Bell Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98445",
+    "full_address": "1725 SW Bell Ln, Tacoma, WA 98445"
+  },
+  {
+    "address": "6685 N Magnolia Ln, Apt 239",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98007",
+    "full_address": "6685 N Magnolia Ln, Apt 239, Bellevue, WA 98007"
+  },
+  {
+    "address": "3737 Park Ave, Apt 407",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "3737 Park Ave, Apt 407, Renton, WA 98055"
+  },
+  {
+    "address": "4688 University Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "4688 University Ct, Seattle, WA 98112"
+  },
+  {
+    "address": "2838 NE Republican Ln",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98029",
+    "full_address": "2838 NE Republican Ln, Issaquah, WA 98029"
+  },
+  {
+    "address": "6792 Jefferson Ct",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98008",
+    "full_address": "6792 Jefferson Ct, Bellevue, WA 98008"
+  },
+  {
+    "address": "4638 Fremont Blvd",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "4638 Fremont Blvd, Auburn, WA 98002"
+  },
+  {
+    "address": "3274 Lakeview Blvd, Ste 53",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98011",
+    "full_address": "3274 Lakeview Blvd, Ste 53, Bothell, WA 98011"
+  },
+  {
+    "address": "2798 SE Terry Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98101",
+    "full_address": "2798 SE Terry Rd, Seattle, WA 98101"
+  },
+  {
+    "address": "7847 Street Rd",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "7847 Street Rd, Auburn, WA 98092"
+  },
+  {
+    "address": "4950 NW Denny Ave",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98012",
+    "full_address": "4950 NW Denny Ave, Bothell, WA 98012"
+  },
+  {
+    "address": "4123 SW Place Dr",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98031",
+    "full_address": "4123 SW Place Dr, Kent, WA 98031"
+  },
+  {
+    "address": "8752 NW Street Ter",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98053",
+    "full_address": "8752 NW Street Ter, Redmond, WA 98053"
+  },
+  {
+    "address": "9074 Ballard Pl",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "9074 Ballard Pl, Everett, WA 98214"
+  },
+  {
+    "address": "1233 Fifth Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98118",
+    "full_address": "1233 Fifth Way, Seattle, WA 98118"
+  },
+  {
+    "address": "628 Place St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98405",
+    "full_address": "628 Place St, Tacoma, WA 98405"
+  },
+  {
+    "address": "5656 Pier Ter, Unit 491",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98409",
+    "full_address": "5656 Pier Ter, Unit 491, Tacoma, WA 98409"
+  },
+  {
+    "address": "6220 S Denny St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "6220 S Denny St, Tacoma, WA 98404"
+  },
+  {
+    "address": "4622 E Roosevelt St",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "4622 E Roosevelt St, Des Moines, WA 98198"
+  },
+  {
+    "address": "2601 NW Rainier Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98164",
+    "full_address": "2601 NW Rainier Ave, Seattle, WA 98164"
+  },
+  {
+    "address": "9106 Roy Ct",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98057",
+    "full_address": "9106 Roy Ct, Renton, WA 98057"
+  },
+  {
+    "address": "1032 Queen Anne Blvd",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "1032 Queen Anne Blvd, SeaTac, WA 98158"
+  },
+  {
+    "address": "4744 E Highland Ter, # 176",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98202",
+    "full_address": "4744 E Highland Ter, # 176, Everett, WA 98202"
+  },
+  {
+    "address": "3995 NW Howe Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "3995 NW Howe Way, Tacoma, WA 98415"
+  },
+  {
+    "address": "7346 SE Boylston Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98405",
+    "full_address": "7346 SE Boylston Ter, Tacoma, WA 98405"
+  },
+  {
+    "address": "9823 Fifth Dr",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "9823 Fifth Dr, SeaTac, WA 98158"
+  },
+  {
+    "address": "7490 W John Ter",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "7490 W John Ter, Bothell, WA 98021"
+  },
+  {
+    "address": "858 NW Columbia Way",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "858 NW Columbia Way, SeaTac, WA 98158"
+  },
+  {
+    "address": "3825 Ravenna Ln",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "3825 Ravenna Ln, Renton, WA 98059"
+  },
+  {
+    "address": "3848 Seventh Way",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "3848 Seventh Way, Sammamish, WA 98075"
+  },
+  {
+    "address": "8710 Belltown Ct",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "8710 Belltown Ct, SeaTac, WA 98158"
+  },
+  {
+    "address": "525 Prospect Dr",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98148",
+    "full_address": "525 Prospect Dr, Burien, WA 98148"
+  },
+  {
+    "address": "6829 SW Jackson St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "6829 SW Jackson St, Tacoma, WA 98446"
+  },
+  {
+    "address": "6065 Wallingford Blvd",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98138",
+    "full_address": "6065 Wallingford Blvd, Tukwila, WA 98138"
+  },
+  {
+    "address": "8891 W Valley St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "8891 W Valley St, Seattle, WA 98146"
+  },
+  {
+    "address": "8308 James Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98466",
+    "full_address": "8308 James Ave, Tacoma, WA 98466"
+  },
+  {
+    "address": "6024 Waterfront Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "6024 Waterfront Ct, Seattle, WA 98115"
+  },
+  {
+    "address": "3114 Olive St",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "3114 Olive St, Everett, WA 98216"
+  },
+  {
+    "address": "9530 N Union Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "9530 N Union Pl, Seattle, WA 98133"
+  },
+  {
+    "address": "6504 Place Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98412",
+    "full_address": "6504 Place Dr, Tacoma, WA 98412"
+  },
+  {
+    "address": "6393 Garden Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "6393 Garden Blvd, Renton, WA 98056"
+  },
+  {
+    "address": "8429 E Yesler Dr, # 74",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98402",
+    "full_address": "8429 E Yesler Dr, # 74, Tacoma, WA 98402"
+  },
+  {
+    "address": "8999 N Eighth Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "8999 N Eighth Ct, Seattle, WA 98154"
+  },
+  {
+    "address": "2015 Queen Anne Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98498",
+    "full_address": "2015 Queen Anne Ct, Tacoma, WA 98498"
+  },
+  {
+    "address": "7227 Bellevue Dr",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98023",
+    "full_address": "7227 Bellevue Dr, Federal Way, WA 98023"
+  },
+  {
+    "address": "9637 Yesler Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "9637 Yesler Ct, Seattle, WA 98104"
+  },
+  {
+    "address": "8889 Columbia Pl",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98206",
+    "full_address": "8889 Columbia Pl, Everett, WA 98206"
+  },
+  {
+    "address": "9686 Columbia St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "9686 Columbia St, Tacoma, WA 98465"
+  },
+  {
+    "address": "9695 Cherry Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "9695 Cherry Dr, Seattle, WA 98178"
+  },
+  {
+    "address": "2797 Fairview Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "2797 Fairview Ave, Everett, WA 98216"
+  },
+  {
+    "address": "5646 SE Way Ave",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "5646 SE Way Ave, Kent, WA 98089"
+  },
+  {
+    "address": "4904 Pier Way",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "4904 Pier Way, Bothell, WA 98021"
+  },
+  {
+    "address": "1976 N Place Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "1976 N Place Rd, Seattle, WA 98122"
+  },
+  {
+    "address": "3191 Jackson St",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98042",
+    "full_address": "3191 Jackson St, Kent, WA 98042"
+  },
+  {
+    "address": "3831 NE Grove Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "3831 NE Grove Ln, Seattle, WA 98146"
+  },
+  {
+    "address": "3898 Street Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98126",
+    "full_address": "3898 Street Ct, Seattle, WA 98126"
+  },
+  {
+    "address": "4814 SW Columbia Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "4814 SW Columbia Rd, Seattle, WA 98116"
+  },
+  {
+    "address": "4938 SW Marina Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "4938 SW Marina Rd, Tacoma, WA 98418"
+  },
+  {
+    "address": "1169 Howe Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "1169 Howe Way, Seattle, WA 98104"
+  },
+  {
+    "address": "9998 S Drive Blvd",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "9998 S Drive Blvd, Sammamish, WA 98075"
+  },
+  {
+    "address": "8757 Lynn St, # 76",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "8757 Lynn St, # 76, Seattle, WA 98144"
+  },
+  {
+    "address": "5729 Belltown Dr, Ste 464",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "5729 Belltown Dr, Ste 464, Tukwila, WA 98168"
+  },
+  {
+    "address": "8380 University Rd",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "8380 University Rd, Kirkland, WA 98034"
+  },
+  {
+    "address": "5586 Cherry Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "5586 Cherry Blvd, Renton, WA 98058"
+  },
+  {
+    "address": "5148 Jefferson Ln, Ste 136",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "5148 Jefferson Ln, Ste 136, Seattle, WA 98116"
+  },
+  {
+    "address": "9703 Eastlake Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "9703 Eastlake Ct, Everett, WA 98208"
+  },
+  {
+    "address": "7898 Ravenna Pl",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "7898 Ravenna Pl, Des Moines, WA 98198"
+  },
+  {
+    "address": "9854 Madison Pl",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98027",
+    "full_address": "9854 Madison Pl, Issaquah, WA 98027"
+  },
+  {
+    "address": "7303 Main Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "7303 Main Ave, Seattle, WA 98122"
+  },
+  {
+    "address": "6674 Fremont Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "6674 Fremont Dr, Seattle, WA 98107"
+  },
+  {
+    "address": "2843 Seventh Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "2843 Seventh Rd, Seattle, WA 98154"
+  },
+  {
+    "address": "8180 Pine Way",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "8180 Pine Way, Shoreline, WA 98133"
+  },
+  {
+    "address": "5936 Marion Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98118",
+    "full_address": "5936 Marion Rd, Seattle, WA 98118"
+  },
+  {
+    "address": "9371 Spring Ct",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98063",
+    "full_address": "9371 Spring Ct, Federal Way, WA 98063"
+  },
+  {
+    "address": "3652 Street Ave",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98056",
+    "full_address": "3652 Street Ave, Renton, WA 98056"
+  },
+  {
+    "address": "1973 N Prospect Rd, Unit 163",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98204",
+    "full_address": "1973 N Prospect Rd, Unit 163, Everett, WA 98204"
+  },
+  {
+    "address": "422 Eighth Blvd",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98148",
+    "full_address": "422 Eighth Blvd, Burien, WA 98148"
+  },
+  {
+    "address": "211 Marina Ave, Unit 29",
+    "city": "Mercer Island",
+    "state": "WA",
+    "zip_code": "98040",
+    "full_address": "211 Marina Ave, Unit 29, Mercer Island, WA 98040"
+  },
+  {
+    "address": "5077 Third Pl",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98008",
+    "full_address": "5077 Third Pl, Bellevue, WA 98008"
+  },
+  {
+    "address": "8224 Rainier Blvd, Ste 143",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "8224 Rainier Blvd, Ste 143, Tacoma, WA 98404"
+  },
+  {
+    "address": "5239 SW Eighth Ct, # 314",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "5239 SW Eighth Ct, # 314, Seattle, WA 98178"
+  },
+  {
+    "address": "6131 Eastlake Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98412",
+    "full_address": "6131 Eastlake Blvd, Tacoma, WA 98412"
+  },
+  {
+    "address": "4845 Boren Blvd",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98053",
+    "full_address": "4845 Boren Blvd, Redmond, WA 98053"
+  },
+  {
+    "address": "9562 Olive St, Unit 167",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98148",
+    "full_address": "9562 Olive St, Unit 167, Burien, WA 98148"
+  },
+  {
+    "address": "3038 W Republican Ter",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "3038 W Republican Ter, Tukwila, WA 98108"
+  },
+  {
+    "address": "8417 Harrison Ln",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "8417 Harrison Ln, Auburn, WA 98002"
+  },
+  {
+    "address": "6932 Olive Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "6932 Olive Ct, Tacoma, WA 98447"
+  },
+  {
+    "address": "7011 Street Blvd",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "7011 Street Blvd, SeaTac, WA 98158"
+  },
+  {
+    "address": "3430 Ravenna Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "3430 Ravenna Rd, Tacoma, WA 98415"
+  },
+  {
+    "address": "7815 Aloha Rd, Unit 219",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98003",
+    "full_address": "7815 Aloha Rd, Unit 219, Federal Way, WA 98003"
+  },
+  {
+    "address": "9238 NW Boylston Pl, Unit 94",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "9238 NW Boylston Pl, Unit 94, Tacoma, WA 98444"
+  },
+  {
+    "address": "9860 Greenwood Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "9860 Greenwood Blvd, Seattle, WA 98112"
+  },
+  {
+    "address": "6625 SE Dock Blvd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "6625 SE Dock Blvd, Everett, WA 98208"
+  },
+  {
+    "address": "6469 Union Ave, Apt 281",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "6469 Union Ave, Apt 281, SeaTac, WA 98188"
+  },
+  {
+    "address": "9749 N Pier Ter, # 11",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "9749 N Pier Ter, # 11, SeaTac, WA 98188"
+  },
+  {
+    "address": "7557 Jackson Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "7557 Jackson Ct, Seattle, WA 98115"
+  },
+  {
+    "address": "8838 Lakeview Pl",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "8838 Lakeview Pl, Kent, WA 98032"
+  },
+  {
+    "address": "9627 Lane Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "9627 Lane Rd, Seattle, WA 98177"
+  },
+  {
+    "address": "1419 Howe St, Apt 281",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "1419 Howe St, Apt 281, Seattle, WA 98119"
+  },
+  {
+    "address": "7828 E Highland Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "7828 E Highland Ct, Tacoma, WA 98471"
+  },
+  {
+    "address": "8109 Galer Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "8109 Galer Ave, Seattle, WA 98122"
+  },
+  {
+    "address": "2220 Bellevue Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98146",
+    "full_address": "2220 Bellevue Ln, Seattle, WA 98146"
+  },
+  {
+    "address": "6849 NW Street Ct, Ste 135",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "6849 NW Street Ct, Ste 135, Des Moines, WA 98198"
+  },
+  {
+    "address": "6863 SW West Seattle St",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "6863 SW West Seattle St, Tukwila, WA 98108"
+  },
+  {
+    "address": "9054 SW Columbia Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98122",
+    "full_address": "9054 SW Columbia Ter, Seattle, WA 98122"
+  },
+  {
+    "address": "4658 W Seventh St, # 91",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "4658 W Seventh St, # 91, Seattle, WA 98154"
+  },
+  {
+    "address": "4287 N Valley Blvd, Apt 138",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "4287 N Valley Blvd, Apt 138, Everett, WA 98213"
+  },
+  {
+    "address": "355 N Marina Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "355 N Marina Ct, Tacoma, WA 98447"
+  },
+  {
+    "address": "4156 SW Pier Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "4156 SW Pier Ter, Tacoma, WA 98416"
+  },
+  {
+    "address": "6544 Cherry Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98467",
+    "full_address": "6544 Cherry Ter, Tacoma, WA 98467"
+  },
+  {
+    "address": "7870 Terry Ct, Unit 237",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "7870 Terry Ct, Unit 237, Des Moines, WA 98198"
+  },
+  {
+    "address": "865 Republican Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98409",
+    "full_address": "865 Republican Pl, Tacoma, WA 98409"
+  },
+  {
+    "address": "514 Marion Blvd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98206",
+    "full_address": "514 Marion Blvd, Everett, WA 98206"
+  },
+  {
+    "address": "5110 NE Valley Ln",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "5110 NE Valley Ln, Bellevue, WA 98005"
+  },
+  {
+    "address": "9688 Cherry Ln, # 310",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98148",
+    "full_address": "9688 Cherry Ln, # 310, Burien, WA 98148"
+  },
+  {
+    "address": "5012 Roy Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98195",
+    "full_address": "5012 Roy Ter, Seattle, WA 98195"
+  },
+  {
+    "address": "9219 W Way St",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "9219 W Way St, SeaTac, WA 98158"
+  },
+  {
+    "address": "4586 NE Fremont Blvd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98206",
+    "full_address": "4586 NE Fremont Blvd, Everett, WA 98206"
+  },
+  {
+    "address": "9518 SW John Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "9518 SW John Ln, Seattle, WA 98115"
+  },
+  {
+    "address": "1910 SW Marina Ave",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "1910 SW Marina Ave, Kirkland, WA 98034"
+  },
+  {
+    "address": "9386 Boston Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98109",
+    "full_address": "9386 Boston Ter, Seattle, WA 98109"
+  },
+  {
+    "address": "333 Lane Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "333 Lane Ct, Tacoma, WA 98404"
+  },
+  {
+    "address": "4953 Fairview Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "4953 Fairview Dr, Tacoma, WA 98415"
+  },
+  {
+    "address": "2276 Sixth Ln, Apt 153",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "2276 Sixth Ln, Apt 153, Bellevue, WA 98005"
+  },
+  {
+    "address": "9641 SW Sixth Way",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98027",
+    "full_address": "9641 SW Sixth Way, Issaquah, WA 98027"
+  },
+  {
+    "address": "7411 Howe Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "7411 Howe Rd, Seattle, WA 98133"
+  },
+  {
+    "address": "4740 Republican Rd, Unit 186",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98204",
+    "full_address": "4740 Republican Rd, Unit 186, Everett, WA 98204"
+  },
+  {
+    "address": "5175 Broadway Dr",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98203",
+    "full_address": "5175 Broadway Dr, Everett, WA 98203"
+  },
+  {
+    "address": "9713 Prospect St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "9713 Prospect St, Seattle, WA 98178"
+  },
+  {
+    "address": "2613 SE Pike Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "2613 SE Pike Pl, Tacoma, WA 98408"
+  },
+  {
+    "address": "9415 Lakeview Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "9415 Lakeview Ct, Tacoma, WA 98447"
+  },
+  {
+    "address": "5459 Harrison Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98466",
+    "full_address": "5459 Harrison Ave, Tacoma, WA 98466"
+  },
+  {
+    "address": "8950 S Main Dr",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "8950 S Main Dr, Kirkland, WA 98034"
+  },
+  {
+    "address": "410 Queen Anne Ct, Ste 408",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98201",
+    "full_address": "410 Queen Anne Ct, Ste 408, Everett, WA 98201"
+  },
+  {
+    "address": "5760 Roosevelt Way",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "5760 Roosevelt Way, Auburn, WA 98092"
+  },
+  {
+    "address": "4470 E Harbor Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "4470 E Harbor Ter, Seattle, WA 98107"
+  },
+  {
+    "address": "1345 Pier Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "1345 Pier Ct, Everett, WA 98214"
+  },
+  {
+    "address": "1344 Yesler Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "1344 Yesler Way, Tacoma, WA 98471"
+  },
+  {
+    "address": "6809 Fairview Ln",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "6809 Fairview Ln, Tukwila, WA 98108"
+  },
+  {
+    "address": "9877 Roy Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98164",
+    "full_address": "9877 Roy Ln, Seattle, WA 98164"
+  },
+  {
+    "address": "5127 Marion Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98205",
+    "full_address": "5127 Marion Ter, Everett, WA 98205"
+  },
+  {
+    "address": "8249 Wallingford Blvd",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "8249 Wallingford Blvd, Auburn, WA 98002"
+  },
+  {
+    "address": "620 Ravenna Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "620 Ravenna Ln, Seattle, WA 98134"
+  },
+  {
+    "address": "2318 Bell Rd",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98023",
+    "full_address": "2318 Bell Rd, Federal Way, WA 98023"
+  },
+  {
+    "address": "2737 West Seattle Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "2737 West Seattle Ave, Seattle, WA 98104"
+  },
+  {
+    "address": "5397 W Lynn Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "5397 W Lynn Pl, Tacoma, WA 98418"
+  },
+  {
+    "address": "5932 NE Bell Ave, Apt 10",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "5932 NE Bell Ave, Apt 10, Seattle, WA 98119"
+  },
+  {
+    "address": "5215 Fourth Dr",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "5215 Fourth Dr, Kent, WA 98089"
+  },
+  {
+    "address": "356 Park Blvd, Unit 396",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98407",
+    "full_address": "356 Park Blvd, Unit 396, Tacoma, WA 98407"
+  },
+  {
+    "address": "4623 Sixth St, Apt 289",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "4623 Sixth St, Apt 289, Tacoma, WA 98404"
+  },
+  {
+    "address": "3785 S Fremont Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98407",
+    "full_address": "3785 S Fremont Dr, Tacoma, WA 98407"
+  },
+  {
+    "address": "7035 Tenth Pl",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98008",
+    "full_address": "7035 Tenth Pl, Bellevue, WA 98008"
+  },
+  {
+    "address": "3674 Marion Blvd",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98003",
+    "full_address": "3674 Marion Blvd, Federal Way, WA 98003"
+  },
+  {
+    "address": "3594 Queen Anne Ter, Ste 129",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "3594 Queen Anne Ter, Ste 129, Shoreline, WA 98177"
+  },
+  {
+    "address": "1584 Roosevelt Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "1584 Roosevelt Rd, Tacoma, WA 98404"
+  },
+  {
+    "address": "5221 Capitol Ct",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98031",
+    "full_address": "5221 Capitol Ct, Kent, WA 98031"
+  },
+  {
+    "address": "6237 Main Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "6237 Main Ter, Tacoma, WA 98444"
+  },
+  {
+    "address": "7105 Garden Blvd",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98003",
+    "full_address": "7105 Garden Blvd, Federal Way, WA 98003"
+  },
+  {
+    "address": "7142 W Ravenna Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "7142 W Ravenna Rd, Tacoma, WA 98418"
+  },
+  {
+    "address": "3505 NE Yesler Ter, Apt 465",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98008",
+    "full_address": "3505 NE Yesler Ter, Apt 465, Bellevue, WA 98008"
+  },
+  {
+    "address": "2078 N Circle Dr, # 225",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98011",
+    "full_address": "2078 N Circle Dr, # 225, Bothell, WA 98011"
+  },
+  {
+    "address": "5376 Fremont Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "5376 Fremont Ave, Seattle, WA 98116"
+  },
+  {
+    "address": "7843 Circle Blvd, Unit 232",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98109",
+    "full_address": "7843 Circle Blvd, Unit 232, Seattle, WA 98109"
+  },
+  {
+    "address": "8072 Spring Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "8072 Spring Pl, Seattle, WA 98119"
+  },
+  {
+    "address": "2969 Jefferson Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "2969 Jefferson Dr, Tacoma, WA 98413"
+  },
+  {
+    "address": "5304 Eighth St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "5304 Eighth St, Seattle, WA 98144"
+  },
+  {
+    "address": "3046 Pine Pl",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "3046 Pine Pl, Everett, WA 98213"
+  },
+  {
+    "address": "3183 Belltown Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "3183 Belltown Dr, Seattle, WA 98133"
+  },
+  {
+    "address": "7126 Eastlake Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98445",
+    "full_address": "7126 Eastlake Rd, Tacoma, WA 98445"
+  },
+  {
+    "address": "6867 Olive Blvd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "6867 Olive Blvd, Kent, WA 98089"
+  },
+  {
+    "address": "7018 Greenwood Ter",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98158",
+    "full_address": "7018 Greenwood Ter, SeaTac, WA 98158"
+  },
+  {
+    "address": "1589 N Waterfront Pl",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "1589 N Waterfront Pl, Everett, WA 98214"
+  },
+  {
+    "address": "5061 Bellevue Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "5061 Bellevue Way, Seattle, WA 98133"
+  },
+  {
+    "address": "8678 Ravenna Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98409",
+    "full_address": "8678 Ravenna Dr, Tacoma, WA 98409"
+  },
+  {
+    "address": "707 Fremont Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "707 Fremont Ln, Tacoma, WA 98444"
+  },
+  {
+    "address": "8994 N Lane Blvd",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "8994 N Lane Blvd, Auburn, WA 98002"
+  },
+  {
+    "address": "4045 E Lane Pl",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "4045 E Lane Pl, Shoreline, WA 98133"
+  },
+  {
+    "address": "4842 Marion Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98445",
+    "full_address": "4842 Marion Way, Tacoma, WA 98445"
+  },
+  {
+    "address": "6045 SE Aloha Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "6045 SE Aloha Blvd, Tacoma, WA 98447"
+  },
+  {
+    "address": "6148 SW Boren Ter, # 273",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "6148 SW Boren Ter, # 273, Tacoma, WA 98415"
+  },
+  {
+    "address": "2535 E Garden Ter",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "2535 E Garden Ter, Des Moines, WA 98198"
+  },
+  {
+    "address": "6014 West Seattle Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98207",
+    "full_address": "6014 West Seattle Ave, Everett, WA 98207"
+  },
+  {
+    "address": "3058 W SoDo Ter",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98074",
+    "full_address": "3058 W SoDo Ter, Sammamish, WA 98074"
+  },
+  {
+    "address": "2000 S Garden Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "2000 S Garden Rd, Tacoma, WA 98444"
+  },
+  {
+    "address": "2313 Seventh St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "2313 Seventh St, Tacoma, WA 98446"
+  },
+  {
+    "address": "8008 Lane Rd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98207",
+    "full_address": "8008 Lane Rd, Everett, WA 98207"
+  },
+  {
+    "address": "6031 NE Fremont Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "6031 NE Fremont Way, Seattle, WA 98133"
+  },
+  {
+    "address": "2550 Main Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98117",
+    "full_address": "2550 Main Blvd, Seattle, WA 98117"
+  },
+  {
+    "address": "8515 E Olive Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "8515 E Olive Ter, Tacoma, WA 98447"
+  },
+  {
+    "address": "4536 John Ter",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98029",
+    "full_address": "4536 John Ter, Issaquah, WA 98029"
+  },
+  {
+    "address": "2655 Marion Ave",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "2655 Marion Ave, Des Moines, WA 98198"
+  },
+  {
+    "address": "2033 S Tenth Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98402",
+    "full_address": "2033 S Tenth Dr, Tacoma, WA 98402"
+  },
+  {
+    "address": "9863 Aloha Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98417",
+    "full_address": "9863 Aloha Rd, Tacoma, WA 98417"
+  },
+  {
+    "address": "5787 Wallingford Rd, Apt 60",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98138",
+    "full_address": "5787 Wallingford Rd, Apt 60, Tukwila, WA 98138"
+  },
+  {
+    "address": "6785 Marina St",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "6785 Marina St, Everett, WA 98214"
+  },
+  {
+    "address": "7621 Marion Pl",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98027",
+    "full_address": "7621 Marion Pl, Issaquah, WA 98027"
+  },
+  {
+    "address": "7122 Valley Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "7122 Valley Ln, Tacoma, WA 98406"
+  },
+  {
+    "address": "7345 NE Place Ln, # 408",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98443",
+    "full_address": "7345 NE Place Ln, # 408, Tacoma, WA 98443"
+  },
+  {
+    "address": "7872 SE Jefferson Way, Apt 368",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98001",
+    "full_address": "7872 SE Jefferson Way, Apt 368, Auburn, WA 98001"
+  },
+  {
+    "address": "7867 SW Prospect Pl, Unit 431",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98003",
+    "full_address": "7867 SW Prospect Pl, Unit 431, Federal Way, WA 98003"
+  },
+  {
+    "address": "6568 Bell Ter",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "6568 Bell Ter, Auburn, WA 98092"
+  },
+  {
+    "address": "8317 Yesler Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "8317 Yesler Rd, Seattle, WA 98154"
+  },
+  {
+    "address": "5684 Magnolia Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "5684 Magnolia Ter, Everett, WA 98208"
+  },
+  {
+    "address": "5785 Boren Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98498",
+    "full_address": "5785 Boren Pl, Tacoma, WA 98498"
+  },
+  {
+    "address": "8928 Grove St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98121",
+    "full_address": "8928 Grove St, Seattle, WA 98121"
+  },
+  {
+    "address": "4084 Avenue Dr, Ste 419",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "4084 Avenue Dr, Ste 419, Tacoma, WA 98444"
+  },
+  {
+    "address": "3553 Sixth Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "3553 Sixth Ct, Tacoma, WA 98406"
+  },
+  {
+    "address": "426 Eastlake Ave",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98063",
+    "full_address": "426 Eastlake Ave, Federal Way, WA 98063"
+  },
+  {
+    "address": "9019 Jackson Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98405",
+    "full_address": "9019 Jackson Dr, Tacoma, WA 98405"
+  },
+  {
+    "address": "2203 SE Fairview Rd, Apt 398",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98011",
+    "full_address": "2203 SE Fairview Rd, Apt 398, Bothell, WA 98011"
+  },
+  {
+    "address": "3318 Waterfront Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98103",
+    "full_address": "3318 Waterfront Way, Seattle, WA 98103"
+  },
+  {
+    "address": "1190 Wallingford Dr",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98030",
+    "full_address": "1190 Wallingford Dr, Kent, WA 98030"
+  },
+  {
+    "address": "6673 Prospect Ln",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98204",
+    "full_address": "6673 Prospect Ln, Everett, WA 98204"
+  },
+  {
+    "address": "4770 Waterfront Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98424",
+    "full_address": "4770 Waterfront Rd, Tacoma, WA 98424"
+  },
+  {
+    "address": "7134 Jefferson St, Apt 217",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "7134 Jefferson St, Apt 217, Seattle, WA 98154"
+  },
+  {
+    "address": "8631 Roosevelt Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "8631 Roosevelt Ct, Everett, WA 98208"
+  },
+  {
+    "address": "7830 Eighth Pl, Apt 432",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98115",
+    "full_address": "7830 Eighth Pl, Apt 432, Seattle, WA 98115"
+  },
+  {
+    "address": "1832 Drive Ln",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98029",
+    "full_address": "1832 Drive Ln, Issaquah, WA 98029"
+  },
+  {
+    "address": "7136 Court Ter, Unit 276",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98467",
+    "full_address": "7136 Court Ter, Unit 276, Tacoma, WA 98467"
+  },
+  {
+    "address": "8965 Fremont Ave",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98006",
+    "full_address": "8965 Fremont Ave, Bellevue, WA 98006"
+  },
+  {
+    "address": "6566 Roy Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "6566 Roy Ave, Tacoma, WA 98404"
+  },
+  {
+    "address": "8341 NE Spring Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "8341 NE Spring Blvd, Renton, WA 98058"
+  },
+  {
+    "address": "8792 SW Pine Dr",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "8792 SW Pine Dr, Tukwila, WA 98168"
+  },
+  {
+    "address": "3732 N Roosevelt Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98201",
+    "full_address": "3732 N Roosevelt Ter, Everett, WA 98201"
+  },
+  {
+    "address": "8766 Queen Anne Ter, Ste 352",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98105",
+    "full_address": "8766 Queen Anne Ter, Ste 352, Seattle, WA 98105"
+  },
+  {
+    "address": "6302 SW Terry Ave",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98063",
+    "full_address": "6302 SW Terry Ave, Federal Way, WA 98063"
+  },
+  {
+    "address": "1085 Circle Ave",
+    "city": "Mercer Island",
+    "state": "WA",
+    "zip_code": "98040",
+    "full_address": "1085 Circle Ave, Mercer Island, WA 98040"
+  },
+  {
+    "address": "2308 NW Third Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98164",
+    "full_address": "2308 NW Third Dr, Seattle, WA 98164"
+  },
+  {
+    "address": "1486 Eastlake Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "1486 Eastlake Ter, Tacoma, WA 98444"
+  },
+  {
+    "address": "2980 Sixth Ave, Ste 217",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98498",
+    "full_address": "2980 Sixth Ave, Ste 217, Tacoma, WA 98498"
+  },
+  {
+    "address": "8532 Fourth Ln",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98023",
+    "full_address": "8532 Fourth Ln, Federal Way, WA 98023"
+  },
+  {
+    "address": "7858 Roosevelt Way",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98027",
+    "full_address": "7858 Roosevelt Way, Issaquah, WA 98027"
+  },
+  {
+    "address": "5017 Drive Blvd, Unit 474",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "5017 Drive Blvd, Unit 474, Bellevue, WA 98004"
+  },
+  {
+    "address": "1010 SE West Seattle Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "1010 SE West Seattle Blvd, Seattle, WA 98108"
+  },
+  {
+    "address": "3272 Fremont Ter, Ste 82",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "3272 Fremont Ter, Ste 82, Shoreline, WA 98177"
+  },
+  {
+    "address": "9996 Pike Ter",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98009",
+    "full_address": "9996 Pike Ter, Bellevue, WA 98009"
+  },
+  {
+    "address": "7849 N Bellevue Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98126",
+    "full_address": "7849 N Bellevue Ln, Seattle, WA 98126"
+  },
+  {
+    "address": "8593 Union Pl",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "8593 Union Pl, Des Moines, WA 98198"
+  },
+  {
+    "address": "8604 Ninth Ct",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98166",
+    "full_address": "8604 Ninth Ct, Burien, WA 98166"
+  },
+  {
+    "address": "372 SE Terry Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "372 SE Terry Ct, Seattle, WA 98144"
+  },
+  {
+    "address": "5075 Third Way",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98001",
+    "full_address": "5075 Third Way, Auburn, WA 98001"
+  },
+  {
+    "address": "2589 Fairview Rd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "2589 Fairview Rd, Renton, WA 98055"
+  },
+  {
+    "address": "9934 SE Olive Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "9934 SE Olive Dr, Seattle, WA 98112"
+  },
+  {
+    "address": "4551 Marion St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98126",
+    "full_address": "4551 Marion St, Seattle, WA 98126"
+  },
+  {
+    "address": "735 S Seventh Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98118",
+    "full_address": "735 S Seventh Blvd, Seattle, WA 98118"
+  },
+  {
+    "address": "6949 SE Galer Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98403",
+    "full_address": "6949 SE Galer Pl, Tacoma, WA 98403"
+  },
+  {
+    "address": "6532 Garden Ter, Apt 492",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "6532 Garden Ter, Apt 492, Kent, WA 98032"
+  },
+  {
+    "address": "7848 NW Street Way",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98008",
+    "full_address": "7848 NW Street Way, Bellevue, WA 98008"
+  },
+  {
+    "address": "8204 Yesler Pl",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "8204 Yesler Pl, Seattle, WA 98116"
+  },
+  {
+    "address": "3767 Union Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "3767 Union Ter, Seattle, WA 98154"
+  },
+  {
+    "address": "8565 NE Way Blvd",
+    "city": "Bothell",
+    "state": "WA",
+    "zip_code": "98021",
+    "full_address": "8565 NE Way Blvd, Bothell, WA 98021"
+  },
+  {
+    "address": "7174 Belltown Dr",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98029",
+    "full_address": "7174 Belltown Dr, Issaquah, WA 98029"
+  },
+  {
+    "address": "934 Circle St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "934 Circle St, Renton, WA 98058"
+  },
+  {
+    "address": "7392 Lynn Rd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98030",
+    "full_address": "7392 Lynn Rd, Kent, WA 98030"
+  },
+  {
+    "address": "2331 SW Jefferson St, Unit 446",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98499",
+    "full_address": "2331 SW Jefferson St, Unit 446, Tacoma, WA 98499"
+  },
+  {
+    "address": "5988 Olive Blvd",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "5988 Olive Blvd, Kirkland, WA 98033"
+  },
+  {
+    "address": "4597 Magnolia Pl",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "4597 Magnolia Pl, Kent, WA 98032"
+  },
+  {
+    "address": "4400 Main Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "4400 Main Ln, Tacoma, WA 98415"
+  },
+  {
+    "address": "6393 West Seattle Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "6393 West Seattle Ter, Seattle, WA 98104"
+  },
+  {
+    "address": "8903 Grove Dr",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98055",
+    "full_address": "8903 Grove Dr, Renton, WA 98055"
+  },
+  {
+    "address": "4022 N Sixth St",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "4022 N Sixth St, Bellevue, WA 98004"
+  },
+  {
+    "address": "5417 Broadway Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98136",
+    "full_address": "5417 Broadway Way, Seattle, WA 98136"
+  },
+  {
+    "address": "7864 Spring Way",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98499",
+    "full_address": "7864 Spring Way, Tacoma, WA 98499"
+  },
+  {
+    "address": "6820 Eighth Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "6820 Eighth Ln, Tacoma, WA 98404"
+  },
+  {
+    "address": "473 Union St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "473 Union St, Tacoma, WA 98444"
+  },
+  {
+    "address": "6548 Fourth Ave",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98004",
+    "full_address": "6548 Fourth Ave, Bellevue, WA 98004"
+  },
+  {
+    "address": "8210 NE Bell Ct",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98155",
+    "full_address": "8210 NE Bell Ct, Shoreline, WA 98155"
+  },
+  {
+    "address": "8685 E Fourth Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98104",
+    "full_address": "8685 E Fourth Ter, Seattle, WA 98104"
+  },
+  {
+    "address": "2757 Bellevue Dr, Apt 417",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "2757 Bellevue Dr, Apt 417, Everett, WA 98216"
+  },
+  {
+    "address": "879 NW Republican St",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98402",
+    "full_address": "879 NW Republican St, Tacoma, WA 98402"
+  },
+  {
+    "address": "3011 W Fairview Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98411",
+    "full_address": "3011 W Fairview Rd, Tacoma, WA 98411"
+  },
+  {
+    "address": "3576 West Seattle Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98195",
+    "full_address": "3576 West Seattle Ln, Seattle, WA 98195"
+  },
+  {
+    "address": "7266 S Avenue St",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "7266 S Avenue St, SeaTac, WA 98188"
+  },
+  {
+    "address": "9009 W Madison Rd",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "9009 W Madison Rd, Shoreline, WA 98133"
+  },
+  {
+    "address": "4784 West Seattle Rd, Apt 430",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98213",
+    "full_address": "4784 West Seattle Rd, Apt 430, Everett, WA 98213"
+  },
+  {
+    "address": "955 Greenwood Dr",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98166",
+    "full_address": "955 Greenwood Dr, Burien, WA 98166"
+  },
+  {
+    "address": "9198 Cherry St",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "9198 Cherry St, Renton, WA 98058"
+  },
+  {
+    "address": "4420 N Place Pl",
+    "city": "Mercer Island",
+    "state": "WA",
+    "zip_code": "98040",
+    "full_address": "4420 N Place Pl, Mercer Island, WA 98040"
+  },
+  {
+    "address": "5946 Boren Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "5946 Boren Ter, Seattle, WA 98154"
+  },
+  {
+    "address": "5490 E Bellevue Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98208",
+    "full_address": "5490 E Bellevue Ct, Everett, WA 98208"
+  },
+  {
+    "address": "7751 Eastlake Ct, # 40",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "7751 Eastlake Ct, # 40, Redmond, WA 98052"
+  },
+  {
+    "address": "9237 NE Columbia Way",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98166",
+    "full_address": "9237 NE Columbia Way, Burien, WA 98166"
+  },
+  {
+    "address": "6463 Grove Way, # 421",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98409",
+    "full_address": "6463 Grove Way, # 421, Tacoma, WA 98409"
+  },
+  {
+    "address": "469 Main Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98408",
+    "full_address": "469 Main Dr, Tacoma, WA 98408"
+  },
+  {
+    "address": "7895 S Broadway Dr",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "7895 S Broadway Dr, Renton, WA 98058"
+  },
+  {
+    "address": "8011 W Prospect Dr",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "8011 W Prospect Dr, Kent, WA 98032"
+  },
+  {
+    "address": "448 SoDo Rd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98089",
+    "full_address": "448 SoDo Rd, Kent, WA 98089"
+  },
+  {
+    "address": "6906 NW Prospect Rd, Apt 423",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98059",
+    "full_address": "6906 NW Prospect Rd, Apt 423, Renton, WA 98059"
+  },
+  {
+    "address": "9052 Pier Ter",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "9052 Pier Ter, Tacoma, WA 98406"
+  },
+  {
+    "address": "5129 Sixth Ave",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98205",
+    "full_address": "5129 Sixth Ave, Everett, WA 98205"
+  },
+  {
+    "address": "2038 Park Dr, Unit 249",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "2038 Park Dr, Unit 249, Shoreline, WA 98133"
+  },
+  {
+    "address": "8120 Bell Pl, # 132",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "8120 Bell Pl, # 132, Seattle, WA 98154"
+  },
+  {
+    "address": "9389 Lane Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "9389 Lane Ave, Seattle, WA 98119"
+  },
+  {
+    "address": "4570 Fremont Ave",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "4570 Fremont Ave, Tukwila, WA 98108"
+  },
+  {
+    "address": "202 John Blvd",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "202 John Blvd, Everett, WA 98216"
+  },
+  {
+    "address": "1485 Lane Blvd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98126",
+    "full_address": "1485 Lane Blvd, Seattle, WA 98126"
+  },
+  {
+    "address": "4052 Harrison Ter",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98214",
+    "full_address": "4052 Harrison Ter, Everett, WA 98214"
+  },
+  {
+    "address": "2095 SE Prospect St, Ste 128",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98001",
+    "full_address": "2095 SE Prospect St, Ste 128, Auburn, WA 98001"
+  },
+  {
+    "address": "1168 SW Lakeview Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "1168 SW Lakeview Ave, Seattle, WA 98108"
+  },
+  {
+    "address": "4780 S Boren Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "4780 S Boren Ave, Seattle, WA 98108"
+  },
+  {
+    "address": "787 Roy Rd",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "787 Roy Rd, Des Moines, WA 98198"
+  },
+  {
+    "address": "7903 Harbor Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98467",
+    "full_address": "7903 Harbor Rd, Tacoma, WA 98467"
+  },
+  {
+    "address": "4473 SE Lynn Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "4473 SE Lynn Ct, Tacoma, WA 98415"
+  },
+  {
+    "address": "9022 Waterfront Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98445",
+    "full_address": "9022 Waterfront Blvd, Tacoma, WA 98445"
+  },
+  {
+    "address": "4655 Waterfront Ln",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "4655 Waterfront Ln, Auburn, WA 98002"
+  },
+  {
+    "address": "8128 W Greenwood Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98121",
+    "full_address": "8128 W Greenwood Ave, Seattle, WA 98121"
+  },
+  {
+    "address": "9512 Seventh Pl",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98417",
+    "full_address": "9512 Seventh Pl, Tacoma, WA 98417"
+  },
+  {
+    "address": "3776 Yesler Blvd",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98003",
+    "full_address": "3776 Yesler Blvd, Federal Way, WA 98003"
+  },
+  {
+    "address": "8415 Second Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98444",
+    "full_address": "8415 Second Ave, Tacoma, WA 98444"
+  },
+  {
+    "address": "6228 First Dr",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "6228 First Dr, Renton, WA 98058"
+  },
+  {
+    "address": "9114 Circle Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98403",
+    "full_address": "9114 Circle Ave, Tacoma, WA 98403"
+  },
+  {
+    "address": "9890 NW Jackson Blvd",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98023",
+    "full_address": "9890 NW Jackson Blvd, Federal Way, WA 98023"
+  },
+  {
+    "address": "4726 Bellevue Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98119",
+    "full_address": "4726 Bellevue Way, Seattle, WA 98119"
+  },
+  {
+    "address": "5055 West Seattle Pl",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98074",
+    "full_address": "5055 West Seattle Pl, Sammamish, WA 98074"
+  },
+  {
+    "address": "2177 Harrison Blvd",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "2177 Harrison Blvd, Shoreline, WA 98177"
+  },
+  {
+    "address": "9244 E Fremont Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98409",
+    "full_address": "9244 E Fremont Ln, Tacoma, WA 98409"
+  },
+  {
+    "address": "162 N Eighth Ter, Apt 90",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "162 N Eighth Ter, Apt 90, Seattle, WA 98108"
+  },
+  {
+    "address": "5430 Ballard Ct",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98006",
+    "full_address": "5430 Ballard Ct, Bellevue, WA 98006"
+  },
+  {
+    "address": "2539 Street Ln, Apt 99",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "2539 Street Ln, Apt 99, Redmond, WA 98052"
+  },
+  {
+    "address": "8166 Tenth St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98199",
+    "full_address": "8166 Tenth St, Seattle, WA 98199"
+  },
+  {
+    "address": "3580 SE Denny Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98471",
+    "full_address": "3580 SE Denny Dr, Tacoma, WA 98471"
+  },
+  {
+    "address": "1745 Eighth Ct",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98030",
+    "full_address": "1745 Eighth Ct, Kent, WA 98030"
+  },
+  {
+    "address": "4775 Republican Ter",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98074",
+    "full_address": "4775 Republican Ter, Sammamish, WA 98074"
+  },
+  {
+    "address": "5827 Roy Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98406",
+    "full_address": "5827 Roy Blvd, Tacoma, WA 98406"
+  },
+  {
+    "address": "6347 Grove Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98118",
+    "full_address": "6347 Grove Rd, Seattle, WA 98118"
+  },
+  {
+    "address": "1926 Belltown Dr",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98092",
+    "full_address": "1926 Belltown Dr, Auburn, WA 98092"
+  },
+  {
+    "address": "4951 Court Pl",
+    "city": "Federal Way",
+    "state": "WA",
+    "zip_code": "98003",
+    "full_address": "4951 Court Pl, Federal Way, WA 98003"
+  },
+  {
+    "address": "4773 SE Union Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98102",
+    "full_address": "4773 SE Union Ct, Seattle, WA 98102"
+  },
+  {
+    "address": "9155 Roosevelt Ter, Unit 267",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98412",
+    "full_address": "9155 Roosevelt Ter, Unit 267, Tacoma, WA 98412"
+  },
+  {
+    "address": "3783 Rainier Ln",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "3783 Rainier Ln, Auburn, WA 98002"
+  },
+  {
+    "address": "6842 SW Beacon Blvd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98465",
+    "full_address": "6842 SW Beacon Blvd, Tacoma, WA 98465"
+  },
+  {
+    "address": "4543 NW Aloha Ln, Unit 13",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98415",
+    "full_address": "4543 NW Aloha Ln, Unit 13, Tacoma, WA 98415"
+  },
+  {
+    "address": "6182 Beacon Dr",
+    "city": "Redmond",
+    "state": "WA",
+    "zip_code": "98052",
+    "full_address": "6182 Beacon Dr, Redmond, WA 98052"
+  },
+  {
+    "address": "1910 Yesler Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98446",
+    "full_address": "1910 Yesler Ln, Tacoma, WA 98446"
+  },
+  {
+    "address": "6618 S Ballard St",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98205",
+    "full_address": "6618 S Ballard St, Everett, WA 98205"
+  },
+  {
+    "address": "506 Pike Rd",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98033",
+    "full_address": "506 Pike Rd, Kirkland, WA 98033"
+  },
+  {
+    "address": "5200 Eighth Ln, Unit 397",
+    "city": "Burien",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "5200 Eighth Ln, Unit 397, Burien, WA 98168"
+  },
+  {
+    "address": "482 SW Valley Way, Apt 155",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98032",
+    "full_address": "482 SW Valley Way, Apt 155, Kent, WA 98032"
+  },
+  {
+    "address": "4994 Boston St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98116",
+    "full_address": "4994 Boston St, Seattle, WA 98116"
+  },
+  {
+    "address": "5390 Terry Dr",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "5390 Terry Dr, Auburn, WA 98002"
+  },
+  {
+    "address": "3891 Street St, Unit 133",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98031",
+    "full_address": "3891 Street St, Unit 133, Kent, WA 98031"
+  },
+  {
+    "address": "6413 Boylston Ct, Unit 482",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98178",
+    "full_address": "6413 Boylston Ct, Unit 482, Seattle, WA 98178"
+  },
+  {
+    "address": "4399 Place Ct, # 436",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "4399 Place Ct, # 436, Everett, WA 98216"
+  },
+  {
+    "address": "8981 SW Roy Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98121",
+    "full_address": "8981 SW Roy Rd, Seattle, WA 98121"
+  },
+  {
+    "address": "4234 NW Eighth Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98144",
+    "full_address": "4234 NW Eighth Ct, Seattle, WA 98144"
+  },
+  {
+    "address": "4755 Fourth Blvd",
+    "city": "SeaTac",
+    "state": "WA",
+    "zip_code": "98188",
+    "full_address": "4755 Fourth Blvd, SeaTac, WA 98188"
+  },
+  {
+    "address": "5996 E Eastlake Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98409",
+    "full_address": "5996 E Eastlake Dr, Tacoma, WA 98409"
+  },
+  {
+    "address": "3100 NW Lynn Rd, Apt 441",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98413",
+    "full_address": "3100 NW Lynn Rd, Apt 441, Tacoma, WA 98413"
+  },
+  {
+    "address": "9065 W James Ln",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip_code": "98029",
+    "full_address": "9065 W James Ln, Issaquah, WA 98029"
+  },
+  {
+    "address": "5643 E Ballard Way",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98058",
+    "full_address": "5643 E Ballard Way, Renton, WA 98058"
+  },
+  {
+    "address": "4089 Eastlake Way",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98112",
+    "full_address": "4089 Eastlake Way, Seattle, WA 98112"
+  },
+  {
+    "address": "4658 E Capitol Ct",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98499",
+    "full_address": "4658 E Capitol Ct, Tacoma, WA 98499"
+  },
+  {
+    "address": "5550 Court Ter, # 236",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98005",
+    "full_address": "5550 Court Ter, # 236, Bellevue, WA 98005"
+  },
+  {
+    "address": "6809 Spring Ln",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip_code": "98034",
+    "full_address": "6809 Spring Ln, Kirkland, WA 98034"
+  },
+  {
+    "address": "8750 Howe Ter",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98134",
+    "full_address": "8750 Howe Ter, Seattle, WA 98134"
+  },
+  {
+    "address": "9825 Tenth Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98417",
+    "full_address": "9825 Tenth Rd, Tacoma, WA 98417"
+  },
+  {
+    "address": "6387 SE Valley Rd",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98411",
+    "full_address": "6387 SE Valley Rd, Tacoma, WA 98411"
+  },
+  {
+    "address": "8494 University Dr",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "8494 University Dr, Tacoma, WA 98416"
+  },
+  {
+    "address": "995 NE Beacon Dr",
+    "city": "Auburn",
+    "state": "WA",
+    "zip_code": "98002",
+    "full_address": "995 NE Beacon Dr, Auburn, WA 98002"
+  },
+  {
+    "address": "9355 Eastlake Blvd",
+    "city": "Kent",
+    "state": "WA",
+    "zip_code": "98031",
+    "full_address": "9355 Eastlake Blvd, Kent, WA 98031"
+  },
+  {
+    "address": "6993 Fremont Way",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip_code": "98007",
+    "full_address": "6993 Fremont Way, Bellevue, WA 98007"
+  },
+  {
+    "address": "2865 S Circle Ct, Ste 329",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98404",
+    "full_address": "2865 S Circle Ct, Ste 329, Tacoma, WA 98404"
+  },
+  {
+    "address": "2938 Third Ln",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98416",
+    "full_address": "2938 Third Ln, Tacoma, WA 98416"
+  },
+  {
+    "address": "3682 NW James Rd",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98107",
+    "full_address": "3682 NW James Rd, Seattle, WA 98107"
+  },
+  {
+    "address": "1530 SW Marina Ct, # 423",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98447",
+    "full_address": "1530 SW Marina Ct, # 423, Tacoma, WA 98447"
+  },
+  {
+    "address": "7986 Highland Dr",
+    "city": "Des Moines",
+    "state": "WA",
+    "zip_code": "98198",
+    "full_address": "7986 Highland Dr, Des Moines, WA 98198"
+  },
+  {
+    "address": "305 E Harbor Ln",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98133",
+    "full_address": "305 E Harbor Ln, Seattle, WA 98133"
+  },
+  {
+    "address": "8318 Grove Dr",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98108",
+    "full_address": "8318 Grove Dr, Seattle, WA 98108"
+  },
+  {
+    "address": "7990 Grove Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98493",
+    "full_address": "7990 Grove Ave, Tacoma, WA 98493"
+  },
+  {
+    "address": "292 SE Terry St",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98101",
+    "full_address": "292 SE Terry St, Seattle, WA 98101"
+  },
+  {
+    "address": "301 S Street Way",
+    "city": "Tukwila",
+    "state": "WA",
+    "zip_code": "98168",
+    "full_address": "301 S Street Way, Tukwila, WA 98168"
+  },
+  {
+    "address": "6130 Denny Ct",
+    "city": "Everett",
+    "state": "WA",
+    "zip_code": "98216",
+    "full_address": "6130 Denny Ct, Everett, WA 98216"
+  },
+  {
+    "address": "1846 N Park Blvd",
+    "city": "Renton",
+    "state": "WA",
+    "zip_code": "98057",
+    "full_address": "1846 N Park Blvd, Renton, WA 98057"
+  },
+  {
+    "address": "310 Galer Ave",
+    "city": "Tacoma",
+    "state": "WA",
+    "zip_code": "98418",
+    "full_address": "310 Galer Ave, Tacoma, WA 98418"
+  },
+  {
+    "address": "9654 Olive Ter",
+    "city": "Shoreline",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "9654 Olive Ter, Shoreline, WA 98177"
+  },
+  {
+    "address": "9914 SW Greenwood St, Unit 254",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip_code": "98075",
+    "full_address": "9914 SW Greenwood St, Unit 254, Sammamish, WA 98075"
+  },
+  {
+    "address": "669 Ravenna Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98154",
+    "full_address": "669 Ravenna Ave, Seattle, WA 98154"
+  },
+  {
+    "address": "8328 Ballard Ct",
+    "city": "Seattle",
+    "state": "WA",
+    "zip_code": "98177",
+    "full_address": "8328 Ballard Ct, Seattle, WA 98177"
+  }
+]
